@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<!--<meta charset="UTF-8"> -->
+
+<head>
+    <title>Warframe Squad Planner</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="https://unpkg.com/htmx.org@2.0.4"></script> -->
+</head>
+
+<body>
+    <h1 id="hello">Warframe Squad Planner!</h1>
+    
+<form id="search_form">
+    <label for="search">Search:</label>
+    <input type="text" id="search" name="search">
+</form>
+
+    <p id="cletus">Cetus: </p>
+    <ul id="prime_resurgence">
+        
+        <li>
+            <div class="row">
+                <input id="toggle_li_wisp_prime" type="checkbox">
+                <label for="toggle_li_wisp_prime">
+                    <span>+ Wisp Prime</span>
+                    <span>- Wisp Prime</span>
+                </label>
+                <div class="list">
+                    <ul>
+                        <li><input type="checkbox" id="wisp_prime_neuroptics" onclick="handle_onclick('wisp_prime_neuroptics')"> <label for="wisp_prime_neuroptics">Neuroptics</label><br></li>
+                        <li><input type="checkbox" id="wisp_prime_chassis"    onclick="handle_onclick('wisp_prime_chassis')">    <label for="wisp_prime_chassis">Chassis</label><br></li>
+                        <li><input type="checkbox" id="wisp_prime_systems"    onclick="handle_onclick('wisp_prime_systems')">    <label for="wisp_prime_systems">Systems</label><br></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <li>
+            <div class="row">
+                <input id="toggle_li_ash_prime" type="checkbox">
+                <label for="toggle_li_ash_prime">
+                    <span>+ Ash Prime</span>
+                    <span>- Ash Prime</span>
+                </label>
+                <div class="list">
+                    <ul>
+                        <li><input type="checkbox" id="ash_prime_neuroptics" onclick="handle_onclick('ash_prime_neuroptics')"> <label for="ash_prime_neuroptics">Neuroptics</label><br></li>
+                        <li><input type="checkbox" id="ash_prime_chassis"    onclick="handle_onclick('ash_prime_chassis')">    <label for="ash_prime_chassis">Chassis</label><br></li>
+                        <li><input type="checkbox" id="ash_prime_systems"    onclick="handle_onclick('ash_prime_systems')">    <label for="ash_prime_systems">Systems</label><br></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+
+        <!--
+        <li>
+            <div class="row">
+                <input id="togList1" type="checkbox">
+                <label for="togList1">
+                    <span>+ Wisp Prime</span>
+                    <span>- Wisp Prime</span>
+                </label>
+                <div class="list">
+                    <ul>
+                        <li><input type="checkbox" id="wisp_prime_neuroptics" onclick="handle_onclick('wisp_prime_neuroptics')"> <label for="wisp_prime_neuroptics">Neuroptics</label><br></li>
+                        <li><input type="checkbox" id="wisp_prime_chassis" onclick="handle_onclick('wisp_prime_chassis')"> <label for="wisp_prime_chassis">Chassis</label><br></li>
+                        <li><input type="checkbox" id="wisp_prime_systems" onclick="handle_onclick('wisp_prime_systems')"> <label for="wisp_prime_systems">Systems</label><br></li>
+                    </ul>
+                </div>
+            </div>
+        </li>
+        -->
+    </ul>
+
+    <div class="row">
+        <input id="toggle_li_sample" type="checkbox">
+        <label for="toggle_li_sample">
+            <span>Expand</span>
+            <span>Collapse</span>
+        </label>
+        <div class="list">
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+        </div>
+    </div>
+
+    <script type="module">
+        import {update_checkbox} from './utils.js';
+        function handle_onclick(name) {return update_checkbox(name);}
+        window.handle_onclick = handle_onclick;
+    </script>
+    <!-- <script src="utils.js" type="module"></script> -->
+    <script src="stuff.js" type="module"></script>
+</body>
+
+</html>
