@@ -1,7 +1,8 @@
 # makefile
 
 APP_DIR := warframe-app
-SITE_DIR := _site
+#SITE_DIR := _site
+SITE_DIR := docs
 
 PWRSH := powershell -NoProfile
 VENV_BIN := venv/Scripts

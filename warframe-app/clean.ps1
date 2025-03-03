@@ -12,4 +12,4 @@ Function rm-dir
 }
 
 #rm-dir ./venv/
-rm-dir ./_site/
+rm-dir ./docs
