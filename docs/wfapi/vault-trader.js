@@ -1,5 +1,5 @@
-import { WF_API, get } from "/utils.js";
-import { get_wf_info } from "/wfapi/item-search.js";
+import { WF_API, get } from "../utils.js";
+import { get_wf_info } from "./item-search.js";
 
 //https://api.warframestat.us/PC/vaultTrader/
 export function get_vault_info() {
