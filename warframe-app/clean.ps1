@@ -1,15 +1,14 @@
 
-Function rm-dir
-{
-    param(
-        [string]$Directory
-    )
+[CmdletBinding()]
+param (
+    [Parameter(Mandatory=$true)]
+    [string]$Path,
 
-    if (Test-Path -Path $Directory) {
-        echo "removing directory: $Directory"
-        rm -r -force $Directory
-    }
+    [Parameter(Mandatory=$false)]
+    [switch]$Recurse = $false
+)
+
+if (Test-Path -Path $Path) {
+    echo "removing: $Path"
+    rm -r:$Recurse -force $Path
 }
-
-#rm-dir ./venv/
-rm-dir ./docs

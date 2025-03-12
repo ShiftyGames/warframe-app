@@ -1,7 +1,14 @@
+@import "tailwindcss";
+
+
 body {
-    background-color: #111111;
-    color: green;
+    @variant dark {
+        background-color: #111111;
+        color: green;
+    }
 }
+
+
 
 [id^="toggle_li"],                        /* HIDE CHECKBOX */
 [id^="toggle_li"] ~ .list,                /* HIDE LIST */

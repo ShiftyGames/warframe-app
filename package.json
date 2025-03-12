@@ -1,4 +1,8 @@
 {
     "name": "warframe-app",
-    "type": "module"
+    "type": "module",
+    "dependencies": {
+        "@tailwindcss/cli": "^4.0.9",
+        "tailwindcss": "^4.0.9"
+    }
 }

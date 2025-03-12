@@ -1,9 +1,10 @@
 export const WF_API = 'https://api.warframestat.us'
 
 export const get = async (url, opts) => {
-  try {
-    return await fetch(url, opts).then((d) => d.json());
-  } catch (ignored) {}
+    //console.log('fetching url: ', url)
+    try {
+        return await fetch(url, opts).then((d) => d.json());
+    } catch (ignored) { }
 };
 
 export function say_hello() {
@@ -21,10 +22,9 @@ export function update_value(id) {
     localStorage.setItem(id, document.getElementById(id).value)
 }
 
-export function update_part_data() {
-    const prime_ids = ['wisp_prime', 'ash_prime'];
-    //const part_ids = ['wisp_prime_neuroptics', 'wisp_prime_chassis', 'wisp_prime_systems'];
-    const part_ids = prime_ids.map(e => { return [e + '_neuroptics', e + '_chassis', e + '_systems']; }).flat()
+export function update_part_data(part_ids) {
+    //const part_ids = prime_ids.map(e => { return [e + '_neuroptics', e + '_chassis', e + '_systems']; }).flat()
+
     for (let part_id of part_ids) {
         let part = localStorage.getItem(part_id)
         if (part) {
@@ -35,29 +35,44 @@ export function update_part_data() {
     }
 }
 
-export function get_wf_info(warframe) {
-    return get(WF_API + "/items/search/" + encodeURIComponent(warframe)); //.then(function(val) { return val });
+function cetus_short_string(cetus_info) {
+    // '1h 34m to Night'
+    const expiry = new Date(cetus_info.expiry)
+    const now = new Date();
+    var minutes_until = Math.floor((expiry - now) / (60 * 1000))
+    var s = ''
+    if (minutes_until > 60) {
+        s += '1h '
+        minutes_until -= 60
+    }
+    s += `${minutes_until}m to `
+    s += cetus_info.isDay ? 'Day' : 'Night';
+    return s
 }
 
 // Cletus clock
 export function update_cetus_clock() {
-    get(WF_API + '/PC/cetusCycle/').then(function(cetus_info) {
-        var s = 'Cetus'
-        console.log('cetus_info.isDay = ' + cetus_info.isDay)
-        if (cetus_info.isDay == true) {
-            s = s + '&#x1F31E;'; //'☀'
-        } else {
-            //s = s + '&#x1F31A;'; //'🌚'
-            //s = s + '&#x1F31C;'; //'🌚'
-            s = s + '&#x1F311;'; //'🌚'
-        }
-        s = s + ': ' + cetus_info.shortString
-        document.getElementById("cletus").innerHTML = s
-    },
-        function(err) {console.log("error getting cetus info: " + err)
-    })
+    get(WF_API + '/PC/cetusCycle/').then(
+        function(cetus_info) {
+            var s = 'Cetus'
+            if (cetus_info.isDay == true) {
+                s += '&#x1F31E;'; //'☀'
+            } else {
+                s += '&#x1F311;'; //'🌑'
+            }
+            // the cetusCycle page gets cached sometimes
+            s = s + ': ' + cetus_short_string(cetus_info);
+            document.getElementById("cletus").innerHTML = s
+
+            const now = new Date();
+            const SECONDS_TO_MS = 1000;
+            const ONE_MINUTE = 60 * SECONDS_TO_MS;
+            let delta_ms = ONE_MINUTE - ((now.getSeconds() * SECONDS_TO_MS) + now.getMilliseconds());
+            //setTimeout(update_cetus_clock, delta_ms);
+        },
+        function(err) {
+            console.log("error getting cetus info: " + err)
+        })
+
+    //setTimeout(update_cetus_clock, 990)
 }
-
-//exports.get_wf_info = get_wf_info;
-
-//export default get_wf_info;

@@ -14,3 +14,7 @@ max_line_length = 79
 
 [tool.black]
 line-length = 79
+
+# [tool.jinja-lsp]
+# templates = "./warframe-app"
+# lang = "html"
