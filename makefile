@@ -17,6 +17,7 @@ J2_FILES := index.html.j2
 JS_SCRIPTS := \
    stuff.js \
    utils.js \
+   wf_item.js \
    wfapi/vault-trader.js \
    wfapi/item-search.js
 
@@ -57,15 +58,18 @@ ${SITE_DIR}/css: | ${SITE_DIR}
 ${SITE_JS_SCRIPTS}: ${SITE_DIR}/%: ${APP_DIR}/% | ${SITE_DIR}
 	${PWRSH} -Command copy $< $@
 
-${SITE_CSS_FILES}: ${SITE_DIR}/%: ${APP_DIR}/% ${SITE_J2_FILES} | ${SITE_DIR}/css
-	npx @tailwindcss/cli -i $< -o $@
+${SITE_CSS_FILES}: ${SITE_DIR}/%: ${APP_DIR}/% | ${SITE_DIR}/css
+	npx @tailwindcss/cli -i $< > $@
 
 ${SITE_J2_FILES}: ${SITE_DIR}/%: ${APP_DIR}/%.j2 ${APP_DIR}/j2_render.py | ${SITE_DIR}
 	${PYTHON} -B ${APP_DIR}/j2_render.py --template-file=$< --site-file=$@
 
+${SITE_DIR}/wfapi/vault-trader.js: | ${SITE_DIR}/wfapi
+
+${SITE_CSS_FILES}: \
+    $(patsubst %, warframe-app/%,${JS_SCRIPTS} ${J2_FILES})
+
 ${SITE_DIR}/index.html: \
     ${APP_DIR}/tasks/prime-warframe.html.j2 \
     ${APP_DIR}/search_form.html.j2 \
-
-${SITE_DIR}/wfapi/vault-trader.js: | ${SITE_DIR}/wfapi
 

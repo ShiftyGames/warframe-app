@@ -1,9 +1,8 @@
 export const WF_API = 'https://api.warframestat.us'
 
-export const get = async (url, opts) => {
-    //console.log('fetching url: ', url)
+export const get = (url, opts) => {
     try {
-        return await fetch(url, opts).then((d) => d.json());
+        return fetch(url, opts).then((d) => d.json());
     } catch (ignored) { }
 };
 
@@ -23,8 +22,6 @@ export function update_value(id) {
 }
 
 export function update_part_data(part_ids) {
-    //const part_ids = prime_ids.map(e => { return [e + '_neuroptics', e + '_chassis', e + '_systems']; }).flat()
-
     for (let part_id of part_ids) {
         let part = localStorage.getItem(part_id)
         if (part) {
