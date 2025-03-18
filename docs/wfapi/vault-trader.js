@@ -59,6 +59,6 @@ export function build_prime_item_table(prime_items) {
             </li>
         `
     }
-    document.getElementById("prime_resurgence").innerHTML += html
+    document.getElementById("prime_resurgenceTasks").innerHTML += html
     return prime_items;
 }

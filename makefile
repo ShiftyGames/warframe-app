@@ -16,15 +16,18 @@ CSS_FILES := style.css
 J2_FILES := index.html.j2
 JS_SCRIPTS := \
    stuff.js \
+   tasks.js \
    utils.js \
    wf_item.js \
    wfapi/vault-trader.js \
    wfapi/item-search.js
+JSON_FILES := \
+   data/template-context.json
 
 SITE_JS_SCRIPTS := $(patsubst %, ${SITE_DIR}/%, ${JS_SCRIPTS})
 SITE_CSS_FILES := $(patsubst %, ${SITE_DIR}/css/%, ${CSS_FILES})
 SITE_J2_FILES := $(patsubst %.j2, ${SITE_DIR}/%, ${J2_FILES})
-
+SITE_JSON_FILES := $(patsubst %.json, ${SITE_DIR}/%, ${JSON_FILES})
 
 .PHONY: site
 site: ${SITE_DIR} ${SITE_JS_SCRIPTS} ${SITE_CSS_FILES} ${SITE_J2_FILES}
@@ -55,7 +58,13 @@ ${SITE_DIR}/wfapi: | ${SITE_DIR}
 ${SITE_DIR}/css: | ${SITE_DIR}
 	${PWRSH} -Command "mkdir $@ > $$null"
 
+${SITE_DIR}/data: | ${SITE_DIR}
+	${PWRSH} -Command "mkdir $@ > $$null"
+
 ${SITE_JS_SCRIPTS}: ${SITE_DIR}/%: ${APP_DIR}/% | ${SITE_DIR}
+	${PWRSH} -Command copy $< $@
+
+${SITE_JSON_FILES}: ${SITE_DIR}/%: ${APP_DIR}/% | ${SITE_DIR}
 	${PWRSH} -Command copy $< $@
 
 ${SITE_CSS_FILES}: ${SITE_DIR}/%: ${APP_DIR}/% | ${SITE_DIR}/css

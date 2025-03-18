@@ -7,6 +7,10 @@ import {
     get_vault_info,
     extract_wf_items_from_vault,
 } from './wfapi/vault-trader.js';
+import {
+    renderTasks,
+    showTab,
+} from './tasks.js';
 
 
 //if (typeof (Storage) !== "undefined") {
@@ -17,6 +21,14 @@ import {
 //    console.log("Sorry! no web storage for you");
 //}
 
+// Initial render for the "Nightwave" tab
+showTab('prime_resurgence');
+renderTasks('nightwave');
+renderTasks('hex');
+//renderTasks('prime_resurgence');
+
+// Update the Cetus clock every 10 seconds
+//setInterval(updateCetusClock, 10000);  // Update every 10 seconds
 update_cetus_clock()
 
 const items_to_part_ids = (wf_items) => {

@@ -1,0 +1,19 @@
+{
+    "plugins": [
+        "prettier-plugin-tailwindcss"
+    ],
+    "overrides": [
+        {
+            "files": ".prettierrc",
+            "options": {
+                "parser": "json"
+            }
+        },
+        {
+            "files": "*.html.j2",
+            "options": {
+                "parser": "html"
+            }
+        }
+    ]
+}

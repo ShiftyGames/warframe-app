@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html>
-<!--<meta charset="UTF-8"> -->
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Warframe Squad Planner</title>
     <link rel="stylesheet" href="css/style.css">
     <!-- <script src="https://unpkg.com/htmx.org@2.0.4"></script> -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script>
         document.documentElement.classList.toggle(
             "dark",
@@ -18,61 +17,94 @@
     </script>
 </head>
 
-<body>
-    <h1 id="hello">Warframe Squad Planner!</h1>
-    <div class="flex">
+<body class="bg-white text-black dark:bg-gray-900 dark:text-white">
+
+    <!-- Main Container -->
+    <div class="container mx-auto p-5">
+
+        <!-- App Header -->
+        <header class="text-center mb-6">
+            
+            <h1 class="text-4xl font-bold">Warframe Squad Planner</h1>
+        </header>
+
+        <div class="flex">
         
-<div class="flex-grow shadow-lg">
-    <form id="search_form">
+<div class="flex-grow ">
+    <form id="search_form shadow-lg">
         <label for="search">Search:</label>
-        <input type="text" id="search" name="search">
+        <input type="text" id="search" name="search" class="border shadow-lg">
     </form>
 </div>
 
-        <!--
-        <!-- Dark Mode -- >
-        <div class="flex gap-x-4 sm:col-span-2 shrink">
-            <div class="flex h-6 items-center">
-                <!-- Enabled: "bg-indigo-600", Not Enabled: "bg-gray-200" -- >
-                <button type="button" class="flex w-8 flex-none cursor-pointer rounded-full bg-gray-200 p-px ring-1 ring-gray-900/5
-                           transition-colors duration-200 ease-in-out
-                           ring-inset focus-visible:outline-2
-                           focus-visible:outline-offset-2
-                           focus-visible:outline-indigo-600" role="switch" aria-checked="false"
-                    aria-labelledby="switch-1-label" id="dark_mode" onclick="handle_onclick('dark_mode'); ">
-                    <span class="sr-only">Enable Dark Mode</span>
-                    <!-- Enabled: "translate-x-3.5", Not Enabled: "translate-x-0" -- >
-                    <span aria-hidden="true"
-                        class="size-4 translate-x-0 transform
-                        rounded-full bg-white ring-1 shadow-xs ring-gray-900/5 transition duration-200 ease-in-out"></span>
-                </button>
+        <!-- Dark Mode Toggle and Cetus Clock -->
+        
+            <!-- Dark Mode Toggle Button -->
+            <button id="darkModeToggle" class="bg:gray-200 dark:bg-gray-800 px-4 py-2 rounded-md
+                dark:text-white hover:bg-gray-700"
+                onclick="toggleDarkMode()">🔆</button>
+
+            <!-- Cetus Clock -->
+            <div id="cetusClock" class="text-sm bg-black bg-opacity-60 p-2 rounded-md">
+                <span id="cletus">Time: Loading...</span>
             </div>
-            <label class="text-sm/6 text-gray-600" id="switch-1-label">
-                Dark Mode
-            </label>
-        </div>
-        -->
-
-        <!-- Cetus Clock -->
-        <div class="flex shrink">
-            <p id="cletus">Cetus: </p>
+            
         </div>
 
+        <!-- Tabs -->
+        <div class="flex space-x-4 mb-4 border-b-2 border-gray-700">
+            
+            <button id="prime_resurgenceTab" class="tab-button" onclick="showTab('prime_resurgence')"> Prime Resurgence </button>
+            
+            <button id="nightwaveTab" class="tab-button" onclick="showTab('nightwave')"> Nightwave </button>
+            
+            <button id="hexTab" class="tab-button" onclick="showTab('hex')"> Hex </button>
+            
+        </div>
+
+        <!-- Task Display -->
+        <div id="taskContainer" class="space-y-4">
+
+            <!-- Nightwave Tab Content -->
+            <div id="nightwave" class="tab-content hidden">
+                <h2 class="text-2xl font-semibold mb-2">Nightwave Tasks</h2>
+                <ul id="nightwaveTasks" class="list-disc pl-5">
+                    <!-- Nightwave Tasks will be dynamically inserted here -->
+                </ul>
+            </div>
+
+            <!-- Hex Tab Content -->
+            <div id="hex" class="tab-content hidden">
+                <h2 class="text-2xl font-semibold mb-2">Hex Tasks</h2>
+                <ul id="hexTasks" class="list-disc pl-5">
+                    <!-- Hex Tasks will be dynamically inserted here -->
+                </ul>
+            </div>
+
+            <!-- Prime Resurgence Tab Content -->
+            <div id="prime_resurgence" class="tab-content hidden">
+                <h2 class="text-2xl font-semibold mb-2">Prime Resurgence Tasks</h2>
+                <ul id="prime_resurgenceTasks" class="list-none pl-5">
+                    <!-- Prime Resurgence Tasks will be dynamically inserted here -->
+                </ul>
+            </div>
+
+        </div>
     </div>
 
-    <div class="flex">
-        <div>
-            <ul id="prime_resurgence">
-            </ul>
-        </div>
-    </div>
+
+
+
 
     <script type="module">
         import {update_checkbox} from './utils.js';
         function handle_onclick(name) {return update_checkbox(name);}
         window.handle_onclick = handle_onclick;
+
+        import {showTab, toggleDarkMode} from './tasks.js';
+        window.showTab = showTab;
+        window.toggleDarkMode = toggleDarkMode;
     </script>
     <script src="stuff.js" type="module"></script>
 </body>
-
 </html>

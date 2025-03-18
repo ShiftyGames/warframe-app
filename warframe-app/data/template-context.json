@@ -1,0 +1,8 @@
+{
+    "_tabs__comment_": "the tabs list elements will be converted to {id:..., name:...}",
+    "tabs": [
+        "Prime Resurgence",
+        "Nightwave",
+        "Hex"
+    ],
+}
