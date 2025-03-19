@@ -2,15 +2,6 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/*body {
- *    @variant dark {
- *        background-color: #111111;
- *        color: green;
- *    }
- *}
- */
-
-
 [id^="toggle_li"],                        /* HIDE CHECKBOX */
 [id^="toggle_li"] ~ .list,                /* HIDE LIST */
 [id^="toggle_li"] + label  span + span,   /* HIDE "Collapse" */
@@ -24,7 +15,6 @@
   display:block;                        /* SHOW LIST (IF CHECKED) */
 }
 
-
 .tab-button {
     padding: 10px 20px;
     margin: 0;
@@ -32,31 +22,32 @@
     border-radius: 0.375rem 0.375rem 0 0;
     font-weight: 600;
     cursor: pointer;
-    background-color: #1e293b;
-    /* Dark gray background */
-    color: #d1d5db;
-    /* Light gray text */
     transition: all 0.3s;
 }
 
 .tab-button:hover {
-    background-color: #334155;
-    /* Lighter gray background on hover */
+    background-color: gray;
+    @variant dark {
+        background-color: #334155;
+    }
 }
 
 .tab-button.active {
     background-color: #2563eb;
-    /* Blue background when active */
     color: white;
     border-color: #2563eb;
     border-bottom: none;
-    /* Remove the bottom border */
 }
 
 .tab-content {
     padding: 20px;
-    background-color: #111827;
+    color: black;
+    background-color: white;
     border-radius: 0 0 0.375rem 0.375rem;
+    @variant dark {
+        color: white;
+        background-color: #111827;
+    }
 }
 
 .tab-content.hidden {

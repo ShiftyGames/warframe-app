@@ -8,27 +8,22 @@ import {
     extract_wf_items_from_vault,
 } from './wfapi/vault-trader.js';
 import {
+    wfapi_worldstate,
+} from './wfapi/worldstate.js';
+import {
     renderTasks,
     showTab,
 } from './tasks.js';
 
 
-//if (typeof (Storage) !== "undefined") {
-//    // Code for localStorage/sessionStorage.
-//    console.log("web storage found");
-//} else {
-//    // Sorry! No Web Storage support..
-//    console.log("Sorry! no web storage for you");
-//}
+const worldstate = wfapi_worldstate();
+console.log('worldstate =', worldstate);
 
-// Initial render for the "Nightwave" tab
 showTab('prime_resurgence');
 renderTasks('nightwave');
 renderTasks('hex');
 //renderTasks('prime_resurgence');
 
-// Update the Cetus clock every 10 seconds
-//setInterval(updateCetusClock, 10000);  // Update every 10 seconds
 update_cetus_clock()
 
 const items_to_part_ids = (wf_items) => {
