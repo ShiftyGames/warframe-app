@@ -7,6 +7,7 @@ export function wfapi_worldstate() {
 
 export class WorldState {
     constructor(data) {
+        self._data = data
         self.arbitration = data.arbitration;
     }
 }

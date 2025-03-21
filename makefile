@@ -22,8 +22,9 @@ JS_SCRIPTS := \
    tasks.js \
    utils.js \
    wf_item.js \
-   wfapi/vault-trader.js \
+   wfapi/drops.js \
    wfapi/item-search.js \
+   wfapi/vault-trader.js \
    wfapi/worldstate.js \
 
 SITE_JS_SCRIPTS := $(patsubst %, ${SITE_DIR}/%, ${JS_SCRIPTS})
@@ -96,4 +97,5 @@ ${SITE_CSS_FILES}: \
 ${SITE_DIR}/index.html: \
     ${APP_DIR}/tasks/prime-warframe.html.j2 \
     ${APP_DIR}/search_form.html.j2 \
+    ${APP_DIR}/star-chart.html.j2 \
 
