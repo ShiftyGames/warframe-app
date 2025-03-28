@@ -1,0 +1,9 @@
+# items.yml
+items:
+  - name: Nyx Prime
+    type: warframe
+    components:
+      - Blueprint
+      - Chassis
+      - Neuroptics
+      - Systems

@@ -1,0 +1,32 @@
+{% comment -%} variables to assign before including this template:
+  item.id
+  item.name
+  item.parts?
+{% endcomment -%}
+<li class="list-group-item">
+  <input id="toggle_li_{{ item.id }}" type="checkbox" />
+  <label for="toggle_li_{{ item.id }}">
+    <span>+ {{ item.name }}</span>
+    <span>- {{ item.name }}</span>
+  </label>
+  {% if item.parts.size > 0 %}
+  <div class="list-group list-group-horizontal">
+      {% for part in item.parts -%}
+      {% capture part_id %}{{ item.id }}_{{ part | downcase }}{% endcapture -%}
+      <div class="list-group-item">
+        <input type="checkbox"
+               id="{{ part_id }}"
+               onclick="handle_onclick('{{ part_id }}')" />
+        <label for="{{ part_id }}">{{ part }}</label> <br/>
+      <script type="module">
+        let part_status = localStorage.getItem("{{ part_id }}");
+        if (part_status ) {
+          let val = part_status == "true";
+          document.getElementById("{{ part_id }}").checked = val;
+        }
+      </script>
+      </div>
+      {% endfor %}
+  </div>
+  {% endif %}
+</li>

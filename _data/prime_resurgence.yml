@@ -1,0 +1,157 @@
+- uniqueName: InfestationPrime
+  name: Nidus Prime
+  id: nidus_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Infestation/InfestationPrime
+    item: Infestation Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeStrunWeapon
+  name: Strun Prime
+  id: strun_prime
+  parts:
+    - Barrel
+    - Blueprint
+    - Receiver
+    - Stock
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon
+    item: Prime Strun Weapon
+    ducats: 2
+    credits: null
+- uniqueName: PrimeMagnusWeapon
+  name: Magnus Prime
+  id: magnus_prime
+  parts:
+    - Barrel
+    - Blueprint
+    - Receiver
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon
+    item: Prime Magnus Weapon
+    ducats: 2
+    credits: null
+- uniqueName: SarynPrime
+  name: Saryn Prime
+  id: saryn_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Saryn/SarynPrime
+    item: Saryn Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeNikana
+  name: Nikana Prime
+  id: nikana_prime
+  parts:
+    - Blade
+    - Blueprint
+    - Hilt
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana
+    item: Prime Nikana
+    ducats: 2
+    credits: null
+- uniqueName: PrimeLiDagger
+  name: Spira Prime
+  id: spira_prime
+  parts:
+    - Blade
+    - Blade
+    - Blueprint
+    - Pouch
+    - Pouch
+  vault_info:
+    uniqueName: >-
+      /Lotus/StoreItems/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger
+    item: Prime Li Dagger
+    ducats: 2
+    credits: null
+- uniqueName: EmberPrime
+  name: Ember Prime
+  id: ember_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Ember/EmberPrime
+    item: Ember Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeGlaiveWeapon
+  name: Glaive Prime
+  id: glaive_prime
+  parts:
+    - Blade
+    - Blade
+    - Blueprint
+    - Disc
+  vault_info:
+    uniqueName: >-
+      /Lotus/StoreItems/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon
+    item: Glaive Prime
+    ducats: 2
+    credits: null
+- uniqueName: PrimeSicarusPistol
+  name: Sicarus Prime
+  id: sicarus_prime
+  parts:
+    - Barrel
+    - Blueprint
+    - Receiver
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol
+    item: Sicarus Prime
+    ducats: 2
+    credits: null
+- uniqueName: RhinoPrime
+  name: Rhino Prime
+  id: rhino_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Rhino/RhinoPrime
+    item: Rhino Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeBoltor
+  name: Boltor Prime
+  id: boltor_prime
+  parts:
+    - Barrel
+    - Blueprint
+    - Receiver
+    - Stock
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeBoltor/PrimeBoltor
+    item: Boltor Prime
+    ducats: 2
+    credits: null
+- uniqueName: PrimeAnkyros
+  name: Ankyros Prime
+  id: ankyros_prime
+  parts:
+    - Blade
+    - Blade
+    - Blueprint
+    - Gauntlet
+    - Gauntlet
+  vault_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Gauntlet/PrimeAnkyros/PrimeAnkyros
+    item: Ankyros Prime
+    ducats: 2
+    credits: null

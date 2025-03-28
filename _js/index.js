@@ -1,3 +1,7 @@
+
+
+///////////////////////
+// UTILS.JS
 export const WF_API = 'https://api.warframestat.us'
 
 export const get = (url, opts) => {
@@ -5,17 +9,6 @@ export const get = (url, opts) => {
         return fetch(url, opts).then((d) => d.json());
     } catch (ignored) { }
 };
-
-export function say_hello() {
-    const user_id = localStorage.getItem("de_id")
-    const user_name = get(WF_API + "/profile/" + user_id)["display_name"]
-    document.getElementById("hello").innerHTML = "Hello User: " + user_id + " " + user_name
-}
-
-export function update_checkbox(id) {
-    console.log("checkbox '" + id + "' is checked: " + document.getElementById(id).checked)
-    localStorage.setItem(id, document.getElementById(id).checked)
-}
 
 export function update_value(id) {
     localStorage.setItem(id, document.getElementById(id).value)
@@ -73,3 +66,25 @@ export function update_cetus_clock() {
 
     //setTimeout(update_cetus_clock, 990)
 }
+
+
+
+///////////////////
+// stuff.js
+
+//update_cetus_clock()
+
+//const items_to_part_ids = (wf_items) => {
+//    return wf_items.map(
+//        item =>
+//            item.parts.map(part =>
+//                `${item.id}_${part.toLowerCase()}`
+//            )
+//    ).flat();
+//}
+
+//get_vault_info()
+//    .then(extract_wf_items_from_vault)
+//    .then(build_prime_item_table)
+//    .then(items_to_part_ids)
+//    .then(update_part_data)

@@ -1,0 +1,147 @@
+- name: Wisp Prime
+  id: wisp_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Fulmin Prime
+  id: fulmin_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Gunsen Prime
+  id: gunsen_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Grendel Prime
+  id: grendel_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Masseter Prime
+  id: masseter_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Zylok Prime
+  id: zylok_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Gauss Prime
+  id: gauss_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Acceltra Prime
+  id: acceltra_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Akarius Prime
+  id: akarius_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Protea Prime
+  id: protea_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Okina Prime
+  id: okina_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Velox Prime
+  id: velox_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Sevagoth Prime
+  id: sevagoth_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Epitaph Prime
+  id: epitaph_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Nautilus Prime
+  id: nautilus_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Xaku Prime
+  id: xaku_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Quassus Prime
+  id: quassus_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Trumna Prime
+  id: trumna_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Lavos Prime
+  id: lavos_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Cedo Prime
+  id: cedo_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
+- name: Dual Zoren Prime
+  id: dual_zoren_prime
+  parts:
+    - Blueprint
+    - Chassis
+    - Neuroptics
+    - Systems
