@@ -1,7 +1,5 @@
 .ropeproject/
 venv/
-docs/
-docs/_site
 
 # Bundler cache
 .bundle
