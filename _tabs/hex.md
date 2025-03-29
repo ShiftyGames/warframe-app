@@ -2,10 +2,8 @@
 name: Hex
 order: 6
 ---
-
-<div>
-  {% for task in site.data.hex -%}
-  <p> {{ task }} </p>
-  {% endfor -%}
-</div>
-
+<ul class="list-group">
+{% for item in site.data.hex -%}
+  {% include task-button.html -%}
+{% endfor -%}
+</ul>

@@ -1,0 +1,47 @@
+@document.meta
+title: todo
+description: feature todo list
+authors: Shifty
+categories: ["tasks"]
+created: 2025-03-29T14:00:09-0600
+updated: 2025-03-29T14:00:09-0600
+version: 1.1.1
+@end
+
+- ( ) Features
+-- (x) Dark mode
+-- ( ) Cetus clock
+-- ( ) Progress Status page
+--- ( ) other thing
+--- ( ) meters connected to data
+-- (x) Weekly page
+--- ( ) implement _includes/weekly-task-button.html
+-- (x) Hex page
+--- ( ) implement _includes/hex-task-button.html
+-- (x) Prime Resurgence page
+-- (x) Not Yet Vaulted page
+-- ( ) Data generation
+--- ( ) src/gen_weekly.js -> _data/weekly.yml
+--- ( ) src/gen_hex.js -> _data/hex.yml
+--- ( ) src/gen_prime_resurgence.js -> _data/prime_resurgence.yml
+---- ( ) each part needs to be correlated with a Varzia relic
+--- ( ) src/gen_unvaulted.js -> _data/unvaulted.yml
+-- ( ) Github workflows
+--- (x) Build static site when main branch is updated
+--- ( ) Scheduled workflow to generate weekly tasks after the weekly reset
+--- ( ) Scheduled workflow to generate Prime Resurgence Tasks (4 weeks?)
+--- ( ) Scheduled workflow to generate Hex calendar tasks
+-- ( ) add github support link
+-- ( ) Task button: _includes/task-button.html
+--- ( ) improve the layout of item subtasks
+--- ( ) show top-level item as 'complete' when all subtasks are complete
+
+*** Task Reference
+    - ( ) Undone
+    - (x) Done
+    - (?) Ambiguous - needs further input
+    - (!) Important - urgent, high priority task
+    - (+) Recurring task with children
+    - (-) Pending -> currently in progress
+    - (=) on Hold
+    - (_) Cancelled

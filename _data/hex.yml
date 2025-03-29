@@ -1,2 +1,5 @@
-- Do a thing
-- Do another thing
+- uniqueName: task1
+  name: Do a thing
+  id: task1
+- name: Do another thing
+  id: task2
