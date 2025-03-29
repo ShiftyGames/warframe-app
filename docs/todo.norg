@@ -12,8 +12,10 @@ version: 1.1.1
 -- (x) Dark mode
 -- ( ) Cetus clock
 -- ( ) Progress Status page
---- ( ) other thing
 --- ( ) meters connected to data
+--- ( ) fetch daily tasks dynamically on the client
+--- ( ) display timely tasks from other tabs (a weekly task that is scheduled
+        for the current day-of-week)
 -- (x) Weekly page
 --- ( ) implement _includes/weekly-task-button.html
 -- (x) Hex page
