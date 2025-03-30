@@ -2,11 +2,27 @@
   name: Nidus Prime
   id: nidus_prime
   parts:
-    - Blueprint
-    - Chassis
-    - Neuroptics
-    - Systems
-  vault_info:
+    - part_type: Blueprint
+      relic:
+        name: Lith S17
+        id: todo
+        reward_chance: 11
+    - part_type: Chassis
+      relic:
+        name: Axi N12
+        id: todo
+        reward_chance: 2
+    - part_type: Neuroptics
+      relic:
+        name: Neo S19
+        id: todo
+        reward_chance: 11
+    - part_type: Systems
+      relic:
+        name: Neo N19
+        id: todo
+        reward_chance: 25.33
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Powersuits/Infestation/InfestationPrime
     item: Infestation Prime
     ducats: 3
@@ -15,11 +31,27 @@
   name: Strun Prime
   id: strun_prime
   parts:
-    - Barrel
-    - Blueprint
-    - Receiver
-    - Stock
-  vault_info:
+    - part_type: Barrel
+      relic:
+        name: Axi N12
+        id: todo
+        reward_chance: 11
+    - part_type: Blueprint
+      relic:
+        name: Neo S19
+        id: todo
+        reward_chance: 2
+    - part_type: Receiver
+      relic:
+        name: Neo S19
+        id: todo
+        reward_chance: 25.33
+    - part_type: Stock
+      relic:
+        name: Meso M5
+        id: todo
+        reward_chance: 11
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeStrun/PrimeStrunWeapon
     item: Prime Strun Weapon
     ducats: 2
@@ -28,10 +60,22 @@
   name: Magnus Prime
   id: magnus_prime
   parts:
-    - Barrel
-    - Blueprint
-    - Receiver
-  vault_info:
+    - part_type: Barrel
+      relic:
+        name: Meso M5
+        id: todo
+        reward_chance: 2
+    - part_type: Blueprint
+      relic:
+        name: Meso S15
+        id: todo
+        reward_chance: 25.33
+    - part_type: Receiver
+      relic:
+        name: Neo N19
+        id: todo
+        reward_chance: 11
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeMagnus/PrimeMagnusWeapon
     item: Prime Magnus Weapon
     ducats: 2
@@ -40,11 +84,27 @@
   name: Saryn Prime
   id: saryn_prime
   parts:
-    - Blueprint
-    - Chassis
-    - Neuroptics
-    - Systems
-  vault_info:
+    - part_type: Blueprint
+      relic:
+        name: Axi N12
+        id: todo
+        reward_chance: 11
+    - part_type: Chassis
+      relic:
+        name: Lith S17
+        id: todo
+        reward_chance: 2
+    - part_type: Neuroptics
+      relic:
+        name: Neo S19
+        id: todo
+        reward_chance: 11
+    - part_type: Systems
+      relic:
+        name: Meso M5
+        id: todo
+        reward_chance: 25.33
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Powersuits/Saryn/SarynPrime
     item: Saryn Prime
     ducats: 3
@@ -53,10 +113,22 @@
   name: Nikana Prime
   id: nikana_prime
   parts:
-    - Blade
-    - Blueprint
-    - Hilt
-  vault_info:
+    - part_type: Blade
+      relic:
+        name: Meso S15
+        id: todo
+        reward_chance: 11
+    - part_type: Blueprint
+      relic:
+        name: Axi N12
+        id: todo
+        reward_chance: 25.33
+    - part_type: Hilt
+      relic:
+        name: Neo N19
+        id: todo
+        reward_chance: 2
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeKatana/PrimeNikana
     item: Prime Nikana
     ducats: 2
@@ -65,12 +137,32 @@
   name: Spira Prime
   id: spira_prime
   parts:
-    - Blade
-    - Blade
-    - Blueprint
-    - Pouch
-    - Pouch
-  vault_info:
+    - part_type: Blade
+      relic:
+        name: Meso M5
+        id: todo
+        reward_chance: 11
+    - part_type: Blade
+      relic:
+        name: Meso M5
+        id: todo
+        reward_chance: 11
+    - part_type: Blueprint
+      relic:
+        name: Lith S17
+        id: todo
+        reward_chance: 25.33
+    - part_type: Pouch
+      relic:
+        name: Meso S15
+        id: todo
+        reward_chance: 2
+    - part_type: Pouch
+      relic:
+        name: Meso S15
+        id: todo
+        reward_chance: 2
+  varzia_info:
     uniqueName: >-
       /Lotus/StoreItems/Weapons/Tenno/ThrowingWeapons/PrimeLiDagger/PrimeLiDagger
     item: Prime Li Dagger
@@ -80,11 +172,27 @@
   name: Ember Prime
   id: ember_prime
   parts:
-    - Blueprint
-    - Chassis
-    - Neuroptics
-    - Systems
-  vault_info:
+    - part_type: Blueprint
+      relic:
+        name: Lith E1
+        id: todo
+        reward_chance: 2
+    - part_type: Chassis
+      relic:
+        name: Meso B10
+        id: todo
+        reward_chance: 25.33
+    - part_type: Neuroptics
+      relic:
+        name: Meso S14
+        id: todo
+        reward_chance: 11
+    - part_type: Systems
+      relic:
+        name: Axi R4
+        id: todo
+        reward_chance: 11
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Powersuits/Ember/EmberPrime
     item: Ember Prime
     ducats: 3
@@ -93,11 +201,27 @@
   name: Glaive Prime
   id: glaive_prime
   parts:
-    - Blade
-    - Blade
-    - Blueprint
-    - Disc
-  vault_info:
+    - part_type: Blade
+      relic:
+        name: Meso B10
+        id: todo
+        reward_chance: 11
+    - part_type: Blade
+      relic:
+        name: Meso B10
+        id: todo
+        reward_chance: 11
+    - part_type: Blueprint
+      relic:
+        name: Neo G6
+        id: todo
+        reward_chance: 2
+    - part_type: Disc
+      relic:
+        name: Axi R4
+        id: todo
+        reward_chance: 11
+  varzia_info:
     uniqueName: >-
       /Lotus/StoreItems/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon
     item: Glaive Prime
@@ -107,10 +231,22 @@
   name: Sicarus Prime
   id: sicarus_prime
   parts:
-    - Barrel
-    - Blueprint
-    - Receiver
-  vault_info:
+    - part_type: Barrel
+      relic:
+        name: Neo G6
+        id: todo
+        reward_chance: 25.33
+    - part_type: Blueprint
+      relic:
+        name: Meso B10
+        id: todo
+        reward_chance: 11
+    - part_type: Receiver
+      relic:
+        name: Meso S14
+        id: todo
+        reward_chance: 2
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol
     item: Sicarus Prime
     ducats: 2
@@ -119,11 +255,27 @@
   name: Rhino Prime
   id: rhino_prime
   parts:
-    - Blueprint
-    - Chassis
-    - Neuroptics
-    - Systems
-  vault_info:
+    - part_type: Blueprint
+      relic:
+        name: Axi R4
+        id: todo
+        reward_chance: 2
+    - part_type: Chassis
+      relic:
+        name: Lith E1
+        id: todo
+        reward_chance: 11
+    - part_type: Neuroptics
+      relic:
+        name: Meso S14
+        id: todo
+        reward_chance: 11
+    - part_type: Systems
+      relic:
+        name: Neo G6
+        id: todo
+        reward_chance: 25.33
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Powersuits/Rhino/RhinoPrime
     item: Rhino Prime
     ducats: 3
@@ -132,11 +284,27 @@
   name: Boltor Prime
   id: boltor_prime
   parts:
-    - Barrel
-    - Blueprint
-    - Receiver
-    - Stock
-  vault_info:
+    - part_type: Barrel
+      relic:
+        name: Lith E1
+        id: todo
+        reward_chance: 25.33
+    - part_type: Blueprint
+      relic:
+        name: Meso B10
+        id: todo
+        reward_chance: 2
+    - part_type: Receiver
+      relic:
+        name: Neo G6
+        id: todo
+        reward_chance: 11
+    - part_type: Stock
+      relic:
+        name: Axi R4
+        id: todo
+        reward_chance: 25.33
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeBoltor/PrimeBoltor
     item: Boltor Prime
     ducats: 2
@@ -145,12 +313,32 @@
   name: Ankyros Prime
   id: ankyros_prime
   parts:
-    - Blade
-    - Blade
-    - Blueprint
-    - Gauntlet
-    - Gauntlet
-  vault_info:
+    - part_type: Blade
+      relic:
+        name: Neo G6
+        id: todo
+        reward_chance: 11
+    - part_type: Blade
+      relic:
+        name: Neo G6
+        id: todo
+        reward_chance: 11
+    - part_type: Blueprint
+      relic:
+        name: Lith E1
+        id: todo
+        reward_chance: 25.33
+    - part_type: Gauntlet
+      relic:
+        name: Meso S14
+        id: todo
+        reward_chance: 25.33
+    - part_type: Gauntlet
+      relic:
+        name: Meso S14
+        id: todo
+        reward_chance: 25.33
+  varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Gauntlet/PrimeAnkyros/PrimeAnkyros
     item: Ankyros Prime
     ducats: 2

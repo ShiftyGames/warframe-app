@@ -1,17 +1,5 @@
-- name: Lith S16
-  rewards:
-    - chance: 2
-      name: Sevagoth Prime Chassis Blueprint
-    - chance: 11
-      name: Paris Prime Grip
-    - chance: 11
-      name: Dual Zoren Prime Blueprint
-    - chance: 25.33
-      name: Masseter Prime Handle
-    - chance: 25.33
-      name: Forma Blueprint
-    - chance: 25.33
-      name: Xaku Prime Neuroptics Blueprint
+- name: Lith S17
+  rewards: []
 - name: Meso S15
   rewards: []
 - name: Meso M5
@@ -23,72 +11,12 @@
 - name: Axi N12
   rewards: []
 - name: Lith E1
-  rewards:
-    - chance: 2
-      name: Ember Prime Blueprint
-    - chance: 11
-      name: Rhino Prime Chassis Blueprint
-    - chance: 11
-      name: Burston Prime Barrel
-    - chance: 25.33
-      name: Boltor Prime Barrel
-    - chance: 25.33
-      name: Ankyros Prime Blueprint
-    - chance: 25.33
-      name: Forma Blueprint
+  rewards: []
 - name: Meso S14
-  rewards:
-    - chance: 2
-      name: Sicarus Prime Receiver
-    - chance: 11
-      name: Rhino Prime Neuroptics Blueprint
-    - chance: 11
-      name: Ember Prime Neuroptics Blueprint
-    - chance: 25.33
-      name: Burston Prime Stock
-    - chance: 25.33
-      name: Ankyros Prime Gauntlet
-    - chance: 25.33
-      name: Forma Blueprint
+  rewards: []
 - name: Meso B10
-  rewards:
-    - chance: 2
-      name: Boltor Prime Blueprint
-    - chance: 11
-      name: Glaive Prime Blade
-    - chance: 11
-      name: Sicarus Prime Blueprint
-    - chance: 25.33
-      name: Ember Prime Chassis Blueprint
-    - chance: 25.33
-      name: Burston Prime Receiver
-    - chance: 25.33
-      name: Forma Blueprint
+  rewards: []
 - name: Neo G6
-  rewards:
-    - chance: 2
-      name: Glaive Prime Blueprint
-    - chance: 11
-      name: Boltor Prime Receiver
-    - chance: 11
-      name: Ankyros Prime Blade
-    - chance: 25.33
-      name: Sicarus Prime Barrel
-    - chance: 25.33
-      name: Rhino Prime Systems Blueprint
-    - chance: 25.33
-      name: Forma Blueprint
+  rewards: []
 - name: Axi R4
-  rewards:
-    - chance: 2
-      name: Rhino Prime Blueprint
-    - chance: 11
-      name: Ember Prime Systems Blueprint
-    - chance: 11
-      name: Glaive Prime Disc
-    - chance: 25.33
-      name: Boltor Prime Stock
-    - chance: 25.33
-      name: Burston Prime Blueprint
-    - chance: 25.33
-      name: Forma Blueprint
+  rewards: []

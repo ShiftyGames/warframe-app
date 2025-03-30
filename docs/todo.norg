@@ -21,12 +21,13 @@ version: 1.1.1
 -- (x) Hex page
 --- ( ) implement _includes/hex-task-button.html
 -- (x) Prime Resurgence page
+--- (x) implement _includes/prime-resurgence-task-button.html
 -- (x) Not Yet Vaulted page
 -- ( ) Data generation
 --- ( ) src/gen_weekly.js -> _data/weekly.yml
 --- ( ) src/gen_hex.js -> _data/hex.yml
---- ( ) src/gen_prime_resurgence.js -> _data/prime_resurgence.yml
----- ( ) each part needs to be correlated with a Varzia relic
+--- (x) src/gen_prime_resurgence.js -> _data/prime_resurgence.yml
+---- (x) each part needs to be correlated with a Varzia relic
 --- ( ) src/gen_unvaulted.js -> _data/unvaulted.yml
 -- ( ) Github workflows
 --- (x) Build static site when main branch is updated

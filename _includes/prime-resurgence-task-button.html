@@ -1,0 +1,26 @@
+{%- comment %} variables to assign before including this template:
+  item.id
+  item.name
+  item.parts?
+{% endcomment -%}
+<label class="list-group-item list-group-item-action" onclick="toggle_bs_task(this)">
+  <strong>{{ item.name }}</strong>
+    <ul class="list-group mt-2">
+    {% for part in item.parts %}
+      {% capture part_id %}{{ item.id }}_{{ part.part_type | downcase }}{% endcapture -%}
+      <li class="list-group-item list-group-item-action list-group-item-secondary"
+          onclick="event.stopPropagation(); toggle_bs_task(this); handle_onclick('{{ part_id }}');"
+          id="{{ part_id }}"
+          >{{ part.part_type }} - [{{part.relic.name}}]</li>
+      <script type="module">
+        let part_status = localStorage.getItem("{{ part_id }}");
+        if (part_status ) {
+          let is_complete = part_status == "true";
+          if (is_complete) {
+            document.getElementById("{{ part_id }}").classList.add("list-group-item-success");
+          }
+        }
+      </script>
+    {%- endfor %}
+    </ul>
+</label>

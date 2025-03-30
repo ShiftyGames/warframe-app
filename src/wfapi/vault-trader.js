@@ -1,11 +1,51 @@
-import { WF_API, get } from "../utils.js";
-import { WfItem } from "../wf_item.js";
-import { wfapi_item_by_uniqueName } from "./item-search.js";
-import { wfapi_drop } from "./drops.js";
+import { WF_API, get } from '../utils.js';
+import { WfItem } from '../wf_item.js';
+import { wfapi_item_by_uniqueName } from './item-search.js';
+import { wfapi_drop } from './drops.js';
+
+/**
+ * @typedef VarziaInventoryItem
+ * @type {object}
+ * @property
+ * @property {string} uniqueName
+ * @property {string} item
+ * @property {Number} ducats
+ * @property {string} credits
+ */
+
+/**
+ * @typedef VarziaInfo
+ * @type {object}
+ * @property {string} id
+ * @property {string} activation
+ * @property {string} startString
+ * @property {string} expiry
+ * @property {boolean} active
+ * @property {VarziaInventoryItem[]} inventory
+ */
+
+/**
+ * @typedef VarziaRelicReward
+ * @type {object}
+ * @property {string} name
+ * @property {Number} chance
+ */
+
+/**
+ * @typedef VarziaRelicInfo
+ * @type {object}
+ * @property {string} name
+ * @property {string} uniqueName
+ * @property {VarziaRelicReward[]} rewards
+ *
+ */
 
 //https://api.warframestat.us/PC/vaultTrader/
-export function get_vault_info() {
-    return get(WF_API + "/PC/vaultTrader/");
+/**
+ * @returns {Promise<VarziaInfo>}
+ */
+export function get_varzia_info() {
+    return get(WF_API + '/PC/vaultTrader/');
 }
 
 export async function* gen_wf_items(vault_items) {
@@ -17,13 +57,16 @@ export async function* gen_wf_items(vault_items) {
     }
 }
 
-export async function extract_wf_items_from_vault(vault) {
+/**
+ * @param {VarziaInfo} varzia_info
+ */
+export async function extract_wf_items_from_variza_info(varzia_info) {
     var items = [];
-    for (const item of vault.inventory) {
+    for (const item of varzia_info.inventory) {
         const uname = item.uniqueName;
         if (
-            uname.startsWith("/Lotus/StoreItems/Weapons") ||
-            uname.startsWith("/Lotus/StoreItems/Powersuits")
+            uname.startsWith('/Lotus/StoreItems/Weapons') ||
+            uname.startsWith('/Lotus/StoreItems/Powersuits')
         ) {
             var wf_item = new WfItem(uname, item);
             await wf_item.init();
@@ -33,19 +76,26 @@ export async function extract_wf_items_from_vault(vault) {
     return items;
 }
 
-export async function extract_relics_from_vault(vault) {
+/**
+ * @param {VarziaInfo} varzia_info
+ */
+export async function extract_relics_from_varzia_info(varzia_info) {
+    /*** @type {VarziaRelicInfo[]} */
     var relics = [];
-    for (const item of vault.inventory) {
-        const relic_prefix = "/Lotus/StoreItems/Types/Game/Projections";
+    const relic_prefix = '/Lotus/StoreItems/Types/Game/Projections';
+    for (const item of varzia_info.inventory) {
         if (item.uniqueName.startsWith(relic_prefix)) {
-            const uname = item.uniqueName.split("/").pop();
+            console.log('extract_relics_from_varzia_info: processing item -', item.item);
+            const uname = item.uniqueName.split('/').pop();
             const relic_item_info = await wfapi_item_by_uniqueName(uname);
             const search_name = relic_item_info.name
-                .split(" ")
+                .split(' ')
                 .slice(0, -1)
-                .join(" ");
+                .join(' ');
+            /** @type {VarziaRelicReward[]} */
             var rewards = [];
             if (relic_item_info.rewards.length == 0) {
+                console.log("extract_relics_from_varzia_info: getting drop data");
                 const drop_info = await wfapi_drop(search_name);
                 for (const drop of drop_info) {
                     const reward = {
@@ -58,7 +108,7 @@ export async function extract_relics_from_vault(vault) {
                 }
             } else {
                 rewards = relic_item_info.rewards.map((reward) => {
-                    return { name: reward.name, chance: reward.chance };
+                    return { name: reward.item.name, chance: reward.chance };
                 });
             }
             relics.push({
@@ -72,7 +122,7 @@ export async function extract_relics_from_vault(vault) {
 }
 
 export function build_prime_item_table(prime_items) {
-    var html = "";
+    var html = '';
     for (let item of prime_items) {
         html += `
             <li>
@@ -100,6 +150,6 @@ export function build_prime_item_table(prime_items) {
             </li>
         `;
     }
-    document.getElementById("prime_resurgenceTasks").innerHTML += html;
+    document.getElementById('prime_resurgenceTasks').innerHTML += html;
     return prime_items;
 }
