@@ -1,9 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 
+const CACHE_LOC = '.cache/wfsp/';
+
 export function _memoize(cache_name, f) {
     const m_f = async function (...args) {
-        const cache_f = 'warframe-app/data/cache/' + cache_name + '.json';
+        const cache_f = CACHE_LOC + cache_name + '.json';
         ensure_dir_exists(cache_f);
         var data;
         if (fs.existsSync(cache_f)) {
