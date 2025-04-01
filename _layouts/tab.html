@@ -2,11 +2,13 @@
 layout: page
 refactor: false
 ---
+
 <style>
+  /* DEPRECATED */
   [id^="toggle_li"],                        /* HIDE CHECKBOX */
-[id^="toggle_li"] ~ .list-group,                /* HIDE LIST */
-[id^="toggle_li"] + label  span + span,   /* HIDE "Collapse" */
-[id^="toggle_li"]:checked + label span {
+  [id^="toggle_li"] ~ .list-group,                /* HIDE LIST */
+  [id^="toggle_li"] + label  span + span,   /* HIDE "Collapse" */
+  [id^="toggle_li"]:checked + label span {
     /* HIDE "Expand" (IF CHECKED) */
     display: none;
   }
@@ -20,16 +22,58 @@ refactor: false
 
 {{ content }}
 
-<script type="module">
-  import { update_checkbox } from "/warframe-app/js/update_checkbox.js";
-  window.handle_onclick = update_checkbox;
+<script>
+  function init_task_state(id) {
+    let part_status = localStorage.getItem(id);
+    if (part_status) {
+      let is_complete = part_status == "true";
+      if (is_complete) {
+        document.getElementById(id).classList.add("list-group-item-success");
+      }
+    }
+  }
+  function handle_onclick(element, id) {
+    //const e = e || document.getElementById(id);
+    var is_complete = false;
+    if (element.hasOwnProperty("checked")) {
+      is_complete = element.checked;
+    } else {
+      is_complete = element.classList.contains("list-group-item-success");
+    }
+    console.log("checkbox '" + id + "' is checked: " + is_complete);
+    localStorage.setItem(id, is_complete);
+  }
+
+  function toggle_bs_major_task(element) {
+    element.classList.toggle("list-group-item-success");
+    if (element.classList.contains("list-group-item-success")) {
+      let subtasks = element.querySelector("ul");
+      if (subtasks) {
+        subtasks.classList.add("d-none");
+      }
+    }
+  }
+
+  function toggle_bs_task(element) {
+    element.classList.toggle("list-group-item-success");
+  }
+
+  function toggleSubtasks(event, element) {
+    if (event) {
+      event.preventDefault(); // Prevents the context menu from appearing
+    }
+    let subtasks = element.querySelector("ul");
+    if (subtasks) {
+      subtasks.classList.toggle("d-none");
+    }
+  }
 
   function toggle_mode() {
     var e = document.getElementsByTagName("html")[0];
     if (
-      sessionStorage.mode === "dark"
-      || (!("mode" in sessionStorage)
-      && window.matchMedia("(prefers-color-scheme: dark)").matches)
+      sessionStorage.mode === "dark" ||
+      (!("mode" in sessionStorage) &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       e.setAttribute("data-bs-theme", "dark");
     } else {
@@ -37,6 +81,11 @@ refactor: false
     }
   }
   toggle_mode();
-  document.getElementById('mode-toggle').addEventListener("click", toggle_mode);
+  document.getElementById("mode-toggle").addEventListener("click", toggle_mode);
+</script>
+
+<script type="module">
+  //import { update_checkbox } from "/warframe-app/js/update_checkbox.js";
+  //window.handle_onclick = update_checkbox;
 </script>
 <script src="/warframe-app/js/index.js" type="module"></script>

@@ -1,0 +1,657 @@
+- planet: Earth
+  id: earth
+  nodes:
+    - name: Pacific
+      id: earth_pacific
+    - name: Oro
+      id: earth_oro
+    - name: Lith
+      id: earth_lith
+    - name: E Prime
+      id: earth_e_prime
+    - name: Everest
+      id: earth_everest
+    - name: Eurasia
+      id: earth_eurasia
+    - name: Mantle
+      id: earth_mantle
+    - name: Cervantes
+      id: earth_cervantes
+    - name: Cambria
+      id: earth_cambria
+    - name: Gaia
+      id: earth_gaia
+    - name: Mariana
+      id: earth_mariana
+    - name: Plains of Eidolon
+      id: earth_plains_of_eidolon
+    - name: Erpo
+      id: earth_erpo
+- planet: Venus
+  id: venus
+  nodes:
+    - name: Aphrodite
+      id: venus_aphrodite
+    - name: Tessera
+      id: venus_tessera
+    - name: Cytherean
+      id: venus_cytherean
+    - name: Ishtar
+      id: venus_ishtar
+    - name: Unda
+      id: venus_unda
+    - name: Vesper
+      id: venus_vesper
+    - name: Kiliken
+      id: venus_kiliken
+    - name: Fossa
+      id: venus_fossa
+    - name: Venera
+      id: venus_venera
+    - name: Linea
+      id: venus_linea
+    - name: V Prime
+      id: venus_v_prime
+    - name: E Gate
+      id: venus_e_gate
+    - name: Orb Vallis
+      id: venus_orb_vallis
+    - name: Montes
+      id: venus_montes
+- planet: Mercury
+  id: mercury
+  nodes:
+    - name: Elion
+      id: mercury_elion
+    - name: Terminus
+      id: mercury_terminus
+    - name: Apollodorus
+      id: mercury_apollodorus
+    - name: M Prime
+      id: mercury_m_prime
+    - name: Tolstoj
+      id: mercury_tolstoj
+    - name: Caloris
+      id: mercury_caloris
+    - name: Lares
+      id: mercury_lares
+    - name: Neruda
+      id: mercury_neruda
+    - name: Eminescu
+      id: mercury_eminescu
+    - name: Boethius
+      id: mercury_boethius
+    - name: Odin
+      id: mercury_odin
+    - name: Suisei
+      id: mercury_suisei
+    - name: Pantheon
+      id: mercury_pantheon
+    - name: Verdi
+      id: mercury_verdi
+- planet: Mars
+  id: mars
+  nodes:
+    - name: Tharsis
+      id: mars_tharsis
+    - name: Ultor
+      id: mars_ultor
+    - name: Augustus
+      id: mars_augustus
+    - name: Olympus
+      id: mars_olympus
+    - name: Arcadia
+      id: mars_arcadia
+    - name: Martialis
+      id: mars_martialis
+    - name: Arval
+      id: mars_arval
+    - name: Ara
+      id: mars_ara
+    - name: Spear
+      id: mars_spear
+    - name: Silvanus
+      id: mars_silvanus
+    - name: Hellas
+      id: mars_hellas
+    - name: Gradivus
+      id: mars_gradivus
+    - name: Vallis
+      id: mars_vallis
+    - name: War
+      id: mars_war
+    - name: Alator
+      id: mars_alator
+    - name: Ares
+      id: mars_ares
+    - name: Quirinus
+      id: mars_quirinus
+    - name: Tyana Pass
+      id: mars_tyana_pass
+    - name: Syrtis
+      id: mars_syrtis
+- planet: Deimos
+  id: deimos
+  nodes:
+    - name: Cambion Drift
+      id: deimos_cambion_drift
+    - name: Horend
+      id: deimos_horend
+    - name: Hyf
+      id: deimos_hyf
+    - name: Phlegyas
+      id: deimos_phlegyas
+    - name: Dirus
+      id: deimos_dirus
+    - name: Formido
+      id: deimos_formido
+    - name: Terrorem
+      id: deimos_terrorem
+    - name: Magnacidium
+      id: deimos_magnacidium
+    - name: Exequias
+      id: deimos_exequias
+    - name: Sanctum Anatomica
+      id: deimos_sanctum_anatomica
+    - name: Effervo
+      id: deimos_effervo
+    - name: Nex
+      id: deimos_nex
+    - name: Persto
+      id: deimos_persto
+    - name: Cambire
+      id: deimos_cambire
+    - name: Munio
+      id: deimos_munio
+    - name: Testudo
+      id: deimos_testudo
+    - name: Armatus
+      id: deimos_armatus
+- planet: Ceres
+  id: ceres
+  nodes:
+    - name: Pallas
+      id: ceres_pallas
+    - name: Bode
+      id: ceres_bode
+    - name: Vedic
+      id: ceres_vedic
+    - name: Varro
+      id: ceres_varro
+    - name: Thon
+      id: ceres_thon
+    - name: Olla
+      id: ceres_olla
+    - name: Nuovo
+      id: ceres_nuovo
+    - name: Ludi
+      id: ceres_ludi
+    - name: Lex
+      id: ceres_lex
+    - name: Kiste
+      id: ceres_kiste
+    - name: Ker
+      id: ceres_ker
+    - name: Hapke
+      id: ceres_hapke
+    - name: Gefion
+      id: ceres_gefion
+    - name: Exta
+      id: ceres_exta
+    - name: Egeria
+      id: ceres_egeria
+    - name: Draco
+      id: ceres_draco
+    - name: Cinxia
+      id: ceres_cinxia
+    - name: Cerium
+      id: ceres_cerium
+    - name: Casta
+      id: ceres_casta
+    - name: Albedo
+      id: ceres_albedo
+- planet: Jupiter
+  id: jupiter
+  nodes:
+    - name: Thebe
+      id: jupiter_thebe
+    - name: Callisto
+      id: jupiter_callisto
+    - name: Themisto
+      id: jupiter_themisto
+    - name: Ananke
+      id: jupiter_ananke
+    - name: Carme
+      id: jupiter_carme
+    - name: Ganymede
+      id: jupiter_ganymede
+    - name: Adrastea
+      id: jupiter_adrastea
+    - name: Amalthea
+      id: jupiter_amalthea
+    - name: Elara
+      id: jupiter_elara
+    - name: Carpo
+      id: jupiter_carpo
+    - name: Io
+      id: jupiter_io
+    - name: Metis
+      id: jupiter_metis
+    - name: The Ropalolyst
+      id: jupiter_the_ropalolyst
+    - name: Galilea
+      id: jupiter_galilea
+- planet: Saturn
+  id: saturn
+  nodes:
+    - name: Epimetheus
+      id: saturn_epimetheus
+    - name: Rhea
+      id: saturn_rhea
+    - name: Enceladus
+      id: saturn_enceladus
+    - name: Telesto
+      id: saturn_telesto
+    - name: Anthe
+      id: saturn_anthe
+    - name: Tethys
+      id: saturn_tethys
+    - name: Pallene
+      id: saturn_pallene
+    - name: Helene
+      id: saturn_helene
+    - name: Mimas
+      id: saturn_mimas
+    - name: Janus
+      id: saturn_janus
+    - name: Numa
+      id: saturn_numa
+    - name: Methone
+      id: saturn_methone
+    - name: Dione
+      id: saturn_dione
+    - name: Cassini
+      id: saturn_cassini
+    - name: Phoebe
+      id: saturn_phoebe
+    - name: Calypso
+      id: saturn_calypso
+    - name: Aegaeon
+      id: saturn_aegaeon
+    - name: Iapetus
+      id: saturn_iapetus
+    - name: Keeler
+      id: saturn_keeler
+    - name: Titan
+      id: saturn_titan
+    - name: Hyperion
+      id: saturn_hyperion
+    - name: Pandora
+      id: saturn_pandora
+- planet: Neptune
+  id: neptune
+  nodes:
+    - name: Galatea
+      id: neptune_galatea
+    - name: Despina
+      id: neptune_despina
+    - name: Proteus
+      id: neptune_proteus
+    - name: Larissa
+      id: neptune_larissa
+    - name: Sao
+      id: neptune_sao
+    - name: Neso
+      id: neptune_neso
+    - name: Triton
+      id: neptune_triton
+    - name: Nereid
+      id: neptune_nereid
+    - name: Thalassa
+      id: neptune_thalassa
+    - name: Naiad
+      id: neptune_naiad
+    - name: Laomedeia
+      id: neptune_laomedeia
+    - name: Halimede
+      id: neptune_halimede
+    - name: Psamathe
+      id: neptune_psamathe
+    - name: Salacia
+      id: neptune_salacia
+- planet: Uranus
+  id: uranus
+  nodes:
+    - name: Cordelia
+      id: uranus_cordelia
+    - name: Perdita
+      id: uranus_perdita
+    - name: Rosalind
+      id: uranus_rosalind
+    - name: Bianca
+      id: uranus_bianca
+    - name: Oberon
+      id: uranus_oberon
+    - name: Ariel
+      id: uranus_ariel
+    - name: Sycorax
+      id: uranus_sycorax
+    - name: Prospero
+      id: uranus_prospero
+    - name: Portia
+      id: uranus_portia
+    - name: Caliban
+      id: uranus_caliban
+    - name: Umbriel
+      id: uranus_umbriel
+    - name: Ophelia
+      id: uranus_ophelia
+    - name: Cupid
+      id: uranus_cupid
+    - name: Cressida
+      id: uranus_cressida
+    - name: Desdemona
+      id: uranus_desdemona
+    - name: Titania
+      id: uranus_titania
+    - name: Juliet
+      id: uranus_juliet
+    - name: Setebos
+      id: uranus_setebos
+    - name: Puck
+      id: uranus_puck
+    - name: Mab
+      id: uranus_mab
+    - name: Stephano
+      id: uranus_stephano
+    - name: Trinculo
+      id: uranus_trinculo
+    - name: Caelus
+      id: uranus_caelus
+    - name: Brutus
+      id: uranus_brutus
+- planet: Pluto
+  id: pluto
+  nodes:
+    - name: Acheron
+      id: pluto_acheron
+    - name: Nix
+      id: pluto_nix
+    - name: Narcissus
+      id: pluto_narcissus
+    - name: Minthe
+      id: pluto_minthe
+    - name: Cerberus
+      id: pluto_cerberus
+    - name: Regna
+      id: pluto_regna
+    - name: Hades
+      id: pluto_hades
+    - name: Cypress
+      id: pluto_cypress
+    - name: Outer Terminus
+      id: pluto_outer_terminus
+    - name: Hydra
+      id: pluto_hydra
+    - name: Palus
+      id: pluto_palus
+    - name: Charon
+      id: pluto_charon
+    - name: Oceanum
+      id: pluto_oceanum
+- planet: Mirand
+  id: mirand
+  nodes:
+    - name: Miranda
+      id: mirand_miranda
+- planet: Eris
+  id: eris
+  nodes:
+    - name: Acanth
+      id: eris_acanth
+    - name: Ascar
+      id: eris_ascar
+    - name: Brugia
+      id: eris_brugia
+    - name: Candiru
+      id: eris_candiru
+    - name: Cosis
+      id: eris_cosis
+    - name: Cyath
+      id: eris_cyath
+    - name: Giardia
+      id: eris_giardia
+    - name: Gnathos
+      id: eris_gnathos
+    - name: Lepis
+      id: eris_lepis
+    - name: Histo
+      id: eris_histo
+    - name: Hymeno
+      id: eris_hymeno
+    - name: Isos
+      id: eris_isos
+    - name: Ixodes
+      id: eris_ixodes
+    - name: Kala-azar
+      id: eris_kala-azar
+    - name: Sporid
+      id: eris_sporid
+    - name: Nimus
+      id: eris_nimus
+    - name: Oestrus
+      id: eris_oestrus
+    - name: Phalan
+      id: eris_phalan
+    - name: Psoro
+      id: eris_psoro
+    - name: Ranova
+      id: eris_ranova
+    - name: Saxis
+      id: eris_saxis
+    - name: Xini
+      id: eris_xini
+    - name: Solium
+      id: eris_solium
+    - name: Sparga
+      id: eris_sparga
+    - name: Naeglar
+      id: eris_naeglar
+    - name: Viver
+      id: eris_viver
+- planet: Sedna
+  id: sedna
+  nodes:
+    - name: Kappa
+      id: sedna_kappa
+    - name: Hyosube
+      id: sedna_hyosube
+    - name: Jengu
+      id: sedna_jengu
+    - name: Undine
+      id: sedna_undine
+    - name: Adaro
+      id: sedna_adaro
+    - name: Camenae
+      id: sedna_camenae
+    - name: Vodyanoi
+      id: sedna_vodyanoi
+    - name: Rusalka
+      id: sedna_rusalka
+    - name: Berehynia
+      id: sedna_berehynia
+    - name: Phithale
+      id: sedna_phithale
+    - name: Selkie
+      id: sedna_selkie
+    - name: Kelpie
+      id: sedna_kelpie
+    - name: Naga
+      id: sedna_naga
+    - name: Nakki
+      id: sedna_nakki
+    - name: Marid
+      id: sedna_marid
+    - name: Tikoloshe
+      id: sedna_tikoloshe
+    - name: Merrow
+      id: sedna_merrow
+    - name: Ponaturi
+      id: sedna_ponaturi
+    - name: Hydron
+      id: sedna_hydron
+    - name: Charybdis
+      id: sedna_charybdis
+    - name: Graeae
+      id: sedna_graeae
+    - name: Scylla
+      id: sedna_scylla
+    - name: Yam
+      id: sedna_yam
+    - name: Veles
+      id: sedna_veles
+    - name: Tiamat
+      id: sedna_tiamat
+    - name: Yemaja
+      id: sedna_yemaja
+- planet: Europa
+  id: europa
+  nodes:
+    - name: Abaddon
+      id: europa_abaddon
+    - name: Armaros
+      id: europa_armaros
+    - name: Baal
+      id: europa_baal
+    - name: Eligor
+      id: europa_eligor
+    - name: Gamygyn
+      id: europa_gamygyn
+    - name: Lillith
+      id: europa_lillith
+    - name: Morax
+      id: europa_morax
+    - name: Naamah
+      id: europa_naamah
+    - name: Ose
+      id: europa_ose
+    - name: Paimon
+      id: europa_paimon
+    - name: Shax
+      id: europa_shax
+    - name: Sorath
+      id: europa_sorath
+    - name: Valac
+      id: europa_valac
+    - name: Valefor
+      id: europa_valefor
+    - name: Orias
+      id: europa_orias
+    - name: Zagan
+      id: europa_zagan
+    - name: Beleth
+      id: europa_beleth
+    - name: Kokabiel
+      id: europa_kokabiel
+- planet: Zariman
+  id: zariman
+  nodes:
+    - name: Everview Arc
+      id: zariman_everview_arc
+    - name: Halako Perimeter
+      id: zariman_halako_perimeter
+    - name: Tuvul Commons
+      id: zariman_tuvul_commons
+    - name: Oro Works
+      id: zariman_oro_works
+    - name: Dormizone
+      id: zariman_dormizone
+    - name: The Greenway
+      id: zariman_the_greenway
+- planet: Duviri
+  id: duviri
+  nodes:
+    - name: The Duviri Experience
+      id: duviri_the_duviri_experience
+    - name: The Lone Story
+      id: duviri_the_lone_story
+    - name: The Circuit
+      id: duviri_the_circuit
+- planet: Void
+  id: void
+  nodes:
+    - name: Teshub
+      id: void_teshub
+    - name: Hepit
+      id: void_hepit
+    - name: Taranis
+      id: void_taranis
+    - name: Tiwaz
+      id: void_tiwaz
+    - name: Stribog
+      id: void_stribog
+    - name: Ani
+      id: void_ani
+    - name: Ukko
+      id: void_ukko
+    - name: Oxomoco
+      id: void_oxomoco
+    - name: Belenus
+      id: void_belenus
+    - name: Mot
+      id: void_mot
+    - name: Aten
+      id: void_aten
+    - name: Marduk
+      id: void_marduk
+    - name: Mithra
+      id: void_mithra
+    - name: SolNode413
+      id: void_solnode413
+- planet: Kuva Fortress
+  id: kuva_fortress
+  nodes:
+    - name: Koro
+      id: kuva_fortress_koro
+    - name: Nabuk
+      id: kuva_fortress_nabuk
+    - name: Rotuma
+      id: kuva_fortress_rotuma
+    - name: Taveuni
+      id: kuva_fortress_taveuni
+    - name: Tamu
+      id: kuva_fortress_tamu
+    - name: Dakata
+      id: kuva_fortress_dakata
+    - name: Pago
+      id: kuva_fortress_pago
+    - name: Garus
+      id: kuva_fortress_garus
+- planet: Caduceu
+  id: caduceu
+  nodes:
+    - name: Caduceus
+      id: caduceu_caduceus
+- planet: Lua
+  id: lua
+  nodes:
+    - name: Plato
+      id: lua_plato
+    - name: Grimaldi
+      id: lua_grimaldi
+    - name: Tycho
+      id: lua_tycho
+    - name: Copernicus
+      id: lua_copernicus
+    - name: Stöfler
+      id: lua_stöfler
+    - name: Pavlov
+      id: lua_pavlov
+    - name: Zeipel
+      id: lua_zeipel
+    - name: Apollo
+      id: lua_apollo
+    - name: Yuvarium
+      id: lua_yuvarium
+    - name: Circulus
+      id: lua_circulus

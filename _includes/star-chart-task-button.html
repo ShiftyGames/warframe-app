@@ -1,27 +1,27 @@
 {%- comment %} variables to assign before including this template:
+  item.planet
   item.id
-  item.name
-  item.parts?
+  item.nodes[0].id
+  item.nodes[0].name
 {% endcomment -%}
 <label class="list-group-item list-group-item-action"
        id="{{ item.id }}"
        onclick="toggle_bs_major_task(this); handle_onclick(this, '{{ item.id }}')"
        oncontextmenu="toggleSubtasks(event, this)"
- >
-  <strong>{{ item.name }}</strong>
+>
+  <strong>{{ item.planet }}</strong>
     <ul class="list-group mt-2">
-    {% for part in item.parts %}
-      {% capture part_id %}{{ item.id }}_{{ part.part_type | downcase }}{% endcapture -%}
+    {% for node in item.nodes %}
       <li class="list-group-item list-group-item-action list-group-item-secondary"
-          onclick="event.stopPropagation(); toggle_bs_task(this); handle_onclick(this, '{{ part_id }}');"
-          id="{{ part_id }}"
-          >{{ part.part_type }} - [{{part.relic.name}}]</li>
+          onclick="event.stopPropagation(); toggle_bs_task(this); handle_onclick(this, '{{ node.id }}');"
+          id="{{ node.id }}"
+          >{{ node.name }}</li>
       <script type="module">
-        let node_status = localStorage.getItem("{{ part_id }}");
+        let node_status = localStorage.getItem("{{ node.id }}");
         if (node_status ) {
           let is_complete = node_status == "true";
           if (is_complete) {
-            document.getElementById("{{ part_id }}").classList.add("list-group-item-success");
+            document.getElementById("{{ node.id }}").classList.add("list-group-item-success");
           }
         }
       </script>

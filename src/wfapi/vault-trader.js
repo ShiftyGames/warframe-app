@@ -121,35 +121,35 @@ export async function extract_relics_from_varzia_info(varzia_info) {
     return relics;
 }
 
-export function build_prime_item_table(prime_items) {
-    var html = '';
-    for (let item of prime_items) {
-        html += `
-            <li>
-                <div class="row">
-                    <input id="toggle_li_${item.id}" type="checkbox">
-                    <label for="toggle_li_${item.id}">
-                        <span>+ ${item.name}</span>
-                        <span>- ${item.name}</span>
-                    </label>
-                    <div class="list">
-                        <ul>`;
-        for (let part of item.parts) {
-            html += `
-                            <li>
-                                <input type="checkbox"
-                                       id="${item.id}_${part.toLowerCase()}"
-                                       onclick="handle_onclick('${item.id}_${part.toLowerCase()}')">
-                                <label for="${item.id}_${part.toLowerCase()}">${part}</label><br>
-                            </li>`;
-        }
-        html += `
-                        </ul>
-                    </div>
-                </div>
-            </li>
-        `;
-    }
-    document.getElementById('prime_resurgenceTasks').innerHTML += html;
-    return prime_items;
-}
+//export function build_prime_item_table(prime_items) {
+//    var html = '';
+//    for (let item of prime_items) {
+//        html += `
+//            <li>
+//                <div class="row">
+//                    <input id="toggle_li_${item.id}" type="checkbox">
+//                    <label for="toggle_li_${item.id}">
+//                        <span>+ ${item.name}</span>
+//                        <span>- ${item.name}</span>
+//                    </label>
+//                    <div class="list">
+//                        <ul>`;
+//        for (let part of item.parts) {
+//            html += `
+//                            <li>
+//                                <input type="checkbox"
+//                                       id="${item.id}_${part.toLowerCase()}"
+//                                       onclick="handle_onclick('${item.id}_${part.toLowerCase()}')">
+//                                <label for="${item.id}_${part.toLowerCase()}">${part}</label><br>
+//                            </li>`;
+//        }
+//        html += `
+//                        </ul>
+//                    </div>
+//                </div>
+//            </li>
+//        `;
+//    }
+//    document.getElementById('prime_resurgenceTasks').innerHTML += html;
+//    return prime_items;
+//}

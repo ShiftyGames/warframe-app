@@ -2,12 +2,8 @@
 name: Prime Resurgence
 order: 7
 ---
-
-<script>
-    function toggle_bs_task(element) {
-        element.classList.toggle("list-group-item-success");
-    }
-</script>
+> This site is currently UNDER CONSTRUCTION!
+{: .prompt-warning}
 <div class="container mt-5">
 <div class="row g-3">
 {% for item in site.data.prime_resurgence %}

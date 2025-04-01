@@ -16,7 +16,7 @@
       <div class="list-group-item">
         <input type="checkbox"
                id="{{ part_id }}"
-               onclick="handle_onclick('{{ part_id }}')" />
+               onclick="handle_onclick(this,'{{ part_id }}')" />
         <label for="{{ part_id }}">{{ part }}</label> <br/>
       <script type="module">
         let part_status = localStorage.getItem("{{ part_id }}");
