@@ -4,8 +4,14 @@ order: 8
 ---
 > This site is currently UNDER CONSTRUCTION!
 {: .prompt-warning}
-<ul class="list-group">
+<div class="container mt-5">
+<div class="row g-3">
 {% for item in site.data.unvaulted -%}
-  {% include task-button.html -%}
+  <div class="col-md-4">
+    <div class="list-group">
+  {% include unvaulted-task-button.html -%}
+    </div>
+  </div>
 {% endfor -%}
-</ul>
+</div>
+</div>
