@@ -14,40 +14,48 @@ version: 1.1.1
 -- ( ) Progress Status page
 --- ( ) meters connected to data
 --- ( ) fetch daily tasks dynamically on the client
----- ( ) night wave daily tasks
+---- ( ) nightwave daily tasks
 ---- ( ) alerts
 --- ( ) display timely tasks from other tabs (a weekly task that is scheduled
         for the current day-of-week)
--- ( ) Weekly page
--- (x) add basic format
---- (x) implement _includes/weekly-task-button.html
---- ( ) format for recurring tasks
---- ( ) format for night wave tasks
---- ( ) format for recurring vendor shop tasks (sales)
---- ( ) format for dynamic vendor shop tasks (sales)
--- (x) Hex page
---- (x) update the _tabs/hex.md to the current style
---- (x) implement _includes/hex-task-button.html
--- (x) Prime Resurgence page
---- (x) implement _includes/prime-resurgence-task-button.html
--- (x) Not Yet Vaulted page
--- (x) Star Chart page
---- (x) implement _includes/star-chart-task-button.html
---- ( ) format for drops of warframes/weapons/mods unique to each planet
+-- ( ) Pages
+--- ( ) Weekly page
+---- (x) add basic format
+----- (x) implement _includes/weekly-task-button.html
+----- (x) format for recurring tasks
+----- ( ) format for nightwave tasks
+----- ( ) format for recurring vendor shop tasks (sales)
+----- ( ) format for dynamic vendor shop tasks (sales)
+--- (x) Nightwave page
+---- (x) implement _includes/nightwave-task-button.html
+--- (x) Hex page
+---- (x) update the _tabs/hex.md to the current style
+---- (x) implement _includes/hex-task-button.html
+--- (x) Prime Resurgence page
+---- (x) implement _includes/prime-resurgence-task-button.html
+--- (x) Not Yet Vaulted page
+---- (x) implement _includes/unvaulted-task-button.html
+--- ( ) Star Chart page
+---- (x) implement _includes/star-chart-task-button.html
+---- ( ) format for drops of warframes/weapons/mods unique to each planet
+--- (?) Baro Ki'Teer page
 -- ( ) Data generation
 --- ( ) src/gen_weekly.js -> _data/weekly.yml
 --- (?) src/gen_hex.js -> _data/hex.yml
         where is the hex calendar api?
+--- ( ) src/gen_nightwave.js -> _data/nightwave.yml
 --- (x) src/gen_prime_resurgence.js -> _data/prime_resurgence.yml
 ---- (x) each part needs to be correlated with a Varzia relic
 --- ( ) src/gen_unvaulted.js -> _data/unvaulted.yml
 --- (x) src/gen_star_chart.js -> _data/star_chart.yml
---- ( )
+--- (x) src/gen_void_trader.js -> _data/void_trader.yml
 -- ( ) Github workflows
 --- (x) Build static site when main branch is updated
 --- ( ) Scheduled workflow to generate weekly tasks after the weekly reset
 --- ( ) Scheduled workflow to generate Prime Resurgence Tasks (4 weeks?)
 --- ( ) Scheduled workflow to generate Hex calendar tasks
+--- ( ) Scheduled workflow to generate Nightwave tasks
+--- ( ) Scheduled workflow to generate Baro tasks
 -- ( ) add github support link
 -- ( ) Task button: _includes/task-button.html
 --- ( ) improve the layout of item subtasks

@@ -1,0 +1,110 @@
+- id: 1743811200000seasondailykillenemieswithfreeze
+  activation: '2025-04-02T00:00:00.000Z'
+  startString: '-2d 17h 55m 40s'
+  expiry: '2025-04-05T00:00:00.000Z'
+  active: true
+  isDaily: true
+  isElite: false
+  desc: Kill 150 Enemies with Cold Damage
+  title: Deep Freeze
+  reputation: 1000
+  isPermanent: false
+- id: 1743897600000seasondailykillenemieswithprimary
+  activation: '2025-04-03T00:00:00.000Z'
+  startString: '-1d 17h 55m 40s'
+  expiry: '2025-04-06T00:00:00.000Z'
+  active: true
+  isDaily: true
+  isElite: false
+  desc: Kill 150 Enemies with a Primary Weapon
+  title: Mow Them Down
+  reputation: 1000
+  isPermanent: false
+- id: 1743984000000seasondailykillenemieswithmelee
+  activation: '2025-04-04T00:00:00.000Z'
+  startString: '-17h 55m 40s'
+  expiry: '2025-04-07T00:00:00.000Z'
+  active: true
+  isDaily: true
+  isElite: false
+  desc: Kill 150 Enemies with a Melee Weapon
+  title: Sword Dance
+  reputation: 1000
+  isPermanent: false
+- id: 1743984000000seasonweeklypermanentcompletemissions9
+  activation: '2025-03-31T00:00:00.000Z'
+  startString: '-4d 17h 55m 40s'
+  expiry: '2025-04-07T00:00:00.000Z'
+  active: true
+  isDaily: false
+  isElite: false
+  desc: Complete any 15 missions
+  title: Mission Complete IX
+  reputation: 4500
+  isPermanent: false
+- id: 1743984000000seasonweeklypermanentkilleximus9
+  activation: '2025-03-31T00:00:00.000Z'
+  startString: '-4d 17h 55m 40s'
+  expiry: '2025-04-07T00:00:00.000Z'
+  active: true
+  isDaily: false
+  isElite: false
+  desc: Kill 30 Eximus
+  title: Eximus Eliminator IX
+  reputation: 4500
+  isPermanent: false
+- id: 1743984000000seasonweeklypermanentkillenemies9
+  activation: '2025-03-31T00:00:00.000Z'
+  startString: '-4d 17h 55m 40s'
+  expiry: '2025-04-07T00:00:00.000Z'
+  active: true
+  isDaily: false
+  isElite: false
+  desc: Kill 500 Enemies
+  title: Not a Warning Shot IX
+  reputation: 4500
+  isPermanent: false
+- id: 1743984000000seasonweeklyboardingpartynodamage
+  activation: '2025-03-31T00:00:00.000Z'
+  startString: '-4d 17h 55m 40s'
+  expiry: '2025-04-07T00:00:00.000Z'
+  active: true
+  isDaily: false
+  isElite: false
+  desc: Clear a Railjack Boarding Party without your Warframe taking damage
+  title: Flawless
+  reputation: 4500
+  isPermanent: false
+- id: 1743984000000seasonweeklycollector
+  activation: '2025-03-31T00:00:00.000Z'
+  startString: '-4d 17h 55m 40s'
+  expiry: '2025-04-07T00:00:00.000Z'
+  active: true
+  isDaily: false
+  isElite: false
+  desc: '[PH] Season Weekly Collector Desc'
+  title: Season Weekly Collector
+  reputation: 4500
+  isPermanent: false
+- id: 1743984000000seasonweeklyhardfriendsdefense
+  activation: '2025-03-31T00:00:00.000Z'
+  startString: '-4d 17h 55m 40s'
+  expiry: '2025-04-07T00:00:00.000Z'
+  active: true
+  isDaily: false
+  isElite: true
+  desc: Complete a Defense mission reaching at least Wave 20
+  title: Defense
+  reputation: 7000
+  isPermanent: false
+- id: 1743984000000seasonweeklyhardkillenemies
+  activation: '2025-03-31T00:00:00.000Z'
+  startString: '-4d 17h 55m 40s'
+  expiry: '2025-04-07T00:00:00.000Z'
+  active: true
+  isDaily: false
+  isElite: true
+  desc: Kill 1,500 Enemies
+  title: Kill Shot
+  reputation: 7000
+  isPermanent: false

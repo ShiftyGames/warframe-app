@@ -1,6 +1,6 @@
 ---
 name: Not Yet Vaulted
-order: 8
+order: 9
 ---
 > This site is currently UNDER CONSTRUCTION!
 {: .prompt-warning}

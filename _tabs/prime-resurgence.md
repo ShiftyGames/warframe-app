@@ -1,6 +1,6 @@
 ---
 name: Prime Resurgence
-order: 7
+order: 8
 ---
 > This site is currently UNDER CONSTRUCTION!
 {: .prompt-warning}

@@ -1,6 +1,6 @@
 ---
 name: Hex
-order: 6
+order: 7
 ---
 > This site is currently UNDER CONSTRUCTION!
 {: .prompt-warning}
