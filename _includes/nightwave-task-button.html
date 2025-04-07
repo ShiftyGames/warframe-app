@@ -1,7 +1,4 @@
-{% comment -%} variables to assign before including this template:
-  item.id
-  item.desc
-  item.title
+{%comment-%} vim: ft=html
 {% endcomment -%}
 <div class="list-group-item list-group-item-action"
        id="{{ item.id }}"
@@ -10,10 +7,22 @@
 >
   <div class="d-flex w-100 justify-content-between">
       <h5 class="mb-1">{{ item.title }}</h5>
-      <small>3 days ago</small>
+      {% if item.isDaily -%}
+      <small>Daily</small>
+      {% else -%}
+      <small>Weekly</small>
+      {% endif -%}
   </div>
-  <p class="mb-1">Some placeholder content in a paragraph.</p>
-  <small>And some small print.</small>
+  <p class="mb-1">{{ item.desc }}</p>
+  <div class="d-flex w-100 justify-content-between">
+      {% if item.isElite -%}
+      <small>Elite</small>
+      {% endif -%}
+      {% if item.isPermanent -%}
+      <small>Permanent</small>
+      {% endif -%}
+      <small>+{{ item.reputation }}</small>
+  </div>
 </div>
 <script type="module">
   import { init_major_task_state } from '/warframe-app/js/init_task_state.js';

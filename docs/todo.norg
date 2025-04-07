@@ -43,7 +43,7 @@ version: 1.1.1
 --- ( ) src/gen_weekly.js -> _data/weekly.yml
 --- (?) src/gen_hex.js -> _data/hex.yml
         where is the hex calendar api?
---- ( ) src/gen_nightwave.js -> _data/nightwave.yml
+--- (x) src/gen_nightwave.js -> _data/nightwave.yml
 --- (x) src/gen_prime_resurgence.js -> _data/prime_resurgence.yml
 ---- (x) each part needs to be correlated with a Varzia relic
 --- ( ) src/gen_unvaulted.js -> _data/unvaulted.yml
