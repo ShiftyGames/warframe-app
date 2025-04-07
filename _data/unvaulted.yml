@@ -26,11 +26,13 @@
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Handle
       relics:
-    - part_type: Neuroptics
+    - part_type: Handle
       relics:
-    - part_type: Systems
+    - part_type: Blade
+      relics:
+    - part_type: Blade
       relics:
 - name: Grendel Prime
   id: grendel_prime
@@ -48,22 +50,18 @@
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Blade
       relics:
-    - part_type: Neuroptics
-      relics:
-    - part_type: Systems
+    - part_type: Handle
       relics:
 - name: Zylok Prime
   id: zylok_prime
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Barrel
       relics:
-    - part_type: Neuroptics
-      relics:
-    - part_type: Systems
+    - part_type: Receiver
       relics:
 - name: Gauss Prime
   id: gauss_prime
@@ -81,22 +79,26 @@
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Barrel
       relics:
-    - part_type: Neuroptics
+    - part_type: Receiver
       relics:
-    - part_type: Systems
+    - part_type: Stock
       relics:
 - name: Akarius Prime
   id: akarius_prime
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Barrel
       relics:
-    - part_type: Neuroptics
+    - part_type: Barrel
       relics:
-    - part_type: Systems
+    - part_type: Receiver
+      relics:
+    - part_type: Receiver
+      relics:
+    - part_type: Link
       relics:
 - name: Protea Prime
   id: protea_prime
@@ -114,22 +116,22 @@
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Handle
       relics:
-    - part_type: Neuroptics
+    - part_type: Handle
       relics:
-    - part_type: Systems
+    - part_type: Blade
+      relics:
+    - part_type: Blade
       relics:
 - name: Velox Prime
   id: velox_prime
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Barrel
       relics:
-    - part_type: Neuroptics
-      relics:
-    - part_type: Systems
+    - part_type: Receiver
       relics:
 - name: Sevagoth Prime
   id: sevagoth_prime
@@ -147,20 +149,18 @@
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Barrel
       relics:
-    - part_type: Neuroptics
-      relics:
-    - part_type: Systems
+    - part_type: Receiver
       relics:
 - name: Nautilus Prime
   id: nautilus_prime
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Cerebrum
       relics:
-    - part_type: Neuroptics
+    - part_type: Carapace
       relics:
     - part_type: Systems
       relics:
@@ -180,22 +180,24 @@
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Handle
       relics:
-    - part_type: Neuroptics
+    - part_type: Handle
       relics:
-    - part_type: Systems
+    - part_type: Blade
+      relics:
+    - part_type: Blade
       relics:
 - name: Trumna Prime
   id: trumna_prime
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Barrel
       relics:
-    - part_type: Neuroptics
+    - part_type: Receiver
       relics:
-    - part_type: Systems
+    - part_type: Stock
       relics:
 - name: Lavos Prime
   id: lavos_prime
@@ -213,20 +215,22 @@
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Barrel
       relics:
-    - part_type: Neuroptics
+    - part_type: Receiver
       relics:
-    - part_type: Systems
+    - part_type: Stock
       relics:
 - name: Dual Zoren Prime
   id: dual_zoren_prime
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Handle
       relics:
-    - part_type: Neuroptics
+    - part_type: Handle
       relics:
-    - part_type: Systems
+    - part_type: Blade
+      relics:
+    - part_type: Blade
       relics:
