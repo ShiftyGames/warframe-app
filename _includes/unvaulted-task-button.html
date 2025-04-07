@@ -11,7 +11,11 @@
   <strong>{{ item.name }}</strong>
     <ul class="list-group mt-2">
     {% for part in item.parts %}
+      {% if part.id == nil -%}
       {% capture part_id %}{{ item.id }}_{{ part.part_type | downcase }}{% endcapture -%}
+      {% else -%}
+      {% capture part_id %}{{ item.id }}_{{ part.id }}{% endcapture -%}
+      {% endif -%}
       <li class="list-group-item list-group-item-action list-group-item-secondary"
           onclick="event.stopPropagation(); toggle_bs_task(this); handle_onclick(this, '{{ part_id }}');"
           id="{{ part_id }}"

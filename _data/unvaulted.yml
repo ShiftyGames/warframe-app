@@ -30,10 +30,12 @@
       relics:
     - part_type: Handle
       relics:
+      id: handle2
     - part_type: Blade
       relics:
     - part_type: Blade
       relics:
+      id: blade2
 - name: Grendel Prime
   id: grendel_prime
   parts:
@@ -120,10 +122,12 @@
       relics:
     - part_type: Handle
       relics:
+      id: handle2
     - part_type: Blade
       relics:
     - part_type: Blade
       relics:
+      id: blade2
 - name: Velox Prime
   id: velox_prime
   parts:
@@ -184,10 +188,12 @@
       relics:
     - part_type: Handle
       relics:
+      id: handle2
     - part_type: Blade
       relics:
     - part_type: Blade
       relics:
+      id: blade2
 - name: Trumna Prime
   id: trumna_prime
   parts:
@@ -230,7 +236,9 @@
       relics:
     - part_type: Handle
       relics:
+      id: handle2
     - part_type: Blade
       relics:
     - part_type: Blade
       relics:
+      id: blade2

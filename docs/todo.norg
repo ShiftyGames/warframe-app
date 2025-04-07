@@ -48,7 +48,7 @@ version: 1.1.1
 ---- (x) each part needs to be correlated with a Varzia relic
 --- ( ) src/gen_unvaulted.js -> _data/unvaulted.yml
 --- (x) src/gen_star_chart.js -> _data/star_chart.yml
---- (x) src/gen_void_trader.js -> _data/void_trader.yml
+--- ( ) src/gen_void_trader.js -> _data/void_trader.yml
 -- ( ) Github workflows
 --- (x) Build static site when main branch is updated
 --- ( ) Scheduled workflow to generate weekly tasks after the weekly reset
