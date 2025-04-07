@@ -1,110 +1,110 @@
-- id: 1743811200000seasondailykillenemieswithfreeze
-  activation: '2025-04-02T00:00:00.000Z'
-  startString: '-2d 17h 55m 40s'
-  expiry: '2025-04-05T00:00:00.000Z'
+- id: 1744070400000seasondailyliquidation
+  activation: '2025-04-05T00:00:00.000Z'
+  startString: '-2d 20h 27m 40s'
+  expiry: '2025-04-08T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with Cold Damage
-  title: Deep Freeze
+  desc: Sell any item in your Inventory for Credits
+  title: Liquidation
   reputation: 1000
   isPermanent: false
-- id: 1743897600000seasondailykillenemieswithprimary
-  activation: '2025-04-03T00:00:00.000Z'
-  startString: '-1d 17h 55m 40s'
-  expiry: '2025-04-06T00:00:00.000Z'
+- id: 1744156800000seasondailymercykill
+  activation: '2025-04-06T00:00:00.000Z'
+  startString: '-1d 20h 27m 40s'
+  expiry: '2025-04-09T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with a Primary Weapon
-  title: Mow Them Down
+  desc: Mercy Kill an Enemy
+  title: No Mercy
   reputation: 1000
   isPermanent: false
-- id: 1743984000000seasondailykillenemieswithmelee
-  activation: '2025-04-04T00:00:00.000Z'
-  startString: '-17h 55m 40s'
-  expiry: '2025-04-07T00:00:00.000Z'
+- id: 1744243200000seasondailykillenemieswithgas
+  activation: '2025-04-07T00:00:00.000Z'
+  startString: '-20h 27m 40s'
+  expiry: '2025-04-10T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with a Melee Weapon
-  title: Sword Dance
+  desc: Kill 150 Enemies with Gas Damage
+  title: Biohazard
   reputation: 1000
   isPermanent: false
-- id: 1743984000000seasonweeklypermanentcompletemissions9
-  activation: '2025-03-31T00:00:00.000Z'
-  startString: '-4d 17h 55m 40s'
-  expiry: '2025-04-07T00:00:00.000Z'
+- id: 1744588800000seasonweeklypermanentcompletemissions10
+  activation: '2025-04-07T00:00:00.000Z'
+  startString: '-20h 27m 40s'
+  expiry: '2025-04-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete IX
+  title: Mission Complete X
   reputation: 4500
   isPermanent: false
-- id: 1743984000000seasonweeklypermanentkilleximus9
-  activation: '2025-03-31T00:00:00.000Z'
-  startString: '-4d 17h 55m 40s'
-  expiry: '2025-04-07T00:00:00.000Z'
+- id: 1744588800000seasonweeklypermanentkilleximus10
+  activation: '2025-04-07T00:00:00.000Z'
+  startString: '-20h 27m 40s'
+  expiry: '2025-04-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator IX
+  title: Eximus Eliminator X
   reputation: 4500
   isPermanent: false
-- id: 1743984000000seasonweeklypermanentkillenemies9
-  activation: '2025-03-31T00:00:00.000Z'
-  startString: '-4d 17h 55m 40s'
-  expiry: '2025-04-07T00:00:00.000Z'
+- id: 1744588800000seasonweeklypermanentkillenemies10
+  activation: '2025-04-07T00:00:00.000Z'
+  startString: '-20h 27m 40s'
+  expiry: '2025-04-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot IX
+  title: Not a Warning Shot X
   reputation: 4500
   isPermanent: false
-- id: 1743984000000seasonweeklyboardingpartynodamage
-  activation: '2025-03-31T00:00:00.000Z'
-  startString: '-4d 17h 55m 40s'
-  expiry: '2025-04-07T00:00:00.000Z'
+- id: 1744588800000seasonweeklycompletesabotage
+  activation: '2025-04-07T00:00:00.000Z'
+  startString: '-20h 27m 40s'
+  expiry: '2025-04-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Clear a Railjack Boarding Party without your Warframe taking damage
-  title: Flawless
+  desc: Complete 3 Sabotage missions
+  title: Saboteur
   reputation: 4500
   isPermanent: false
-- id: 1743984000000seasonweeklycollector
-  activation: '2025-03-31T00:00:00.000Z'
-  startString: '-4d 17h 55m 40s'
-  expiry: '2025-04-07T00:00:00.000Z'
+- id: 1744588800000seasonweeklyopenlockers
+  activation: '2025-04-07T00:00:00.000Z'
+  startString: '-20h 27m 40s'
+  expiry: '2025-04-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: '[PH] Season Weekly Collector Desc'
-  title: Season Weekly Collector
+  desc: '[PH] Season Weekly Open Lockers Desc'
+  title: Season Weekly Open Lockers
   reputation: 4500
   isPermanent: false
-- id: 1743984000000seasonweeklyhardfriendsdefense
-  activation: '2025-03-31T00:00:00.000Z'
-  startString: '-4d 17h 55m 40s'
-  expiry: '2025-04-07T00:00:00.000Z'
+- id: 1744588800000seasonweeklyhardkillenemiessteelpath
+  activation: '2025-04-07T00:00:00.000Z'
+  startString: '-20h 27m 40s'
+  expiry: '2025-04-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete a Defense mission reaching at least Wave 20
-  title: Defense
+  desc: Kill 1,000 Enemies on The Steel Path.
+  title: Cold Steel
   reputation: 7000
   isPermanent: false
-- id: 1743984000000seasonweeklyhardkillenemies
-  activation: '2025-03-31T00:00:00.000Z'
-  startString: '-4d 17h 55m 40s'
-  expiry: '2025-04-07T00:00:00.000Z'
+- id: 1744588800000seasonweeklyhardcollectuniqueresources
+  activation: '2025-04-07T00:00:00.000Z'
+  startString: '-20h 27m 40s'
+  expiry: '2025-04-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill 1,500 Enemies
-  title: Kill Shot
+  desc: Collect 20 different types of resources.
+  title: Resource Scavenger
   reputation: 7000
   isPermanent: false

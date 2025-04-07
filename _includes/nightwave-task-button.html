@@ -6,22 +6,22 @@
        oncontextmenu="toggleSubtasks(event, this)"
 >
   <div class="d-flex w-100 justify-content-between">
-      <h5 class="mb-1">{{ item.title }}</h5>
-      {% if item.isDaily -%}
-      <small>Daily</small>
-      {% else -%}
-      <small>Weekly</small>
-      {% endif -%}
+    <h5 class="mb-1">{{ item.title | upcase }}</h5>
+    {% if item.isDaily -%}
+    <small>Daily</small>
+    {% else -%}
+    <small>Weekly</small>
+    {% endif -%}
   </div>
   <p class="mb-1">{{ item.desc }}</p>
   <div class="d-flex w-100 justify-content-between">
-      {% if item.isElite -%}
-      <small>Elite</small>
-      {% endif -%}
-      {% if item.isPermanent -%}
-      <small>Permanent</small>
-      {% endif -%}
-      <small>+{{ item.reputation }}</small>
+    <small>+{{ item.reputation }}</small>
+    {% if item.isElite -%}
+    <small>Elite</small>
+    {% endif -%}
+    {% if item.isPermanent -%}
+    <small>Permanent</small>
+    {% endif -%}
   </div>
 </div>
 <script type="module">
