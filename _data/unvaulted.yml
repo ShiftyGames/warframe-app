@@ -15,11 +15,11 @@
   parts:
     - part_type: Blueprint
       relics:
-    - part_type: Chassis
+    - part_type: Barrel
       relics:
-    - part_type: Neuroptics
+    - part_type: Receiver
       relics:
-    - part_type: Systems
+    - part_type: Stock
       relics:
 - name: Gunsen Prime
   id: gunsen_prime
