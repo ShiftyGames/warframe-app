@@ -1,0 +1,127 @@
+---
+- name: Ostron
+  ranks:
+  - name: Offworlder
+    level: 1
+    cost:
+      Credits: 10_000
+      Standing: 5_000
+      Nistlepod: 25
+      Iradite: 25
+      Grokdrul: 25
+  - name: Visitor
+    level: 2
+    cost:
+      Credits: 25_000
+      Standing: 22_000
+      Tear Azurite: 10
+      Pyrol: 40
+      Fish Scales: 60
+  - name: Trusted
+    level: 3
+    cost:
+      Credits: 50_000
+      Standing: 44_000
+      Cetus Wisp: 1
+      Maprico: 5
+  - name: Surah
+    level: 4
+    cost:
+      Credits: 100_000
+      Standing: 70_000
+      Maprico: 10
+      Fersteel Alloy: 40
+      Murkray Liver: 5
+  - name: Kin
+    level: 5
+    cost:
+      Credits: 200_000
+      Standing: 99_000
+      Nyth: 1
+      Sentrium: 1
+      Norg Brain: 1
+      Cuthol Tendrils: 1
+- name: Quills
+  ranks:
+  - name: Offworlder
+    level: 1
+    cost:
+      Credits: 10_000
+      Standing: 5_000
+      Nistlepod: 25
+      Iradite: 25
+      Grokdrul: 25
+  - name: Visitor
+    level: 2
+    cost:
+      Credits: 25_000
+      Standing: 22_000
+      Tear Azurite: 10
+      Pyrol: 40
+      Fish Scales: 60
+  - name: Trusted
+    level: 3
+    cost:
+      Credits: 50_000
+      Standing: 44_000
+      Cetus Wisp: 1
+      Maprico: 5
+  - name: Surah
+    level: 4
+    cost:
+      Credits: 100_000
+      Standing: 70_000
+      Maprico: 10
+      Fersteel Alloy: 40
+      Murkray Liver: 5
+  - name: Kin
+    level: 5
+    cost:
+      Credits: 200_000
+      Standing: 99_000
+      Nyth: 1
+      Sentrium: 1
+      Norg Brain: 1
+      Cuthol Tendrils: 1
+- name: Solaris United
+  ranks:
+  - name: Offworlder
+    level: 1
+    cost:
+      Credits: 10_000
+      Standing: 5_000
+      Nistlepod: 25
+      Iradite: 25
+      Grokdrul: 25
+  - name: Visitor
+    level: 2
+    cost:
+      Credits: 25_000
+      Standing: 22_000
+      Tear Azurite: 10
+      Pyrol: 40
+      Fish Scales: 60
+  - name: Trusted
+    level: 3
+    cost:
+      Credits: 50_000
+      Standing: 44_000
+      Cetus Wisp: 1
+      Maprico: 5
+  - name: Surah
+    level: 4
+    cost:
+      Credits: 100_000
+      Standing: 70_000
+      Maprico: 10
+      Fersteel Alloy: 40
+      Murkray Liver: 5
+  - name: Kin
+    level: 5
+    cost:
+      Credits: 200_000
+      Standing: 99_000
+      Nyth: 1
+      Sentrium: 1
+      Norg Brain: 1
+      Cuthol Tendrils: 1

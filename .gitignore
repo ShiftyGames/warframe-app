@@ -1,6 +1,7 @@
 .cache/
 .ropeproject/
 venv/
+.nvim.lua
 
 # Bundler cache
 .bundle
