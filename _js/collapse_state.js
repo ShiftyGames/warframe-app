@@ -1,16 +1,16 @@
 $(document).ready(function () {
     $('.collapse').on('shown.bs.collapse', function () {
-        localStorage.setItem('coll_' + this.id, true);
+        localStorage.setItem('coll_show_' + this.id, true);
     });
 
     $('.collapse').on('hidden.bs.collapse', function () {
-        localStorage.removeItem('coll_' + this.id);
+        localStorage.setItem('coll_show_' + this.id, false);
     });
 
     $('.collapse').each(function () {
-        if (localStorage.getItem('coll_' + this.id) === 'true') {
+        if (localStorage.getItem('coll_show_' + this.id) === 'true') {
             $(this).collapse('show');
-        } else {
+        } else if (localStorage.getItem('coll_show_' + this.id) === 'false') {
             $(this).collapse('hide');
         }
     });
