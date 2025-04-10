@@ -23,7 +23,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://ShiftyGames.github.io"
 
 github:
   username: ShiftyGames # change to your GitHub username
@@ -38,7 +38,7 @@ social:
   email: shiftygames.dev@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://github.com/username # change to your GitHub homepage
+    - https://github.com/ShiftyGames # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://twitter.com/username # change to your Twitter homepage
     # - https://www.facebook.com/username
@@ -138,7 +138,7 @@ assets:
     env: # [development | production]
 
 pwa:
-  enabled: true # The option for PWA feature (installable)
+  enabled: false # The option for PWA feature (installable)
   cache:
     enabled: true # The option for PWA offline cache
     # Paths defined here will be excluded from the PWA cache.
