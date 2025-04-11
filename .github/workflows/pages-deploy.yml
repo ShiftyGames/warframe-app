@@ -6,12 +6,19 @@ on:
     branches:
     - main
     paths-ignore:
+    - .editorconfig
+    - .gitattributes
     - .gitignore
+    - ".github/**"
+    - .prettierrc
+    - .yamlfmt.yml
+    - "docs/**"
     - README.md
     - LICENSE
   workflow_run:
     workflows:
       - "Data-gen Prime Resurgence"
+      - "Data Generator"
     types:
       - completed
 
