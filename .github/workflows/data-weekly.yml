@@ -1,0 +1,24 @@
+---
+name: Data-gen Weekly
+on:
+  workflow_dispatch:
+  schedule:
+  # At 00:03 UTC on Monday
+  - cron: '3 0 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  data-gen:
+    uses: ./.github/workflows/data-generator.yml
+    with:
+      data_script: |-
+        node src/gen_weekly.js
+        node src/gen_nightwave.js
+      data_files: >-
+        _data/weekly.yml
+        _data/nightwave.yml
+      commit_message: "data-gen: weekly"
+    secrets: inherit
+...

@@ -17,8 +17,9 @@ on:
     - LICENSE
   workflow_run:
     workflows:
+      - "Data-gen Weekly"
       - "Data-gen Prime Resurgence"
-      - "Data Generator"
+      - "Data-gen Void Trader"
     types:
       - completed
 

@@ -5,6 +5,7 @@ on:
   schedule:
   # At 15:03 UTC on Fridays
   - cron: '3 15 * * 5'
+  - cron: '3 15 * * 0'
 
 permissions:
   contents: write
@@ -19,5 +20,4 @@ jobs:
         _data/void_trader.yml
       commit_message: "data-gen: void_trader"
     secrets: inherit
-
 ...
