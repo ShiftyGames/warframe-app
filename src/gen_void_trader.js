@@ -12,14 +12,20 @@ var data_void_trader = {
     inventory: [],
 };
 for (let offer of trader['inventory']) {
-    const data_offer = {
-        // uniqueName: void_trader.uniqueName,
-        id: trader.id + "_" + offer.item.toLowerCase().split(' ').join('_'),
-        item: offer.item,
-        ducats: offer.ducats,
-        credits: offer.credits,
-    };
-    data_void_trader.inventory.push(data_offer);
+    if (
+        offer.uniqueName.startsWith('/Lotus/StoreItems/Weapons') ||
+        offer.uniqueName.startsWith('/Lotus/StoreItems/Types/Sentinels')
+    ) {
+        const data_offer = {
+            id: trader.id + '_' + offer.item.toLowerCase().split(' ').join('_'),
+            item: offer.item,
+            ducats: offer.ducats,
+            credits: offer.credits,
+        };
+        data_void_trader.inventory.push(data_offer);
+    } else {
+        console.log('skipping:', offer.uniqueName);
+    }
 }
 
 import yaml from 'js-yaml';
