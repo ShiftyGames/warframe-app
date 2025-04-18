@@ -2,4 +2,16 @@
 id: 5d1e07a0a38e4a4fdd7cefca
 expiry: '2025-04-20T13:00:00.000Z'
 location: Strata Relay (Earth)
-inventory: []
+inventory:
+- id: 5d1e07a0a38e4a4fdd7cefca_quanta_vandal
+  item: Quanta Vandal
+  ducats: 450
+  credits: 300000
+- id: 5d1e07a0a38e4a4fdd7cefca_prisma_angstrum
+  item: Prisma Angstrum
+  ducats: 475
+  credits: 210000
+- id: 5d1e07a0a38e4a4fdd7cefca_glaxion_vandal
+  item: Glaxion Vandal
+  ducats: 475
+  credits: 250000
