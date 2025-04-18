@@ -3,43 +3,43 @@ id: 5d1e07a0a38e4a4fdd7cefca
 expiry: '2025-04-20T13:00:00.000Z'
 location: Strata Relay (Earth)
 inventory:
-- id: 5d1e07a0a38e4a4fdd7cefca_primed_stabilizer
+- id: primed_stabilizer
   item: Primed Stabilizer
   ducats: 300
   credits: 220000
-- id: 5d1e07a0a38e4a4fdd7cefca_primed_steady_hands
+- id: primed_steady_hands
   item: Primed Steady Hands
   ducats: 300
   credits: 220000
-- id: 5d1e07a0a38e4a4fdd7cefca_buzz_kill
+- id: buzz_kill
   item: Buzz Kill
   ducats: 375
   credits: 150000
-- id: 5d1e07a0a38e4a4fdd7cefca_primed_firestorm
+- id: primed_firestorm
   item: Primed Firestorm
   ducats: 350
   credits: 175000
-- id: 5d1e07a0a38e4a4fdd7cefca_ammo_stock
+- id: ammo_stock
   item: Ammo Stock
   ducats: 280
   credits: 200000
-- id: 5d1e07a0a38e4a4fdd7cefca_primed_bane_of_corpus
+- id: primed_bane_of_corpus
   item: Primed Bane of Corpus
   ducats: 400
   credits: 140000
-- id: 5d1e07a0a38e4a4fdd7cefca_quanta_vandal
+- id: quanta_vandal
   item: Quanta Vandal
   ducats: 450
   credits: 300000
-- id: 5d1e07a0a38e4a4fdd7cefca_prisma_angstrum
+- id: prisma_angstrum
   item: Prisma Angstrum
   ducats: 475
   credits: 210000
-- id: 5d1e07a0a38e4a4fdd7cefca_glaxion_vandal
+- id: glaxion_vandal
   item: Glaxion Vandal
   ducats: 475
   credits: 250000
-- id: 5d1e07a0a38e4a4fdd7cefca_primed_archwing_damage_on_reload_mod
+- id: primed_archwing_damage_on_reload_mod
   item: Primed Archwing Damage On Reload Mod
   ducats: 375
   credits: 300000

@@ -18,7 +18,7 @@ for (let offer of trader['inventory']) {
         offer.uniqueName.startsWith('/Lotus/StoreItems/Upgrades/Mods')
     ) {
         const data_offer = {
-            id: trader.id + '_' + offer.item.toLowerCase().split(' ').join('_'),
+            id: offer.item.toLowerCase().split(' ').join('_'),
             item: offer.item,
             ducats: offer.ducats,
             credits: offer.credits,
