@@ -14,7 +14,8 @@ var data_void_trader = {
 for (let offer of trader['inventory']) {
     if (
         offer.uniqueName.startsWith('/Lotus/StoreItems/Weapons') ||
-        offer.uniqueName.startsWith('/Lotus/StoreItems/Types/Sentinels')
+        offer.uniqueName.startsWith('/Lotus/StoreItems/Types/Sentinels') ||
+        offer.uniqueName.startsWith('/Lotus/StoreItems/Upgrades/Mods')
     ) {
         const data_offer = {
             id: trader.id + '_' + offer.item.toLowerCase().split(' ').join('_'),

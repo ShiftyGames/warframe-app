@@ -35,13 +35,30 @@ version: 1.1.1
     - (x) implement _includes/prime-resurgence-task-button.html
 *** (x) Not Yet Vaulted page
     - (x) implement _includes/unvaulted-task-button.html
+    - ( ) add Warframes section
+    - ( ) add Weapons section
+    - ( ) add Sentinels section
+    - ( ) alphabetize main tasks
 *** ( ) Star Chart page
     - (x) implement _includes/star-chart-task-button.html
     - ( ) format for drops of warframes/weapons/mods unique to each planet
 *** (x) Baro Ki'Teer page
     - (x) implement _includes/void-trader-task-button.html
+    - ( ) implement a ducat counter
+    - ( ) add Warframes section
+    - ( ) add Weapons section
+    - ( ) add Companions section
+    - ( ) add Vehicles section
+    - ( ) alphabetize main tasks
 *** (x) Syndicates page
     - (x) implement _includes/syndicates-task-button.html
+*** ( ) Codex page
+    - ( ) add Warframes section
+    - ( ) add Weapons section
+    - ( ) add Companions section
+    - ( ) add Vehicles section
+    - ( ) implement _includes/codex-task-button.html
+*** ( ) Codex page
 ** ( ) Data generation
 *** ( ) Generators
     - ( ) src/gen_weekly.js -> _data/weekly.yml
@@ -53,6 +70,7 @@ version: 1.1.1
     - ( ) src/gen_unvaulted.js -> _data/unvaulted.yml
     - (x) src/gen_star_chart.js -> _data/star_chart.yml
     - (x) src/gen_void_trader.js -> _data/void_trader.yml
+    -- ( ) add mods to the filter
     - (?) src/gen_syndicates.js -> _data/syndicates.yml
 *** ( ) Github workflows
     - (x) Build static site when main branch is updated
