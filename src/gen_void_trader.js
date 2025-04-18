@@ -11,15 +11,26 @@ var data_void_trader = {
     location: trader.location,
     inventory: [],
 };
+
+const weapon_prefix = '/Lotus/StoreItems/Weapons';
+const companion_prefix = '/Lotus/StoreItems/Types/Sentinels';
+const mod_prefix = '/Lotus/StoreItems/Upgrades/Mods';
+const vehicle_prefix = '/Lotus/StoreItems/???';
+
 for (let offer of trader['inventory']) {
-    if (
-        offer.uniqueName.startsWith('/Lotus/StoreItems/Weapons') ||
-        offer.uniqueName.startsWith('/Lotus/StoreItems/Types/Sentinels') ||
-        offer.uniqueName.startsWith('/Lotus/StoreItems/Upgrades/Mods')
-    ) {
+    var offer_type = '';
+    if (offer.uniqueName.startsWith(weapon_prefix)) {
+        offer_type = 'weapon';
+    } else if (offer.uniqueName.startsWith(companion_prefix)) {
+        offer_type = 'companion';
+    } else if (offer.uniqueName.startsWith(mod_prefix)) {
+        offer_type = 'mod';
+    }
+    if (offer_type != '') {
         const data_offer = {
-            id: offer.item.toLowerCase().split(' ').join('_'),
             item: offer.item,
+            id: offer.item.toLowerCase().split(' ').join('_'),
+            type: offer_type,
             ducats: offer.ducats,
             credits: offer.credits,
         };

@@ -45,20 +45,20 @@ version: 1.1.1
 *** (x) Baro Ki'Teer page
     - (x) implement _includes/void-trader-task-button.html
     - ( ) implement a ducat counter
-    - ( ) add Warframes section
-    - ( ) add Weapons section
-    - ( ) add Companions section
+    - (x) add Mods section
+    - (x) add Weapons section
+    - (x) add Companions section
     - ( ) add Vehicles section
     - ( ) alphabetize main tasks
 *** (x) Syndicates page
     - (x) implement _includes/syndicates-task-button.html
+    - ( ) add section for each syndicate
 *** ( ) Codex page
     - ( ) add Warframes section
     - ( ) add Weapons section
     - ( ) add Companions section
     - ( ) add Vehicles section
     - ( ) implement _includes/codex-task-button.html
-*** ( ) Codex page
 ** ( ) Data generation
 *** ( ) Generators
     - ( ) src/gen_weekly.js -> _data/weekly.yml

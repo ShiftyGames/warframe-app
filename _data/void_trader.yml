@@ -3,43 +3,53 @@ id: 5d1e07a0a38e4a4fdd7cefca
 expiry: '2025-04-20T13:00:00.000Z'
 location: Strata Relay (Earth)
 inventory:
-- id: primed_stabilizer
-  item: Primed Stabilizer
+- item: Primed Stabilizer
+  id: primed_stabilizer
+  type: mod
   ducats: 300
   credits: 220000
-- id: primed_steady_hands
-  item: Primed Steady Hands
+- item: Primed Steady Hands
+  id: primed_steady_hands
+  type: mod
   ducats: 300
   credits: 220000
-- id: buzz_kill
-  item: Buzz Kill
+- item: Buzz Kill
+  id: buzz_kill
+  type: mod
   ducats: 375
   credits: 150000
-- id: primed_firestorm
-  item: Primed Firestorm
+- item: Primed Firestorm
+  id: primed_firestorm
+  type: mod
   ducats: 350
   credits: 175000
-- id: ammo_stock
-  item: Ammo Stock
+- item: Ammo Stock
+  id: ammo_stock
+  type: mod
   ducats: 280
   credits: 200000
-- id: primed_bane_of_corpus
-  item: Primed Bane of Corpus
+- item: Primed Bane of Corpus
+  id: primed_bane_of_corpus
+  type: mod
   ducats: 400
   credits: 140000
-- id: quanta_vandal
-  item: Quanta Vandal
+- item: Quanta Vandal
+  id: quanta_vandal
+  type: weapon
   ducats: 450
   credits: 300000
-- id: prisma_angstrum
-  item: Prisma Angstrum
+- item: Prisma Angstrum
+  id: prisma_angstrum
+  type: weapon
   ducats: 475
   credits: 210000
-- id: glaxion_vandal
-  item: Glaxion Vandal
+- item: Glaxion Vandal
+  id: glaxion_vandal
+  type: weapon
   ducats: 475
   credits: 250000
-- id: primed_archwing_damage_on_reload_mod
-  item: Primed Archwing Damage On Reload Mod
+- item: Primed Archwing Damage On Reload Mod
+  id: primed_archwing_damage_on_reload_mod
+  type: mod
   ducats: 375
   credits: 300000
