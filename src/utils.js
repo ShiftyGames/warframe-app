@@ -25,3 +25,21 @@ const m_get = (url, opts) => {
 };
 
 export const get = m_get;
+
+export function filter_out(obj, keys) {
+    return Object.keys(obj).reduce((acc, key) => {
+        if (!keys.includes(key)) {
+            acc[key] = obj[key];
+        }
+        return acc;
+    }, {});
+}
+
+export function filter(obj, keys) {
+    return Object.keys(obj).reduce((acc, key) => {
+        if (keys.includes(key)) {
+            acc[key] = obj[key];
+        }
+        return acc;
+    }, {});
+}

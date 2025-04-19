@@ -14,7 +14,7 @@ order: 11
        type="button"
        aria-expanded="true"
        aria-controls="collapse_{{ offer_type }}">
-        {{ offer_type }}s
+        {{ offer_type | capitalize }}s
     </button>
   </div>
   <div class="container mt-5 collapse show" id="collapse_{{ offer_type }}">

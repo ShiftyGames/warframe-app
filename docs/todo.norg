@@ -54,11 +54,15 @@ version: 1.1.1
     - (x) implement _includes/syndicates-task-button.html
     - ( ) add section for each syndicate
 *** ( ) Codex page
-    - ( ) add Warframes section
-    - ( ) add Weapons section
+    - (x) add Warframes section
+    - (x) add Weapons section
     - ( ) add Companions section
-    - ( ) add Vehicles section
-    - ( ) implement _includes/codex-task-button.html
+    - (x) add Vehicles section
+    - (x) implement _includes/codex-task-button.html
+    - ( ) implement _includes/codex-warframe-task-button.html
+    - ( ) implement _includes/codex-weapon-task-button.html
+    - ( ) implement _includes/codex-companion-task-button.html
+    - ( ) implement _includes/codex-vehicle-task-button.html
 ** ( ) Data generation
 *** ( ) Generators
     - ( ) src/gen_weekly.js -> _data/weekly.yml
