@@ -1,110 +1,112 @@
-- id: 1744675200000seasondailykillenemieswithradiation
-  activation: '2025-04-12T00:00:00.000Z'
-  startString: '-2d 3h 34m 50s'
-  expiry: '2025-04-15T00:00:00.000Z'
+- id: 1745280000000seasondailyvisitfeatureddojo
+  activation: '2025-04-19T00:00:00.000Z'
+  startString: '-2d 2h 6m 40s'
+  expiry: '2025-04-22T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with a Radiation Damage
-  title: Reactor
+  desc: Visit a Featured Dojo
+  title: Just Visiting
   reputation: 1000
   isPermanent: false
-- id: 1744761600000seasondailycompletemissionprimary
-  activation: '2025-04-13T00:00:00.000Z'
-  startString: '-1d 3h 34m 50s'
-  expiry: '2025-04-16T00:00:00.000Z'
+- id: 1745366400000seasondailybulletjump
+  activation: '2025-04-20T00:00:00.000Z'
+  startString: '-1d 2h 6m 40s'
+  expiry: '2025-04-23T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Complete a Mission with only a Primary Weapon equipped
-  title: Hands Full
+  desc: Bullet Jump 150 times
+  title: Trampoline
   reputation: 1000
   isPermanent: false
-- id: 1744848000000seasondailyplacemarker
-  activation: '2025-04-14T00:00:00.000Z'
-  startString: '-3h 34m 50s'
-  expiry: '2025-04-17T00:00:00.000Z'
+- id: 1745452800000seasondailysuspendfiveenemies
+  activation: '2025-04-21T00:00:00.000Z'
+  startString: '-2h 6m 40s'
+  expiry: '2025-04-24T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Mark 5 Mods or Resources
-  title: Communicator
+  desc: Suspend 5 or more enemies in the air at once with a Heavy Slam Melee Attack
+  title: Deep Impact
   reputation: 1000
   isPermanent: false
-- id: 1745193600000seasonweeklypermanentcompletemissions11
-  activation: '2025-04-14T00:00:00.000Z'
-  startString: '-3h 34m 50s'
-  expiry: '2025-04-21T00:00:00.000Z'
+- id: 1745798400000seasonweeklypermanentcompletemissions12
+  activation: '2025-04-21T00:00:00.000Z'
+  startString: '-2h 6m 40s'
+  expiry: '2025-04-28T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XI
+  title: Mission Complete XII
   reputation: 4500
   isPermanent: false
-- id: 1745193600000seasonweeklypermanentkilleximus11
-  activation: '2025-04-14T00:00:00.000Z'
-  startString: '-3h 34m 50s'
-  expiry: '2025-04-21T00:00:00.000Z'
+- id: 1745798400000seasonweeklypermanentkilleximus12
+  activation: '2025-04-21T00:00:00.000Z'
+  startString: '-2h 6m 40s'
+  expiry: '2025-04-28T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XI
+  title: Eximus Eliminator XII
   reputation: 4500
   isPermanent: false
-- id: 1745193600000seasonweeklypermanentkillenemies11
-  activation: '2025-04-14T00:00:00.000Z'
-  startString: '-3h 34m 50s'
-  expiry: '2025-04-21T00:00:00.000Z'
+- id: 1745798400000seasonweeklypermanentkillenemies12
+  activation: '2025-04-21T00:00:00.000Z'
+  startString: '-2h 6m 40s'
+  expiry: '2025-04-28T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XI
+  title: Not a Warning Shot XII
   reputation: 4500
   isPermanent: false
-- id: 1745193600000seasonweeklykillenemiesinmech
-  activation: '2025-04-14T00:00:00.000Z'
-  startString: '-3h 34m 50s'
-  expiry: '2025-04-21T00:00:00.000Z'
+- id: 1745798400000seasonweeklysimarisscan
+  activation: '2025-04-21T00:00:00.000Z'
+  startString: '-2h 6m 40s'
+  expiry: '2025-04-28T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Kill 100 enemies with a Mech.
-  title: Necralizer
+  desc: Complete 3 Scans for Cephalon Simaris
+  title: Sanctuary Researcher
   reputation: 4500
   isPermanent: false
-- id: 1745193600000seasonweeklyminerarevenusresources
-  activation: '2025-04-14T00:00:00.000Z'
-  startString: '-3h 34m 50s'
-  expiry: '2025-04-21T00:00:00.000Z'
+- id: 1745798400000seasonweeklycompletetreasures
+  activation: '2025-04-21T00:00:00.000Z'
+  startString: '-2h 6m 40s'
+  expiry: '2025-04-28T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Mine 3 Rare Gems in the Orb Vallis
-  title: Venus Miner
+  desc: Fully socket 3 Ayatan Sculptures
+  title: Animator
   reputation: 4500
   isPermanent: false
-- id: 1745193600000seasonweeklyhardcompletesteelpathmissions
-  activation: '2025-04-14T00:00:00.000Z'
-  startString: '-3h 34m 50s'
-  expiry: '2025-04-21T00:00:00.000Z'
+- id: 1745798400000seasonweeklyhardindexwinstreak
+  activation: '2025-04-21T00:00:00.000Z'
+  startString: '-2h 6m 40s'
+  expiry: '2025-04-28T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete 5 Steel Path Missions.
-  title: The Path Less Travelled
+  desc: >-
+    Win 3 wagers in a row without letting the enemy score in one match of The
+    Index.
+  title: Day Trader
   reputation: 7000
   isPermanent: false
-- id: 1745193600000seasonweeklyhardfriendssurvival
-  activation: '2025-04-14T00:00:00.000Z'
-  startString: '-3h 34m 50s'
-  expiry: '2025-04-21T00:00:00.000Z'
+- id: 1745798400000seasonweeklyhardelitebeastslayer
+  activation: '2025-04-21T00:00:00.000Z'
+  startString: '-2h 6m 40s'
+  expiry: '2025-04-28T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete a Survival mission reaching at least 20 minutes
-  title: Survival
+  desc: '[PH] Season Weekly Hard Elite Beast Slayer Desc'
+  title: Season Weekly Hard Elite Beast Slayer
   reputation: 7000
   isPermanent: false
