@@ -1,112 +1,110 @@
-- id: 1745280000000seasondailyvisitfeatureddojo
-  activation: '2025-04-19T00:00:00.000Z'
-  startString: '-2d 2h 6m 40s'
-  expiry: '2025-04-22T00:00:00.000Z'
+- id: 1745884800000seasondailykillenemieswhileonkdrive
+  activation: '2025-04-26T00:00:00.000Z'
+  startString: '-2d 2h 6m 20s'
+  expiry: '2025-04-29T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Visit a Featured Dojo
-  title: Just Visiting
+  desc: Kill 20 enemies while riding a K-Drive, Kaithe, Velocipod or Merulina.
+  title: Thrill Rider
   reputation: 1000
   isPermanent: false
-- id: 1745366400000seasondailybulletjump
-  activation: '2025-04-20T00:00:00.000Z'
-  startString: '-1d 2h 6m 40s'
-  expiry: '2025-04-23T00:00:00.000Z'
+- id: 1745971200000seasondailyslidekills
+  activation: '2025-04-27T00:00:00.000Z'
+  startString: '-1d 2h 6m 20s'
+  expiry: '2025-04-30T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Bullet Jump 150 times
-  title: Trampoline
+  desc: Kill 10 Enemies while Sliding
+  title: Accelerator
   reputation: 1000
   isPermanent: false
-- id: 1745452800000seasondailysuspendfiveenemies
-  activation: '2025-04-21T00:00:00.000Z'
-  startString: '-2h 6m 40s'
-  expiry: '2025-04-24T00:00:00.000Z'
+- id: 1746057600000seasondailythepersonaltouch
+  activation: '2025-04-28T00:00:00.000Z'
+  startString: '-2h 6m 20s'
+  expiry: '2025-05-01T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Suspend 5 or more enemies in the air at once with a Heavy Slam Melee Attack
-  title: Deep Impact
+  desc: Place 1 decoration in your Orbiter
+  title: The Personal Touch
   reputation: 1000
   isPermanent: false
-- id: 1745798400000seasonweeklypermanentcompletemissions12
-  activation: '2025-04-21T00:00:00.000Z'
-  startString: '-2h 6m 40s'
-  expiry: '2025-04-28T00:00:00.000Z'
+- id: 1746403200000seasonweeklypermanentcompletemissions13
+  activation: '2025-04-28T00:00:00.000Z'
+  startString: '-2h 6m 20s'
+  expiry: '2025-05-05T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XII
+  title: Mission Complete XIII
   reputation: 4500
   isPermanent: false
-- id: 1745798400000seasonweeklypermanentkilleximus12
-  activation: '2025-04-21T00:00:00.000Z'
-  startString: '-2h 6m 40s'
-  expiry: '2025-04-28T00:00:00.000Z'
+- id: 1746403200000seasonweeklypermanentkilleximus13
+  activation: '2025-04-28T00:00:00.000Z'
+  startString: '-2h 6m 20s'
+  expiry: '2025-05-05T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XII
+  title: Eximus Eliminator XIII
   reputation: 4500
   isPermanent: false
-- id: 1745798400000seasonweeklypermanentkillenemies12
-  activation: '2025-04-21T00:00:00.000Z'
-  startString: '-2h 6m 40s'
-  expiry: '2025-04-28T00:00:00.000Z'
+- id: 1746403200000seasonweeklypermanentkillenemies13
+  activation: '2025-04-28T00:00:00.000Z'
+  startString: '-2h 6m 20s'
+  expiry: '2025-05-05T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XII
+  title: Not a Warning Shot XIII
   reputation: 4500
   isPermanent: false
-- id: 1745798400000seasonweeklysimarisscan
-  activation: '2025-04-21T00:00:00.000Z'
-  startString: '-2h 6m 40s'
-  expiry: '2025-04-28T00:00:00.000Z'
+- id: 1746403200000seasonweeklycompleteassassination
+  activation: '2025-04-28T00:00:00.000Z'
+  startString: '-2h 6m 20s'
+  expiry: '2025-05-05T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Scans for Cephalon Simaris
-  title: Sanctuary Researcher
+  desc: Complete 3 Assassination missions
+  title: Assassin
   reputation: 4500
   isPermanent: false
-- id: 1745798400000seasonweeklycompletetreasures
-  activation: '2025-04-21T00:00:00.000Z'
-  startString: '-2h 6m 40s'
-  expiry: '2025-04-28T00:00:00.000Z'
+- id: 1746403200000seasonweeklyplainsbounties
+  activation: '2025-04-28T00:00:00.000Z'
+  startString: '-2h 6m 20s'
+  expiry: '2025-05-05T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Fully socket 3 Ayatan Sculptures
-  title: Animator
+  desc: Complete 3 different Bounties in the Plains of Eidolon
+  title: Earth Bounty Hunter
   reputation: 4500
   isPermanent: false
-- id: 1745798400000seasonweeklyhardindexwinstreak
-  activation: '2025-04-21T00:00:00.000Z'
-  startString: '-2h 6m 40s'
-  expiry: '2025-04-28T00:00:00.000Z'
+- id: 1746403200000seasonweeklyhardthemanymadewhole
+  activation: '2025-04-28T00:00:00.000Z'
+  startString: '-2h 6m 20s'
+  expiry: '2025-05-05T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: >-
-    Win 3 wagers in a row without letting the enemy score in one match of The
-    Index.
-  title: Day Trader
+  desc: Convert 10 Riven Slivers into a Riven Mod
+  title: The Many Made Whole
   reputation: 7000
   isPermanent: false
-- id: 1745798400000seasonweeklyhardelitebeastslayer
-  activation: '2025-04-21T00:00:00.000Z'
-  startString: '-2h 6m 40s'
-  expiry: '2025-04-28T00:00:00.000Z'
+- id: 1746403200000seasonweeklyhardceremonialevolution
+  activation: '2025-04-28T00:00:00.000Z'
+  startString: '-2h 6m 20s'
+  expiry: '2025-05-05T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: '[PH] Season Weekly Hard Elite Beast Slayer Desc'
-  title: Season Weekly Hard Elite Beast Slayer
+  desc: '[PH] Season Weekly Hard Ceremonial Evolution Desc'
+  title: Season Weekly Hard Ceremonial Evolution
   reputation: 7000
   isPermanent: false
