@@ -16,8 +16,15 @@ const varzia_relics = await extract_relics_from_varzia_info(varzia_info);
 var data_prime_resurgence = [];
 for (let item of varzia_wfitems) {
     const data_parts = item.parts.map((p) => {
+        let part_id = item.id + '_' + p.name.toLowerCase()
+        console.log(p);
+        if (p.count > 1 && p.id > 0) {
+            part_id += (p.id + 1);
+            console.log('new part_id:', part_id);
+        }
         return {
-            part_type: p,
+            part_type: p.name,
+            id: part_id,
             relic: (function (part_name) {
                 for (let relic of varzia_relics) {
                     for (let reward of relic.rewards) {
@@ -37,7 +44,7 @@ for (let item of varzia_wfitems) {
                         }
                     }
                 }
-            })(item.name + ' ' + p),
+            })(item.name + ' ' + p.name),
         };
     });
 

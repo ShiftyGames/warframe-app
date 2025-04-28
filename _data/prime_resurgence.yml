@@ -3,21 +3,25 @@
   id: banshee_prime
   parts:
     - part_type: Blueprint
+      id: banshee_prime_blueprint
       relic:
         name: Meso E5
         id: todo
         reward_chance: 11
     - part_type: Chassis
+      id: banshee_prime_chassis
       relic:
         name: Neo B6
         id: todo
         reward_chance: 2
     - part_type: Neuroptics
+      id: banshee_prime_neuroptics
       relic:
         name: Lith M7
         id: todo
         reward_chance: 25.33
     - part_type: Systems
+      id: banshee_prime_systems
       relic:
         name: Lith K5
         id: todo
@@ -32,16 +36,19 @@
   id: euphona_prime
   parts:
     - part_type: Barrel
+      id: euphona_prime_barrel
       relic:
         name: Lith M7
         id: todo
         reward_chance: 11
     - part_type: Blueprint
+      id: euphona_prime_blueprint
       relic:
         name: Neo B6
         id: todo
         reward_chance: 25.33
     - part_type: Receiver
+      id: euphona_prime_receiver
       relic:
         name: Meso E5
         id: todo
@@ -56,21 +63,25 @@
   id: mirage_prime
   parts:
     - part_type: Blueprint
+      id: mirage_prime_blueprint
       relic:
         name: Lith M7
         id: todo
         reward_chance: 2
     - part_type: Chassis
+      id: mirage_prime_chassis
       relic:
         name: Lith K5
         id: todo
         reward_chance: 25.33
     - part_type: Neuroptics
+      id: mirage_prime_neuroptics
       relic:
         name: Meso E5
         id: todo
         reward_chance: 25.33
     - part_type: Systems
+      id: mirage_prime_systems
       relic:
         name: Axi H5
         id: todo
@@ -85,26 +96,31 @@
   id: kogake_prime
   parts:
     - part_type: Blueprint
+      id: kogake_prime_blueprint
       relic:
         name: Neo B6
         id: todo
         reward_chance: 11
     - part_type: Boot
+      id: kogake_prime_boot
       relic:
         name: Lith M7
         id: todo
         reward_chance: 25.33
     - part_type: Boot
+      id: kogake_prime_boot2
       relic:
         name: Lith M7
         id: todo
         reward_chance: 25.33
     - part_type: Gauntlet
+      id: kogake_prime_gauntlet
       relic:
         name: Lith K5
         id: todo
         reward_chance: 2
     - part_type: Gauntlet
+      id: kogake_prime_gauntlet2
       relic:
         name: Lith K5
         id: todo
@@ -119,31 +135,37 @@
   id: akbolto_prime
   parts:
     - part_type: Barrel
+      id: akbolto_prime_barrel
       relic:
         name: Lith K5
         id: todo
         reward_chance: 11
     - part_type: Barrel
+      id: akbolto_prime_barrel2
       relic:
         name: Lith K5
         id: todo
         reward_chance: 11
     - part_type: Blueprint
+      id: akbolto_prime_blueprint
       relic:
         name: Lith M7
         id: todo
         reward_chance: 25.33
     - part_type: Link
+      id: akbolto_prime_link
       relic:
         name: Neo B6
         id: todo
         reward_chance: 11
     - part_type: Receiver
+      id: akbolto_prime_receiver
       relic:
         name: Axi A12
         id: todo
         reward_chance: 2
     - part_type: Receiver
+      id: akbolto_prime_receiver2
       relic:
         name: Axi A12
         id: todo

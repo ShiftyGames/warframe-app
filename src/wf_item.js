@@ -36,7 +36,15 @@ export class WfItem {
         };
         return item_info.components
             .filter(is_nonresource)
-            .map((comp) => [...Array(comp.itemCount)].map((_) => comp.name))
+            .map((comp) =>
+                [...Array(comp.itemCount).keys()].map((i) => {
+                    return {
+                        name: comp.name,
+                        id: i,
+                        count: comp.itemCount,
+                    };
+                }),
+            )
             .flat();
     }
 }
