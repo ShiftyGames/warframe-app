@@ -2,24 +2,6 @@
 layout: page
 refactor: false
 ---
-
-<style>
-  /* DEPRECATED */
-  [id^="toggle_li"],                        /* HIDE CHECKBOX */
-  [id^="toggle_li"] ~ .list-group,                /* HIDE LIST */
-  [id^="toggle_li"] + label  span + span,   /* HIDE "Collapse" */
-  [id^="toggle_li"]:checked + label span {
-    /* HIDE "Expand" (IF CHECKED) */
-    display: none;
-  }
-  [id^="toggle_li"]:checked + label span + span {
-    display: inline-block; /* SHOW "Collapse" (IF CHECKED) */
-  }
-  [id^="toggle_li"]:checked ~ .list-group {
-    display: block; /* SHOW LIST (IF CHECKED) */
-  }
-</style>
-
 {{ content }}
 
 <script>
@@ -82,10 +64,5 @@ refactor: false
   }
   toggle_mode();
   document.getElementById("mode-toggle").addEventListener("click", toggle_mode);
-</script>
-
-<script type="module">
-  //import { update_checkbox } from "/warframe-app/js/update_checkbox.js";
-  //window.handle_onclick = update_checkbox;
 </script>
 <script src="/warframe-app/js/index.js" type="module"></script>
