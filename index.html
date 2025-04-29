@@ -4,15 +4,58 @@ layout: default
 ---
 
 Hello home page
-<br> <br>
-<!-- <div class="d-flex flex-wrap  align-items-center w-100"> -->
-<div class="justify-content-center">
-  <ul>
-    <li><label for="hex">hex</label> <br> <meter id="hex" value="10" min="0" max="100">10 out of 100</meter><br> </li>
-    <li><label for="not-yet-vaulted">not-yet-vaulted</label> <br> <meter id="not-yet-vaulted" value="40" min="0" max="100">40 out of 100</meter><br> </li>
-    <li><label for="prime-resurgence">prime-resurgence</label> <br> <meter id="prime-resurgence" value="70" min="0" max="100">70 out of 100</meter><br> </li>
-    <li><label for="weekly">weekly</label> <br> <meter id="weekly" value="100" min="0" max="100">100 out of 100</meter><br> </li>
-  </ul>
-<div>
+{% assign tabs = "weekly, nightwave, hex, prime resurgence, not yet vaulted, star chart, syndicates, void trader, codex" | split: ", "  %}
+<div class="d-grid gap-2">
+{% for tab in tabs %}
+    {% assign tab_id = tab | split: " " | join: "-" -%}
+    {% assign tab_words = tab | split: " " -%}
+    {% capture tab_label %}{% for word in tab_words %}{{ word | capitalize }} {% endfor %}{% endcapture -%}
+    {% assign tab_label = tab_label | rstrip %}
+    <a href="{{ tab_id }}" class="btn" role="button" data-bs-toggle="button"
+        >{{ tab_label -}}
+        <div class="progress"
+             role="progressbar"
+             id="{{ tab_id }}"
+             aria-label="{{ tab_label }}"
+             aria-valuenow="25"
+             aria-valuemin="0"
+             aria-valuemax="100">
+            <div class="progress-bar" style="width: 25%">25%</div>
+        </div>
+    </a>
+{% endfor %}
+</div>
 
+<script>
+  function set_mode(mode) {
+    var elms = document.getElementsByTagName("html");
+    for (let i = 0; i < elms.length; i++) {
+      let e = elms[i];
+      e.setAttribute("data-mode", mode);
+      e.setAttribute("data-bs-theme", mode);
+    }
+  }
+
+  let init_mode = 'light';
+  if ("mode" in localStorage) {
+    init_mode = localStorage.getItem("mode");
+    sessionStorage.setItem("mode", init_mode);
+  } else if ("mode" in sessionStorage) {
+    init_mode = sessionStorage.mode;
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    init_mode = "dark";
+  }
+  set_mode(init_mode);
+  window.onmessage = function(event) {
+    let e = document.getElementsByTagName("html")[0];
+    let mode = window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
+    for (let attr of e.attributes) {
+      if (attr.name == 'data-mode') {
+        mode = attr.nodeValue;
+        break;
+      }
+    }
+    let new_mode = mode;
+    set_mode(new_mode);
+  }
 </script>

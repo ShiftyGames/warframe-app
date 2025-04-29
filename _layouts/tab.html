@@ -50,19 +50,36 @@ refactor: false
     }
   }
 
-  function toggle_mode() {
-    var e = document.getElementsByTagName("html")[0];
-    if (
-      sessionStorage.mode === "dark" ||
-      (!("mode" in sessionStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      e.setAttribute("data-bs-theme", "dark");
-    } else {
-      e.setAttribute("data-bs-theme", "light");
+  function set_mode(mode) {
+    var elms = document.getElementsByTagName("html");
+    for (let i = 0; i < elms.length; i++) {
+      let e = elms[i];
+      e.setAttribute("data-mode", mode);
+      e.setAttribute("data-bs-theme", mode);
     }
   }
-  toggle_mode();
-  document.getElementById("mode-toggle").addEventListener("click", toggle_mode);
+
+  let init_mode = 'light';
+  if ("mode" in localStorage) {
+    init_mode = localStorage.getItem("mode");
+    sessionStorage.setItem("mode", init_mode);
+  } else if ("mode" in sessionStorage) {
+    init_mode = sessionStorage.mode;
+  } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    init_mode = "dark";
+  }
+  set_mode(init_mode);
+
+  window.onmessage = function(event) {
+    let e = document.getElementsByTagName("html")[0];
+    let mode = window.matchMedia("(prefers-color-scheme: dark)").matches ? 'dark' : 'light';
+    for (let attr of e.attributes) {
+      if (attr.name == 'data-mode') {
+        mode = attr.nodeValue;
+        break;
+      }
+    }
+    set_mode(mode);
+  }
 </script>
 <script src="/warframe-app/js/index.js" type="module"></script>

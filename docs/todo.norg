@@ -15,6 +15,7 @@ version: 1.1.1
 ** ( ) Pages
 *** ( ) Progress Status page
     - ( ) meters connected to data
+    - (x) meters link to thier respective pages
     - ( ) fetch daily tasks dynamically on the client
     -- ( ) nightwave daily tasks
     -- ( ) alerts
