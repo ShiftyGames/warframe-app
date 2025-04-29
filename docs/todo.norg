@@ -11,6 +11,7 @@ version: 1.1.1
 * ( ) Features
 ** (x) Dark mode
 ** ( ) Cetus clock
+** ( ) App version display
 ** ( ) Pages
 *** ( ) Progress Status page
     - ( ) meters connected to data
@@ -33,7 +34,8 @@ version: 1.1.1
     - (x) implement _includes/hex-task-button.html
 *** (x) Prime Resurgence page
     - (x) implement _includes/prime-resurgence-task-button.html
-    - ( ) account for multiple copies of the same part for a build
+    - (x) account for multiple copies of the same part for a build
+    - ( ) add tracking for companions
 *** (x) Not Yet Vaulted page
     - (x) implement _includes/unvaulted-task-button.html
     - ( ) add Warframes section
