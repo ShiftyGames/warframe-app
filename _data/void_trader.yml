@@ -2,4 +2,59 @@
 id: 5d1e07a0a38e4a4fdd7cefca
 expiry: '2025-05-04T13:00:00.000Z'
 location: Kronia Relay (Saturn)
-inventory: []
+inventory:
+- item: Weapon Recoil Reduction Mod Expert
+  id: weapon_recoil_reduction_mod_expert
+  type: mod
+  ducats: 300
+  credits: 220000
+- item: Primed Bane of Corpus
+  id: primed_bane_of_corpus
+  type: mod
+  ducats: 400
+  credits: 140000
+- item: Primed Reach
+  id: primed_reach
+  type: mod
+  ducats: 300
+  credits: 220000
+- item: Primed Firestorm
+  id: primed_firestorm
+  type: mod
+  ducats: 350
+  credits: 175000
+- item: Shell Shock
+  id: shell_shock
+  type: mod
+  ducats: 300
+  credits: 150000
+- item: Quanta Vandal
+  id: quanta_vandal
+  type: weapon
+  ducats: 450
+  credits: 300000
+- item: Primed Morphic Transformer
+  id: primed_morphic_transformer
+  type: mod
+  ducats: 350
+  credits: 150000
+- item: Zylok
+  id: zylok
+  type: weapon
+  ducats: 500
+  credits: 200000
+- item: Primed Expel Orokin
+  id: primed_expel_orokin
+  type: mod
+  ducats: 350
+  credits: 140000
+- item: Moon Warfan Weapon
+  id: moon_warfan_weapon
+  type: weapon
+  ducats: 410
+  credits: 200000
+- item: Primed Archwing Damage On Reload Mod
+  id: primed_archwing_damage_on_reload_mod
+  type: mod
+  ducats: 375
+  credits: 300000
