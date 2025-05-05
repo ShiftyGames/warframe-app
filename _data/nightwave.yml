@@ -1,110 +1,110 @@
-- id: 1745884800000seasondailykillenemieswhileonkdrive
-  activation: '2025-04-26T00:00:00.000Z'
-  startString: '-2d 2h 6m 20s'
-  expiry: '2025-04-29T00:00:00.000Z'
+- id: 1746489600000seasondailycompletemissionsecondary
+  activation: '2025-05-03T00:00:00.000Z'
+  startString: '-2d 2h 8m 40s'
+  expiry: '2025-05-06T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 20 enemies while riding a K-Drive, Kaithe, Velocipod or Merulina.
-  title: Thrill Rider
+  desc: Complete a Mission with only a Secondary Weapon equipped
+  title: Sidearm
   reputation: 1000
   isPermanent: false
-- id: 1745971200000seasondailyslidekills
-  activation: '2025-04-27T00:00:00.000Z'
-  startString: '-1d 2h 6m 20s'
-  expiry: '2025-04-30T00:00:00.000Z'
+- id: 1746576000000seasondailyinteractwithpet
+  activation: '2025-05-04T00:00:00.000Z'
+  startString: '-1d 2h 8m 40s'
+  expiry: '2025-05-07T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 10 Enemies while Sliding
-  title: Accelerator
+  desc: Interact with your Kubrow or Kavat
+  title: Loyalty
   reputation: 1000
   isPermanent: false
-- id: 1746057600000seasondailythepersonaltouch
-  activation: '2025-04-28T00:00:00.000Z'
-  startString: '-2h 6m 20s'
-  expiry: '2025-05-01T00:00:00.000Z'
+- id: 1746662400000seasondailyswatter
+  activation: '2025-05-05T00:00:00.000Z'
+  startString: '-2h 8m 40s'
+  expiry: '2025-05-08T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Place 1 decoration in your Orbiter
-  title: The Personal Touch
+  desc: Kill 3 Drones or Ospreys with your Melee Weapon
+  title: Swatter
   reputation: 1000
   isPermanent: false
-- id: 1746403200000seasonweeklypermanentcompletemissions13
-  activation: '2025-04-28T00:00:00.000Z'
-  startString: '-2h 6m 20s'
-  expiry: '2025-05-05T00:00:00.000Z'
+- id: 1747008000000seasonweeklypermanentcompletemissions14
+  activation: '2025-05-05T00:00:00.000Z'
+  startString: '-2h 8m 40s'
+  expiry: '2025-05-12T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XIII
+  title: Mission Complete XIV
   reputation: 4500
   isPermanent: false
-- id: 1746403200000seasonweeklypermanentkilleximus13
-  activation: '2025-04-28T00:00:00.000Z'
-  startString: '-2h 6m 20s'
-  expiry: '2025-05-05T00:00:00.000Z'
+- id: 1747008000000seasonweeklypermanentkilleximus14
+  activation: '2025-05-05T00:00:00.000Z'
+  startString: '-2h 8m 40s'
+  expiry: '2025-05-12T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XIII
+  title: Eximus Eliminator XIV
   reputation: 4500
   isPermanent: false
-- id: 1746403200000seasonweeklypermanentkillenemies13
-  activation: '2025-04-28T00:00:00.000Z'
-  startString: '-2h 6m 20s'
-  expiry: '2025-05-05T00:00:00.000Z'
+- id: 1747008000000seasonweeklypermanentkillenemies14
+  activation: '2025-05-05T00:00:00.000Z'
+  startString: '-2h 8m 40s'
+  expiry: '2025-05-12T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XIII
+  title: Not a Warning Shot XIV
   reputation: 4500
   isPermanent: false
-- id: 1746403200000seasonweeklycompleteassassination
-  activation: '2025-04-28T00:00:00.000Z'
-  startString: '-2h 6m 20s'
-  expiry: '2025-05-05T00:00:00.000Z'
+- id: 1747008000000seasonweeklycompletemobiledefense
+  activation: '2025-05-05T00:00:00.000Z'
+  startString: '-2h 8m 40s'
+  expiry: '2025-05-12T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Assassination missions
-  title: Assassin
+  desc: Complete 3 Mobile Defense missions
+  title: Protector
   reputation: 4500
   isPermanent: false
-- id: 1746403200000seasonweeklyplainsbounties
-  activation: '2025-04-28T00:00:00.000Z'
-  startString: '-2h 6m 20s'
-  expiry: '2025-05-05T00:00:00.000Z'
+- id: 1747008000000seasonweeklycompletesortie
+  activation: '2025-05-05T00:00:00.000Z'
+  startString: '-2h 8m 40s'
+  expiry: '2025-05-12T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 different Bounties in the Plains of Eidolon
-  title: Earth Bounty Hunter
+  desc: Complete 1 Sorties
+  title: Sortie Specialist
   reputation: 4500
   isPermanent: false
-- id: 1746403200000seasonweeklyhardthemanymadewhole
-  activation: '2025-04-28T00:00:00.000Z'
-  startString: '-2h 6m 20s'
-  expiry: '2025-05-05T00:00:00.000Z'
+- id: 1747008000000seasonweeklyhardkillexploiterorb
+  activation: '2025-05-05T00:00:00.000Z'
+  startString: '-2h 8m 40s'
+  expiry: '2025-05-12T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Convert 10 Riven Slivers into a Riven Mod
-  title: The Many Made Whole
+  desc: Kill The Exploiter Orb
+  title: Nothing but Profit
   reputation: 7000
   isPermanent: false
-- id: 1746403200000seasonweeklyhardceremonialevolution
-  activation: '2025-04-28T00:00:00.000Z'
-  startString: '-2h 6m 20s'
-  expiry: '2025-05-05T00:00:00.000Z'
+- id: 1747008000000seasonweeklyhardthepriceoffreedom
+  activation: '2025-05-05T00:00:00.000Z'
+  startString: '-2h 8m 40s'
+  expiry: '2025-05-12T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: '[PH] Season Weekly Hard Ceremonial Evolution Desc'
-  title: Season Weekly Hard Ceremonial Evolution
+  desc: Free one Captured Solaris using a Granum Crown
+  title: The Price of Freedom
   reputation: 7000
   isPermanent: false
