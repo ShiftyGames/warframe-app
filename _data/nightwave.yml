@@ -1,110 +1,110 @@
-- id: 1746489600000seasondailycompletemissionsecondary
-  activation: '2025-05-03T00:00:00.000Z'
-  startString: '-2d 2h 8m 40s'
-  expiry: '2025-05-06T00:00:00.000Z'
+- id: 1747094400000seasondailyplacemarker
+  activation: '2025-05-10T00:00:00.000Z'
+  startString: '-2d 2h 9m 40s'
+  expiry: '2025-05-13T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Complete a Mission with only a Secondary Weapon equipped
-  title: Sidearm
+  desc: Mark 5 Mods or Resources
+  title: Communicator
   reputation: 1000
   isPermanent: false
-- id: 1746576000000seasondailyinteractwithpet
-  activation: '2025-05-04T00:00:00.000Z'
-  startString: '-1d 2h 8m 40s'
-  expiry: '2025-05-07T00:00:00.000Z'
+- id: 1747180800000seasondailykillenemies
+  activation: '2025-05-11T00:00:00.000Z'
+  startString: '-1d 2h 9m 40s'
+  expiry: '2025-05-14T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Interact with your Kubrow or Kavat
-  title: Loyalty
+  desc: Kill 200 Enemies
+  title: Warning Shot
   reputation: 1000
   isPermanent: false
-- id: 1746662400000seasondailyswatter
-  activation: '2025-05-05T00:00:00.000Z'
-  startString: '-2h 8m 40s'
-  expiry: '2025-05-08T00:00:00.000Z'
+- id: 1747267200000seasondailydonateleverian
+  activation: '2025-05-12T00:00:00.000Z'
+  startString: '-2h 9m 40s'
+  expiry: '2025-05-15T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 3 Drones or Ospreys with your Melee Weapon
-  title: Swatter
+  desc: Donate to the Leverian
+  title: Patron
   reputation: 1000
   isPermanent: false
-- id: 1747008000000seasonweeklypermanentcompletemissions14
-  activation: '2025-05-05T00:00:00.000Z'
-  startString: '-2h 8m 40s'
-  expiry: '2025-05-12T00:00:00.000Z'
+- id: 1747612800000seasonweeklypermanentcompletemissions15
+  activation: '2025-05-12T00:00:00.000Z'
+  startString: '-2h 9m 40s'
+  expiry: '2025-05-19T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XIV
+  title: Mission Complete XV
   reputation: 4500
   isPermanent: false
-- id: 1747008000000seasonweeklypermanentkilleximus14
-  activation: '2025-05-05T00:00:00.000Z'
-  startString: '-2h 8m 40s'
-  expiry: '2025-05-12T00:00:00.000Z'
+- id: 1747612800000seasonweeklypermanentkilleximus15
+  activation: '2025-05-12T00:00:00.000Z'
+  startString: '-2h 9m 40s'
+  expiry: '2025-05-19T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XIV
+  title: Eximus Eliminator XV
   reputation: 4500
   isPermanent: false
-- id: 1747008000000seasonweeklypermanentkillenemies14
-  activation: '2025-05-05T00:00:00.000Z'
-  startString: '-2h 8m 40s'
-  expiry: '2025-05-12T00:00:00.000Z'
+- id: 1747612800000seasonweeklypermanentkillenemies15
+  activation: '2025-05-12T00:00:00.000Z'
+  startString: '-2h 9m 40s'
+  expiry: '2025-05-19T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XIV
+  title: Not a Warning Shot XV
   reputation: 4500
   isPermanent: false
-- id: 1747008000000seasonweeklycompletemobiledefense
-  activation: '2025-05-05T00:00:00.000Z'
-  startString: '-2h 8m 40s'
-  expiry: '2025-05-12T00:00:00.000Z'
+- id: 1747612800000seasonweeklyhighground
+  activation: '2025-05-12T00:00:00.000Z'
+  startString: '-2h 9m 40s'
+  expiry: '2025-05-19T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Mobile Defense missions
-  title: Protector
+  desc: Complete 3 Void Flood missions
+  title: High Ground
   reputation: 4500
   isPermanent: false
-- id: 1747008000000seasonweeklycompletesortie
-  activation: '2025-05-05T00:00:00.000Z'
-  startString: '-2h 8m 40s'
-  expiry: '2025-05-12T00:00:00.000Z'
+- id: 1747612800000seasonweeklyunlockrelics
+  activation: '2025-05-12T00:00:00.000Z'
+  startString: '-2h 9m 40s'
+  expiry: '2025-05-19T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 1 Sorties
-  title: Sortie Specialist
+  desc: Unlock 3 Relics
+  title: Unlock Relics
   reputation: 4500
   isPermanent: false
-- id: 1747008000000seasonweeklyhardkillexploiterorb
-  activation: '2025-05-05T00:00:00.000Z'
-  startString: '-2h 8m 40s'
-  expiry: '2025-05-12T00:00:00.000Z'
+- id: 1747612800000seasonweeklyhardkilleximus
+  activation: '2025-05-12T00:00:00.000Z'
+  startString: '-2h 9m 40s'
+  expiry: '2025-05-19T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill The Exploiter Orb
-  title: Nothing but Profit
+  desc: Kill 100 Eximus
+  title: Eximus Executioner
   reputation: 7000
   isPermanent: false
-- id: 1747008000000seasonweeklyhardthepriceoffreedom
-  activation: '2025-05-05T00:00:00.000Z'
-  startString: '-2h 8m 40s'
-  expiry: '2025-05-12T00:00:00.000Z'
+- id: 1747612800000seasonweeklyhardcompletearchonhunt
+  activation: '2025-05-12T00:00:00.000Z'
+  startString: '-2h 9m 40s'
+  expiry: '2025-05-19T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Free one Captured Solaris using a Granum Crown
-  title: The Price of Freedom
+  desc: Complete an Archon Hunt
+  title: Archon Hunter
   reputation: 7000
   isPermanent: false
