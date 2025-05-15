@@ -12,10 +12,15 @@
     <ul class="list-group mt-2">
     {% for part in item.parts %}
       {% capture part_id %}{{ part.id }}{% endcapture -%}
+      {% assign rarity = part.relic.rarity %}
       <li class="list-group-item list-group-item-action list-group-item-secondary"
           onclick="event.stopPropagation(); toggle_bs_task(this); handle_onclick(this, '{{ part_id }}');"
-          id="{{ part_id }}"
-          >{{ part.part_type }} - [{{part.relic.name}}]</li>
+          id="{{ part_id }}" >
+          <div class="d-flex">
+            <div class="flex-grow-1">{{ part.part_type }}</div>
+            <div class="flex-shrink-1">{{ part.relic.name }}{% include rarity-icon.html -%}</div>
+          </div>
+      </li>
       <script type="module">
         let node_status = localStorage.getItem("{{ part_id }}");
         if (node_status ) {

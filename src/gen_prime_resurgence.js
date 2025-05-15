@@ -13,6 +13,12 @@ const varzia_wfitems = await extract_wf_items_from_variza_info(varzia_info);
 
 const varzia_relics = await extract_relics_from_varzia_info(varzia_info);
 
+const rarity = {
+    [2]: 'rare',
+    [11]: 'uncommon',
+    [25.33]: 'common',
+}
+
 var data_prime_resurgence = [];
 for (let item of varzia_wfitems) {
     const data_parts = item.parts.map((p) => {
@@ -33,6 +39,7 @@ for (let item of varzia_wfitems) {
                                 name: relic.name,
                                 id: 'todo',
                                 reward_chance: reward.chance,
+                                rarity: rarity[reward.chance],
                             };
                         }
                         if (reward.name === part_name + ' Blueprint') {
@@ -40,6 +47,7 @@ for (let item of varzia_wfitems) {
                                 name: relic.name,
                                 id: 'todo',
                                 reward_chance: reward.chance,
+                                rarity: rarity[reward.chance],
                             };
                         }
                     }

@@ -33,10 +33,13 @@ version: 1.1.1
 *** (x) Hex page
     - (x) update the _tabs/hex.md to the current style
     - (x) implement _includes/hex-task-button.html
+    - ( ) add section for each Season
 *** (x) Prime Resurgence page
     - (x) implement _includes/prime-resurgence-task-button.html
     - (x) account for multiple copies of the same part for a build
     - ( ) add tracking for companions
+    - (x) display rarity for each part
+    - ( ) add sections for Warframes, Weapons, and Companions
 *** (x) Not Yet Vaulted page
     - (x) implement _includes/unvaulted-task-button.html
     - ( ) add Warframes section
@@ -67,10 +70,16 @@ version: 1.1.1
     - ( ) implement _includes/codex-weapon-task-button.html
     - ( ) implement _includes/codex-companion-task-button.html
     - ( ) implement _includes/codex-vehicle-task-button.html
+*** ( ) Modular Items page
+    - ( ) implement _includes/modular-task-button.html
+    - ( ) add Amp section
+    - ( ) add K-Drive section
+    - ( ) add Kitgun section
+    - ( ) add Zaw section
 ** ( ) Data generation
 *** ( ) Generators
     - ( ) src/gen_weekly.js -> _data/weekly.yml
-    - (?) src/gen_hex.js -> _data/hex.yml
+    - (=) src/gen_hex.js -> _data/hex.yml
           where is the hex calendar api?
     - (x) src/gen_nightwave.js -> _data/nightwave.yml
     - (x) src/gen_prime_resurgence.js -> _data/prime_resurgence.yml
@@ -80,21 +89,22 @@ version: 1.1.1
     - (x) src/gen_void_trader.js -> _data/void_trader.yml
     -- ( ) add mods to the filter
     - (?) src/gen_syndicates.js -> _data/syndicates.yml
+    - ( ) src/gen_modular.js -> _data/modular.yml
 *** ( ) Github workflows
     - (x) Build static site when main branch is updated
     - ( ) Scheduled workflow to generate weekly tasks after the weekly reset
     - (x) Scheduled workflow to generate Prime Resurgence Tasks (4 weeks?)
-    - ( ) Scheduled workflow to generate Hex calendar tasks
+    - (=) Scheduled workflow to generate Hex calendar tasks
     - (x) Scheduled workflow to generate Nightwave tasks
     - (x) Scheduled workflow to generate Baro tasks
 ** ( ) add github support link
 
 * (x) Task Reference
-    - ( ) Undone
-    - (x) Done
-    - (?) Ambiguous - needs further input
-    - (!) Important - urgent, high priority task
-    - (+) Recurring task with children
-    - (-) Pending -> currently in progress
-    - (=) on Hold
-    - (_) Cancelled
+  - ( ) Undone
+  - (x) Done
+  - (?) Ambiguous - needs further input
+  - (!) Important - urgent, high priority task
+  - (+) Recurring task with children
+  - (-) Pending -> currently in progress
+  - (=) on Hold
+  - (_) Cancelled

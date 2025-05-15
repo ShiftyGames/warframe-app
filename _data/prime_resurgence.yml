@@ -8,24 +8,28 @@
         name: Lith S9
         id: todo
         reward_chance: 11
+        rarity: uncommon
     - part_type: Chassis
       id: oberon_prime_chassis
       relic:
         name: Lith T3
         id: todo
         reward_chance: 25.33
+        rarity: common
     - part_type: Neuroptics
       id: oberon_prime_neuroptics
       relic:
         name: Meso O4
         id: todo
         reward_chance: 2
+        rarity: rare
     - part_type: Systems
       id: oberon_prime_systems
       relic:
         name: Neo N11
         id: todo
         reward_chance: 11
+        rarity: uncommon
   varzia_info:
     uniqueName: /Lotus/StoreItems/Powersuits/Paladin/PaladinPrime
     item: Paladin Prime
@@ -41,24 +45,28 @@
         name: Axi S6
         id: todo
         reward_chance: 2
+        rarity: rare
     - part_type: Blueprint
       id: sybaris_prime_blueprint
       relic:
         name: Neo N11
         id: todo
         reward_chance: 25.33
+        rarity: common
     - part_type: Receiver
       id: sybaris_prime_receiver
       relic:
         name: Neo G3
         id: todo
         reward_chance: 11
+        rarity: uncommon
     - part_type: Stock
       id: sybaris_prime_stock
       relic:
         name: Lith S9
         id: todo
         reward_chance: 25.33
+        rarity: common
   varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeSybaris/PrimeSybarisRifle
     item: Prime Sybaris Rifle
@@ -74,24 +82,28 @@
         name: Axi S6
         id: todo
         reward_chance: 11
+        rarity: uncommon
     - part_type: Blueprint
       id: silva_&_aegis_prime_blueprint
       relic:
         name: Neo G3
         id: todo
         reward_chance: 11
+        rarity: uncommon
     - part_type: Guard
       id: silva_&_aegis_prime_guard
       relic:
         name: Lith S9
         id: todo
         reward_chance: 2
+        rarity: rare
     - part_type: Hilt
       id: silva_&_aegis_prime_hilt
       relic:
         name: Meso O4
         id: todo
         reward_chance: 25.33
+        rarity: common
   varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/PrimeSilvaAegis/PrimeSilvaAegis
     item: Prime Silva Aegis
@@ -107,24 +119,28 @@
         name: Lith T3
         id: todo
         reward_chance: 11
+        rarity: uncommon
     - part_type: Chassis
       id: nekros_prime_chassis
       relic:
         name: Axi S6
         id: todo
         reward_chance: 25.33
+        rarity: common
     - part_type: Neuroptics
       id: nekros_prime_neuroptics
       relic:
         name: Meso O4
         id: todo
         reward_chance: 11
+        rarity: uncommon
     - part_type: Systems
       id: nekros_prime_systems
       relic:
         name: Neo N11
         id: todo
         reward_chance: 2
+        rarity: rare
   varzia_info:
     uniqueName: /Lotus/StoreItems/Powersuits/Necro/NekrosPrime
     item: Nekros Prime
@@ -140,24 +156,28 @@
         name: Axi S6
         id: todo
         reward_chance: 11
+        rarity: uncommon
     - part_type: Blueprint
       id: tigris_prime_blueprint
       relic:
         name: Lith T3
         id: todo
         reward_chance: 2
+        rarity: rare
     - part_type: Receiver
       id: tigris_prime_receiver
       relic:
         name: Lith S9
         id: todo
         reward_chance: 11
+        rarity: uncommon
     - part_type: Stock
       id: tigris_prime_stock
       relic:
         name: Neo N11
         id: todo
         reward_chance: 25.33
+        rarity: common
   varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeTigris/PrimeTigris
     item: Prime Tigris
@@ -173,18 +193,21 @@
         name: Lith T3
         id: todo
         reward_chance: 25.33
+        rarity: common
     - part_type: Blueprint
       id: galatine_prime_blueprint
       relic:
         name: Neo G3
         id: todo
         reward_chance: 2
+        rarity: rare
     - part_type: Handle
       id: galatine_prime_handle
       relic:
         name: Meso O4
         id: todo
         reward_chance: 11
+        rarity: uncommon
   varzia_info:
     uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeGalatine/PrimeGalatine
     item: Prime Galatine
