@@ -1,110 +1,110 @@
-- id: 1747094400000seasondailyplacemarker
-  activation: '2025-05-10T00:00:00.000Z'
-  startString: '-2d 2h 9m 40s'
-  expiry: '2025-05-13T00:00:00.000Z'
+- id: 1747699200000seasondailykillenemieswithfreeze
+  activation: '2025-05-17T00:00:00.000Z'
+  startString: '-2d 2h 17m 40s'
+  expiry: '2025-05-20T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Mark 5 Mods or Resources
-  title: Communicator
+  desc: Kill 150 Enemies with Cold Damage
+  title: Deep Freeze
   reputation: 1000
   isPermanent: false
-- id: 1747180800000seasondailykillenemies
-  activation: '2025-05-11T00:00:00.000Z'
-  startString: '-1d 2h 9m 40s'
-  expiry: '2025-05-14T00:00:00.000Z'
+- id: 1747785600000seasondailycompletemission
+  activation: '2025-05-18T00:00:00.000Z'
+  startString: '-1d 2h 17m 40s'
+  expiry: '2025-05-21T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 200 Enemies
-  title: Warning Shot
+  desc: Complete a Mission
+  title: Agent
   reputation: 1000
   isPermanent: false
-- id: 1747267200000seasondailydonateleverian
-  activation: '2025-05-12T00:00:00.000Z'
-  startString: '-2h 9m 40s'
-  expiry: '2025-05-15T00:00:00.000Z'
+- id: 1747872000000seasondailyplayemote
+  activation: '2025-05-19T00:00:00.000Z'
+  startString: '-2h 17m 40s'
+  expiry: '2025-05-22T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Donate to the Leverian
-  title: Patron
+  desc: Play 1 Emote
+  title: Expressive
   reputation: 1000
   isPermanent: false
-- id: 1747612800000seasonweeklypermanentcompletemissions15
-  activation: '2025-05-12T00:00:00.000Z'
-  startString: '-2h 9m 40s'
-  expiry: '2025-05-19T00:00:00.000Z'
+- id: 1748217600000seasonweeklypermanentcompletemissions16
+  activation: '2025-05-19T00:00:00.000Z'
+  startString: '-2h 17m 40s'
+  expiry: '2025-05-26T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XV
+  title: Mission Complete XVI
   reputation: 4500
   isPermanent: false
-- id: 1747612800000seasonweeklypermanentkilleximus15
-  activation: '2025-05-12T00:00:00.000Z'
-  startString: '-2h 9m 40s'
-  expiry: '2025-05-19T00:00:00.000Z'
+- id: 1748217600000seasonweeklypermanentkilleximus16
+  activation: '2025-05-19T00:00:00.000Z'
+  startString: '-2h 17m 40s'
+  expiry: '2025-05-26T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XV
+  title: Eximus Eliminator XVI
   reputation: 4500
   isPermanent: false
-- id: 1747612800000seasonweeklypermanentkillenemies15
-  activation: '2025-05-12T00:00:00.000Z'
-  startString: '-2h 9m 40s'
-  expiry: '2025-05-19T00:00:00.000Z'
+- id: 1748217600000seasonweeklypermanentkillenemies16
+  activation: '2025-05-19T00:00:00.000Z'
+  startString: '-2h 17m 40s'
+  expiry: '2025-05-26T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XV
+  title: Not a Warning Shot XVI
   reputation: 4500
   isPermanent: false
-- id: 1747612800000seasonweeklyhighground
-  activation: '2025-05-12T00:00:00.000Z'
-  startString: '-2h 9m 40s'
-  expiry: '2025-05-19T00:00:00.000Z'
+- id: 1748217600000seasonweeklysolveciphers
+  activation: '2025-05-19T00:00:00.000Z'
+  startString: '-2h 17m 40s'
+  expiry: '2025-05-26T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Void Flood missions
-  title: High Ground
+  desc: Hack 10 Consoles
+  title: Hacker
   reputation: 4500
   isPermanent: false
-- id: 1747612800000seasonweeklyunlockrelics
-  activation: '2025-05-12T00:00:00.000Z'
-  startString: '-2h 9m 40s'
-  expiry: '2025-05-19T00:00:00.000Z'
+- id: 1748217600000seasonweeklysanctuaryonslaught
+  activation: '2025-05-19T00:00:00.000Z'
+  startString: '-2h 17m 40s'
+  expiry: '2025-05-26T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Unlock 3 Relics
-  title: Unlock Relics
+  desc: Complete 8 waves of Sanctuary Onslaught
+  title: Test Subject
   reputation: 4500
   isPermanent: false
-- id: 1747612800000seasonweeklyhardkilleximus
-  activation: '2025-05-12T00:00:00.000Z'
-  startString: '-2h 9m 40s'
-  expiry: '2025-05-19T00:00:00.000Z'
+- id: 1748217600000seasonweeklyhardantiquarian
+  activation: '2025-05-19T00:00:00.000Z'
+  startString: '-2h 17m 40s'
+  expiry: '2025-05-26T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill 100 Eximus
-  title: Eximus Executioner
+  desc: Open one of each era/tier of Relic (Lith, Meso, Neo, Axi)
+  title: Antiquarian
   reputation: 7000
   isPermanent: false
-- id: 1747612800000seasonweeklyhardcompletearchonhunt
-  activation: '2025-05-12T00:00:00.000Z'
-  startString: '-2h 9m 40s'
-  expiry: '2025-05-19T00:00:00.000Z'
+- id: 1748217600000seasonweeklyhardrailjackmissions
+  activation: '2025-05-19T00:00:00.000Z'
+  startString: '-2h 17m 40s'
+  expiry: '2025-05-26T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete an Archon Hunt
-  title: Archon Hunter
+  desc: Complete 8 Railjack Missions
+  title: Elite Explorer
   reputation: 7000
   isPermanent: false
