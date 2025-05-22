@@ -1,41 +1,3 @@
-- name: Wisp Prime
-  id: wisp_prime
-  parts:
-    - part_type: Blueprint
-      relics:
-    - part_type: Chassis
-      relics:
-    - part_type: Neuroptics
-      relics:
-    - part_type: Systems
-      relics:
-
-- name: Fulmin Prime
-  id: fulmin_prime
-  parts:
-    - part_type: Blueprint
-      relics:
-    - part_type: Barrel
-      relics:
-    - part_type: Receiver
-      relics:
-    - part_type: Stock
-      relics:
-- name: Gunsen Prime
-  id: gunsen_prime
-  parts:
-    - part_type: Blueprint
-      relics:
-    - part_type: Handle
-      relics:
-    - part_type: Handle
-      relics:
-      id: handle2
-    - part_type: Blade
-      relics:
-    - part_type: Blade
-      relics:
-      id: blade2
 - name: Grendel Prime
   id: grendel_prime
   parts:
@@ -242,3 +204,36 @@
     - part_type: Blade
       relics:
       id: blade2
+- name: Yareli Prime
+  id: yareli_prime
+  parts:
+    - part_type: Blueprint
+      relics:
+    - part_type: Chassis
+      relics:
+    - part_type: Neuroptics
+      relics:
+    - part_type: Systems
+      relics:
+- name: Daikyu Prime
+  id: daikyu_prime
+  parts:
+    - part_type: Blueprint
+      relics:
+    - part_type: Grip
+      relics:
+    - part_type: Lower Limb
+      relics:
+    - part_type: String
+      relics:
+    - part_type: Upper Limb
+      relics:
+- name: Kompressa Prime
+  id: kompressa_prime
+  parts:
+    - part_type: Blueprint
+      relics:
+    - part_type: Barrel
+      relics:
+    - part_type: Receiver
+      relics:
