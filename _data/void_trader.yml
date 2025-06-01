@@ -1,45 +1,5 @@
 ---
 id: 5d1e07a0a38e4a4fdd7cefca
-expiry: '2025-06-01T13:00:00.000Z'
-location: Strata Relay (Earth)
-inventory:
-- item: Primed Sniper Ammo Mutation
-  id: primed_sniper_ammo_mutation
-  type: mod
-  ducats: 400
-  credits: 140000
-- item: Primed Charged Shell
-  id: primed_charged_shell
-  type: mod
-  ducats: 350
-  credits: 200000
-- item: Primed Flow
-  id: primed_flow
-  type: mod
-  ducats: 350
-  credits: 110000
-- item: Primed Bane of Corpus
-  id: primed_bane_of_corpus
-  type: mod
-  ducats: 400
-  credits: 140000
-- item: Ignis Wraith
-  id: ignis_wraith
-  type: weapon
-  ducats: 550
-  credits: 250000
-- item: Supra Vandal
-  id: supra_vandal
-  type: weapon
-  ducats: 500
-  credits: 275000
-- item: Primed Rubedo-Lined Barrel
-  id: primed_rubedo-lined_barrel
-  type: mod
-  ducats: 350
-  credits: 175000
-- item: Halikar Wraith
-  id: halikar_wraith
-  type: weapon
-  ducats: 450
-  credits: 350000
+expiry: '2025-06-15T13:00:00.000Z'
+location: Larunda Relay (Mercury)
+inventory: []
