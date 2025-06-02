@@ -1,110 +1,110 @@
-- id: 1748304000000seasondailyinteractwithpet
-  activation: '2025-05-24T00:00:00.000Z'
-  startString: '-2d 2h 15m 30s'
-  expiry: '2025-05-27T00:00:00.000Z'
+- id: 1748908800000seasondailyaimglide
+  activation: '2025-05-31T00:00:00.000Z'
+  startString: '-2d 2h 19m 10s'
+  expiry: '2025-06-03T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Interact with your Kubrow or Kavat
-  title: Loyalty
+  desc: Kill 15 Enemies while Aim Gliding
+  title: Glider
   reputation: 1000
   isPermanent: false
-- id: 1748390400000seasondailykillenemieswithelectricity
-  activation: '2025-05-25T00:00:00.000Z'
-  startString: '-1d 2h 15m 30s'
-  expiry: '2025-05-28T00:00:00.000Z'
+- id: 1748995200000seasondailykillenemieswithsecondary
+  activation: '2025-06-01T00:00:00.000Z'
+  startString: '-1d 2h 19m 10s'
+  expiry: '2025-06-04T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with Electricity Damage
-  title: Short Circuit
+  desc: Kill 150 Enemies with a Secondary Weapon
+  title: Smaller Is Bigger
   reputation: 1000
   isPermanent: false
-- id: 1748476800000seasondailykillenemieswithviral
-  activation: '2025-05-26T00:00:00.000Z'
-  startString: '-2h 15m 30s'
-  expiry: '2025-05-29T00:00:00.000Z'
+- id: 1749081600000seasondailydonateleverian
+  activation: '2025-06-02T00:00:00.000Z'
+  startString: '-2h 19m 10s'
+  expiry: '2025-06-05T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with Viral Damage
-  title: Go Viral
+  desc: Donate to the Leverian
+  title: Patron
   reputation: 1000
   isPermanent: false
-- id: 1748822400000seasonweeklypermanentcompletemissions2
-  activation: '2025-05-26T00:00:00.000Z'
-  startString: '-2h 15m 30s'
-  expiry: '2025-06-02T00:00:00.000Z'
+- id: 1749427200000seasonweeklypermanentcompletemissions3
+  activation: '2025-06-02T00:00:00.000Z'
+  startString: '-2h 19m 10s'
+  expiry: '2025-06-09T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete II
+  title: Mission Complete III
   reputation: 4500
   isPermanent: false
-- id: 1748822400000seasonweeklypermanentkilleximus2
-  activation: '2025-05-26T00:00:00.000Z'
-  startString: '-2h 15m 30s'
-  expiry: '2025-06-02T00:00:00.000Z'
+- id: 1749427200000seasonweeklypermanentkilleximus3
+  activation: '2025-06-02T00:00:00.000Z'
+  startString: '-2h 19m 10s'
+  expiry: '2025-06-09T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator II
+  title: Eximus Eliminator III
   reputation: 4500
   isPermanent: false
-- id: 1748822400000seasonweeklypermanentkillenemies2
-  activation: '2025-05-26T00:00:00.000Z'
-  startString: '-2h 15m 30s'
-  expiry: '2025-06-02T00:00:00.000Z'
+- id: 1749427200000seasonweeklypermanentkillenemies3
+  activation: '2025-06-02T00:00:00.000Z'
+  startString: '-2h 19m 10s'
+  expiry: '2025-06-09T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot II
+  title: Not a Warning Shot III
   reputation: 4500
   isPermanent: false
-- id: 1748822400000seasonweeklyplainsbounties
-  activation: '2025-05-26T00:00:00.000Z'
-  startString: '-2h 15m 30s'
-  expiry: '2025-06-02T00:00:00.000Z'
+- id: 1749427200000seasonweeklysimarisscan
+  activation: '2025-06-02T00:00:00.000Z'
+  startString: '-2h 19m 10s'
+  expiry: '2025-06-09T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 different Bounties in the Plains of Eidolon
-  title: Earth Bounty Hunter
+  desc: Complete 3 Scans for Cephalon Simaris
+  title: Sanctuary Researcher
   reputation: 4500
   isPermanent: false
-- id: 1748822400000seasonweeklykillarchgunenemies
-  activation: '2025-05-26T00:00:00.000Z'
-  startString: '-2h 15m 30s'
-  expiry: '2025-06-02T00:00:00.000Z'
+- id: 1749427200000seasonweeklycatchrareplainsfish
+  activation: '2025-06-02T00:00:00.000Z'
+  startString: '-2h 19m 10s'
+  expiry: '2025-06-09T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Kill 500 enemies with an Archgun
-  title: Heavy Ordnance
+  desc: Catch 6 Rare Fish in the Plains of Eidolon
+  title: Earth Fisher
   reputation: 4500
   isPermanent: false
-- id: 1748822400000seasonweeklyhardfriendsmirrordefense
-  activation: '2025-05-26T00:00:00.000Z'
-  startString: '-2h 15m 30s'
-  expiry: '2025-06-02T00:00:00.000Z'
+- id: 1749427200000seasonweeklyhardfastcapture
+  activation: '2025-06-02T00:00:00.000Z'
+  startString: '-2h 19m 10s'
+  expiry: '2025-06-09T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete 3 waves of Mirror Defense
-  title: Crystal Clear
+  desc: Finish a Capture mission in less than 90 seconds
+  title: Speedster
   reputation: 7000
   isPermanent: false
-- id: 1748822400000seasonweeklyhardcompleteconquest
-  activation: '2025-05-26T00:00:00.000Z'
-  startString: '-2h 15m 30s'
-  expiry: '2025-06-02T00:00:00.000Z'
+- id: 1749427200000seasonweeklyhardluapuzzles
+  activation: '2025-06-02T00:00:00.000Z'
+  startString: '-2h 19m 10s'
+  expiry: '2025-06-09T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: '[PH] Season Weekly Hard Complete Conquest Desc'
-  title: Season Weekly Hard Complete Conquest
+  desc: Complete 4 Halls of Ascension on Lua
+  title: Ascendant
   reputation: 7000
   isPermanent: false
