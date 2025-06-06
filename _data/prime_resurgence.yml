@@ -1,215 +1,231 @@
-- uniqueName: PaladinPrime
-  name: Oberon Prime
-  id: oberon_prime
+- uniqueName: RevenantPrime
+  name: Revenant Prime
+  id: revenant_prime
   parts:
     - part_type: Blueprint
-      id: oberon_prime_blueprint
+      id: revenant_prime_blueprint
       relic:
-        name: Lith S9
+        name: Meso R6
         id: todo
-        reward_chance: 11
-        rarity: uncommon
+        reward_chance: 2
+        rarity: rare
     - part_type: Chassis
-      id: oberon_prime_chassis
+      id: revenant_prime_chassis
       relic:
-        name: Lith T3
+        name: Axi C9
         id: todo
         reward_chance: 25.33
         rarity: common
     - part_type: Neuroptics
-      id: oberon_prime_neuroptics
+      id: revenant_prime_neuroptics
       relic:
-        name: Meso O4
+        name: Lith T13
         id: todo
-        reward_chance: 2
-        rarity: rare
+        reward_chance: 11
+        rarity: uncommon
     - part_type: Systems
-      id: oberon_prime_systems
+      id: revenant_prime_systems
       relic:
-        name: Neo N11
+        name: Neo P8
         id: todo
         reward_chance: 11
         rarity: uncommon
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Powersuits/Paladin/PaladinPrime
-    item: Paladin Prime
+    uniqueName: /Lotus/StoreItems/Powersuits/Revenant/RevenantPrime
+    item: Revenant Prime
     ducats: 3
     credits: null
-- uniqueName: PrimeSybarisRifle
-  name: Sybaris Prime
-  id: sybaris_prime
+- uniqueName: PhantasmaPrimeShotgun
+  name: Phantasma Prime
+  id: phantasma_prime
   parts:
     - part_type: Barrel
-      id: sybaris_prime_barrel
+      id: phantasma_prime_barrel
       relic:
-        name: Axi S6
+        name: Neo P8
         id: todo
         reward_chance: 2
         rarity: rare
     - part_type: Blueprint
-      id: sybaris_prime_blueprint
+      id: phantasma_prime_blueprint
       relic:
-        name: Neo N11
-        id: todo
-        reward_chance: 25.33
-        rarity: common
-    - part_type: Receiver
-      id: sybaris_prime_receiver
-      relic:
-        name: Neo G3
+        name: Lith A9
         id: todo
         reward_chance: 11
         rarity: uncommon
-    - part_type: Stock
-      id: sybaris_prime_stock
+    - part_type: Receiver
+      id: phantasma_prime_receiver
       relic:
-        name: Lith S9
+        name: Lith T13
         id: todo
         reward_chance: 25.33
         rarity: common
+    - part_type: Stock
+      id: phantasma_prime_stock
+      relic:
+        name: Axi C9
+        id: todo
+        reward_chance: 11
+        rarity: uncommon
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeSybaris/PrimeSybarisRifle
-    item: Prime Sybaris Rifle
+    uniqueName: >-
+      /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimePhantasma/PhantasmaPrimeShotgun
+    item: Phantasma Prime Shotgun
     ducats: 2
     credits: null
-- uniqueName: PrimeSilvaAegis
-  name: Silva & Aegis Prime
-  id: silva_&_aegis_prime
+- uniqueName: PrimeTatsuWeapon
+  name: Tatsu Prime
+  id: tatsu_prime
   parts:
     - part_type: Blade
-      id: silva_&_aegis_prime_blade
+      id: tatsu_prime_blade
       relic:
-        name: Axi S6
+        name: Axi C9
         id: todo
         reward_chance: 11
         rarity: uncommon
     - part_type: Blueprint
-      id: silva_&_aegis_prime_blueprint
+      id: tatsu_prime_blueprint
       relic:
-        name: Neo G3
+        name: Lith A9
+        id: todo
+        reward_chance: 25.33
+        rarity: common
+    - part_type: Handle
+      id: tatsu_prime_handle
+      relic:
+        name: Lith T13
+        id: todo
+        reward_chance: 2
+        rarity: rare
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeTatsu/PrimeTatsuWeapon
+    item: Prime Tatsu Weapon
+    ducats: 2
+    credits: null
+- uniqueName: BaruukPrime
+  name: Baruuk Prime
+  id: baruuk_prime
+  parts:
+    - part_type: Blueprint
+      id: baruuk_prime_blueprint
+      relic:
+        name: Axi B9
+        id: todo
+        reward_chance: 2
+        rarity: rare
+    - part_type: Chassis
+      id: baruuk_prime_chassis
+      relic:
+        name: Lith T13
+        id: todo
+        reward_chance: 11
+        rarity: uncommon
+    - part_type: Neuroptics
+      id: baruuk_prime_neuroptics
+      relic:
+        name: Axi B9
+        id: todo
+        reward_chance: 11
+        rarity: uncommon
+    - part_type: Systems
+      id: baruuk_prime_systems
+      relic:
+        name: Neo P8
+        id: todo
+        reward_chance: 25.33
+        rarity: common
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Pacifist/BaruukPrime
+    item: Baruuk Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeCobraAndCraneWeapon
+  name: Cobra & Crane Prime
+  id: cobra_&_crane_prime
+  parts:
+    - part_type: Blade
+      id: cobra_&_crane_prime_blade
+      relic:
+        name: Meso R6
+        id: todo
+        reward_chance: 11
+        rarity: uncommon
+    - part_type: Blueprint
+      id: cobra_&_crane_prime_blueprint
+      relic:
+        name: Axi B9
         id: todo
         reward_chance: 11
         rarity: uncommon
     - part_type: Guard
-      id: silva_&_aegis_prime_guard
+      id: cobra_&_crane_prime_guard
       relic:
-        name: Lith S9
+        name: Axi C9
         id: todo
         reward_chance: 2
         rarity: rare
     - part_type: Hilt
-      id: silva_&_aegis_prime_hilt
+      id: cobra_&_crane_prime_hilt
       relic:
-        name: Meso O4
+        name: Lith A9
         id: todo
         reward_chance: 25.33
         rarity: common
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/PrimeSilvaAegis/PrimeSilvaAegis
-    item: Prime Silva Aegis
+    uniqueName: >-
+      /Lotus/StoreItems/Weapons/Tenno/Melee/SwordsAndBoards/PrimeCobraAndCrane/PrimeCobraAndCraneWeapon
+    item: Prime Cobra And Crane Weapon
     ducats: 2
     credits: null
-- uniqueName: NekrosPrime
-  name: Nekros Prime
-  id: nekros_prime
+- uniqueName: PrimeAFurisWeapon
+  name: Afuris Prime
+  id: afuris_prime
   parts:
-    - part_type: Blueprint
-      id: nekros_prime_blueprint
+    - part_type: Barrel
+      id: afuris_prime_barrel
       relic:
-        name: Lith T3
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
-    - part_type: Chassis
-      id: nekros_prime_chassis
-      relic:
-        name: Axi S6
+        name: Meso R6
         id: todo
         reward_chance: 25.33
         rarity: common
-    - part_type: Neuroptics
-      id: nekros_prime_neuroptics
-      relic:
-        name: Meso O4
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
-    - part_type: Systems
-      id: nekros_prime_systems
-      relic:
-        name: Neo N11
-        id: todo
-        reward_chance: 2
-        rarity: rare
-  varzia_info:
-    uniqueName: /Lotus/StoreItems/Powersuits/Necro/NekrosPrime
-    item: Nekros Prime
-    ducats: 3
-    credits: null
-- uniqueName: PrimeTigris
-  name: Tigris Prime
-  id: tigris_prime
-  parts:
     - part_type: Barrel
-      id: tigris_prime_barrel
+      id: afuris_prime_barrel2
       relic:
-        name: Axi S6
+        name: Meso R6
+        id: todo
+        reward_chance: 25.33
+        rarity: common
+    - part_type: Blueprint
+      id: afuris_prime_blueprint
+      relic:
+        name: Axi B9
+        id: todo
+        reward_chance: 25.33
+        rarity: common
+    - part_type: Link
+      id: afuris_prime_link
+      relic:
+        name: Neo P8
         id: todo
         reward_chance: 11
         rarity: uncommon
-    - part_type: Blueprint
-      id: tigris_prime_blueprint
+    - part_type: Receiver
+      id: afuris_prime_receiver
       relic:
-        name: Lith T3
+        name: Lith A9
         id: todo
         reward_chance: 2
         rarity: rare
     - part_type: Receiver
-      id: tigris_prime_receiver
+      id: afuris_prime_receiver2
       relic:
-        name: Lith S9
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
-    - part_type: Stock
-      id: tigris_prime_stock
-      relic:
-        name: Neo N11
-        id: todo
-        reward_chance: 25.33
-        rarity: common
-  varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeTigris/PrimeTigris
-    item: Prime Tigris
-    ducats: 2
-    credits: null
-- uniqueName: PrimeGalatine
-  name: Galatine Prime
-  id: galatine_prime
-  parts:
-    - part_type: Blade
-      id: galatine_prime_blade
-      relic:
-        name: Lith T3
-        id: todo
-        reward_chance: 25.33
-        rarity: common
-    - part_type: Blueprint
-      id: galatine_prime_blueprint
-      relic:
-        name: Neo G3
+        name: Lith A9
         id: todo
         reward_chance: 2
         rarity: rare
-    - part_type: Handle
-      id: galatine_prime_handle
-      relic:
-        name: Meso O4
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeGalatine/PrimeGalatine
-    item: Prime Galatine
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeAfuris/PrimeAFurisWeapon
+    item: Prime A Furis Weapon
     ducats: 2
     credits: null
