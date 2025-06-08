@@ -58,10 +58,12 @@
       relics:
     - part_type: Barrel
       relics:
+      id: barrel2
     - part_type: Receiver
       relics:
     - part_type: Receiver
       relics:
+      id: reciever2
     - part_type: Link
       relics:
 - name: Protea Prime
