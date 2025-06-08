@@ -3,9 +3,8 @@
   item.name
   item.parts?
 {% endcomment -%}
-<label class="list-group-item list-group-item-action"
+<label class="wf-task-major list-group-item list-group-item-action"
        id="{{ item.id }}"
-       onclick="toggle_bs_major_task(this); handle_onclick(this, '{{ item.id }}')"
        oncontextmenu="toggleSubtasks(event, this)"
  >
   <strong>{{ item.name }}</strong>
@@ -16,8 +15,7 @@
       {% else -%}
       {% capture part_id %}{{ item.id }}_{{ part.id }}{% endcapture -%}
       {% endif -%}
-      <li class="list-group-item list-group-item-action list-group-item-secondary"
-          onclick="event.stopPropagation(); toggle_bs_task(this); handle_onclick(this, '{{ part_id }}');"
+      <li class="wf-task-minor list-group-item list-group-item-action list-group-item-secondary"
           id="{{ part_id }}"
           >{{ part.part_type }}</li>
       <script type="module">
@@ -32,7 +30,3 @@
     {%- endfor %}
     </ul>
 </label>
-<script type="module">
-  import { init_major_task_state } from '/warframe-app/js/init_task_state.js';
-  init_major_task_state("{{ item.id }}");
-</script>

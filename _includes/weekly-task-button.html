@@ -1,11 +1,6 @@
-<label class="list-group-item list-group-item-action"
+<label class="wf-task-major list-group-item list-group-item-action"
        id="{{ item.id }}"
-       onclick="toggle_bs_major_task(this); handle_onclick(this, '{{ item.id }}')"
        oncontextmenu="toggleSubtasks(event, this)"
 >
   {{ item.name }}
 </label>
-<script type="module">
-  import { init_major_task_state } from '/warframe-app/js/init_task_state.js';
-  init_major_task_state("{{ item.id }}");
-</script>
