@@ -1,5 +1,4 @@
 function major_task_init() {
-    console.log('jquery - init_major_task - ', this.id);
     let part_status = localStorage.getItem(this.id);
     if (part_status) {
         let is_complete = part_status == 'true';
@@ -14,7 +13,6 @@ function major_task_init() {
 }
 
 function minor_task_init() {
-    console.log('jquery - init_minor_task - ', this.id);
     let node_status = localStorage.getItem(this.id);
     if (node_status) {
         let is_complete = node_status == 'true';
@@ -54,7 +52,6 @@ function minor_task_onclick() {
 }
 
 $(document).ready(function () {
-    console.log('_js/tasks.js :: ready() callback');
     // init major task states
     $('label.wf-task-major').each(major_task_init);
     $('div.wf-task-major').each(major_task_init);

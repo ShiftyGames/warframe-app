@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    console.log('init collapse state - JQuery');
     $('.collapse').on('shown.bs.collapse', function () {
         localStorage.setItem('coll_show_' + this.id, true);
     });
