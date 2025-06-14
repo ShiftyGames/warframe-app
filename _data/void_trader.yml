@@ -3,8 +3,8 @@ id: 5d1e07a0a38e4a4fdd7cefca
 expiry: '2025-06-15T13:00:00.000Z'
 location: Larunda Relay (Mercury)
 inventory:
-- item: Grn Orokin Rifle Weapon
-  id: grn_orokin_rifle_weapon
+- item: Gotva Prime
+  id: gotva_prime
   type: weapon
   ducats: 675
   credits: 625000
@@ -35,7 +35,7 @@ inventory:
   credits: 175000
 - item: Primed Regen
   id: primed_regen
-  type: companion
+  type: mod
   ducats: 300
   credits: 220000
 - item: Viper Wraith
