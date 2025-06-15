@@ -1,45 +1,5 @@
 ---
 id: 5d1e07a0a38e4a4fdd7cefca
-expiry: '2025-06-15T13:00:00.000Z'
-location: Larunda Relay (Mercury)
-inventory:
-- item: Gotva Prime
-  id: gotva_prime
-  type: weapon
-  ducats: 675
-  credits: 625000
-- item: Primed Pressure Point
-  id: primed_pressure_point
-  type: mod
-  ducats: 385
-  credits: 300000
-- item: Primed Pistol Gambit
-  id: primed_pistol_gambit
-  type: mod
-  ducats: 400
-  credits: 220000
-- item: Primed Chilling Grasp
-  id: primed_chilling_grasp
-  type: mod
-  ducats: 350
-  credits: 125000
-- item: Machete Wraith
-  id: machete_wraith
-  type: weapon
-  ducats: 410
-  credits: 250000
-- item: Vermillion Storm
-  id: vermillion_storm
-  type: weapon
-  ducats: 385
-  credits: 175000
-- item: Primed Regen
-  id: primed_regen
-  type: mod
-  ducats: 300
-  credits: 220000
-- item: Viper Wraith
-  id: viper_wraith
-  type: weapon
-  ducats: 400
-  credits: 75000
+expiry: '2025-06-29T13:00:00.000Z'
+location: Kronia Relay (Saturn)
+inventory: []
