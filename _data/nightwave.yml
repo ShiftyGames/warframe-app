@@ -1,110 +1,110 @@
-- id: 1749513600000seasondailykillenemieswithmelee
-  activation: '2025-06-07T00:00:00.000Z'
-  startString: '-2d 1h 26m 50s'
-  expiry: '2025-06-10T00:00:00.000Z'
+- id: 1750118400000seasondailyswatter
+  activation: '2025-06-14T00:00:00.000Z'
+  startString: '-2d 1h 16m 1s'
+  expiry: '2025-06-17T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with a Melee Weapon
-  title: Sword Dance
+  desc: Kill 3 Drones or Ospreys with your Melee Weapon
+  title: Swatter
   reputation: 1000
   isPermanent: false
-- id: 1749600000000seasondailycompletemission
-  activation: '2025-06-08T00:00:00.000Z'
-  startString: '-1d 1h 26m 50s'
-  expiry: '2025-06-11T00:00:00.000Z'
+- id: 1750204800000seasondailyplayemote
+  activation: '2025-06-15T00:00:00.000Z'
+  startString: '-1d 1h 16m 1s'
+  expiry: '2025-06-18T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Complete a Mission
-  title: Agent
+  desc: Play 1 Emote
+  title: Expressive
   reputation: 1000
   isPermanent: false
-- id: 1749686400000seasondailyhijackcrewship
-  activation: '2025-06-09T00:00:00.000Z'
-  startString: '-1h 26m 50s'
-  expiry: '2025-06-12T00:00:00.000Z'
+- id: 1750291200000seasondailymercykill
+  activation: '2025-06-16T00:00:00.000Z'
+  startString: '-1h 16m 1s'
+  expiry: '2025-06-19T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Hijack a Crewship from the enemy
-  title: Confiscated
+  desc: Mercy Kill an Enemy
+  title: No Mercy
   reputation: 1000
   isPermanent: false
-- id: 1750032000000seasonweeklypermanentcompletemissions4
-  activation: '2025-06-09T00:00:00.000Z'
-  startString: '-1h 26m 50s'
-  expiry: '2025-06-16T00:00:00.000Z'
+- id: 1750636800000seasonweeklypermanentcompletemissions5
+  activation: '2025-06-16T00:00:00.000Z'
+  startString: '-1h 16m 1s'
+  expiry: '2025-06-23T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete IV
+  title: Mission Complete V
   reputation: 4500
   isPermanent: false
-- id: 1750032000000seasonweeklypermanentkilleximus4
-  activation: '2025-06-09T00:00:00.000Z'
-  startString: '-1h 26m 50s'
-  expiry: '2025-06-16T00:00:00.000Z'
+- id: 1750636800000seasonweeklypermanentkilleximus5
+  activation: '2025-06-16T00:00:00.000Z'
+  startString: '-1h 16m 1s'
+  expiry: '2025-06-23T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator IV
+  title: Eximus Eliminator V
   reputation: 4500
   isPermanent: false
-- id: 1750032000000seasonweeklypermanentkillenemies4
-  activation: '2025-06-09T00:00:00.000Z'
-  startString: '-1h 26m 50s'
-  expiry: '2025-06-16T00:00:00.000Z'
+- id: 1750636800000seasonweeklypermanentkillenemies5
+  activation: '2025-06-16T00:00:00.000Z'
+  startString: '-1h 16m 1s'
+  expiry: '2025-06-23T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot IV
+  title: Not a Warning Shot V
   reputation: 4500
   isPermanent: false
-- id: 1750032000000seasonweeklycompletedisruptionconduits
-  activation: '2025-06-09T00:00:00.000Z'
-  startString: '-1h 26m 50s'
-  expiry: '2025-06-16T00:00:00.000Z'
+- id: 1750636800000seasonweeklycompletenightmaremissions
+  activation: '2025-06-16T00:00:00.000Z'
+  startString: '-1h 16m 1s'
+  expiry: '2025-06-23T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 12 Conduits in Disruption
-  title: Don't Blow It
+  desc: Complete 3 Nightmare missions of any type
+  title: Sound Sleeper
   reputation: 4500
   isPermanent: false
-- id: 1750032000000seasonweeklyuseforma
-  activation: '2025-06-09T00:00:00.000Z'
-  startString: '-1h 26m 50s'
-  expiry: '2025-06-16T00:00:00.000Z'
+- id: 1750636800000seasonweeklycompleteclemmission
+  activation: '2025-06-16T00:00:00.000Z'
+  startString: '-1h 16m 1s'
+  expiry: '2025-06-23T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Polarize a Weapon, Companion, or Warframe (not in Simulacrum).
-  title: Polarized
+  desc: Help Clem with his weekly mission
+  title: Good Friend
   reputation: 4500
   isPermanent: false
-- id: 1750032000000seasonweeklyhardelitebeastslayer
-  activation: '2025-06-09T00:00:00.000Z'
-  startString: '-1h 26m 50s'
-  expiry: '2025-06-16T00:00:00.000Z'
+- id: 1750636800000seasonweeklyhardkillenemiessteelpath
+  activation: '2025-06-16T00:00:00.000Z'
+  startString: '-1h 16m 1s'
+  expiry: '2025-06-23T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: '[PH] Season Weekly Hard Elite Beast Slayer Desc'
-  title: Season Weekly Hard Elite Beast Slayer
+  desc: Kill 1,000 Enemies on The Steel Path.
+  title: Cold Steel
   reputation: 7000
   isPermanent: false
-- id: 1750032000000seasonweeklyhardkillenemies
-  activation: '2025-06-09T00:00:00.000Z'
-  startString: '-1h 26m 50s'
-  expiry: '2025-06-16T00:00:00.000Z'
+- id: 1750636800000seasonweeklyhardfriendsdefense
+  activation: '2025-06-16T00:00:00.000Z'
+  startString: '-1h 16m 1s'
+  expiry: '2025-06-23T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill 1,500 Enemies
-  title: Kill Shot
+  desc: Complete a Defense mission reaching at least Wave 20
+  title: Defense
   reputation: 7000
   isPermanent: false
