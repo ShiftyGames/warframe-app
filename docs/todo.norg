@@ -59,7 +59,7 @@ version: 1.1.1
     - ( ) alphabetize main tasks
 *** (x) Syndicates page
     - (x) implement _includes/syndicates-task-button.html
-    - ( ) add section for each syndicate
+    - (x) add section for each syndicate
 *** ( ) Codex page
     - (x) add Warframes section
     - (x) add Weapons section
@@ -70,6 +70,8 @@ version: 1.1.1
     - ( ) implement _includes/codex-weapon-task-button.html
     - ( ) implement _includes/codex-companion-task-button.html
     - ( ) implement _includes/codex-vehicle-task-button.html
+    - ( ) add wiki-links to buttons
+    - ( ) add a "Acquisition" tooltip on hover
 *** ( ) Modular Items page
     - ( ) implement _includes/modular-task-button.html
     - ( ) add Amp section

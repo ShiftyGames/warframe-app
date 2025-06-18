@@ -5,7 +5,7 @@ order: 10
 > This site is currently UNDER CONSTRUCTION!
 {: .prompt-warning}
 {% for syndicate in site.data.syndicates -%}
-  {% assign syndicate_id = syndicate.name | downcase | split: ' ' | join: '_' -%}
+  {% assign syndicate_id = syndicate.name | downcase | replace: "'", "_" | split: ' ' | join: '_' -%}
   <hr style="border: 1px solid #000;">
   <div class="d-grid gap-2">
     <button class="btn"

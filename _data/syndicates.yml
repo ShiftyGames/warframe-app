@@ -41,87 +41,361 @@
       Sentrium: 1
       Norg Brain: 1
       Cuthol Tendrils: 1
+
 - name: Quills
   ranks:
-  - name: Offworlder
+  - name: Mote
     level: 1
     cost:
-      Credits: 10_000
+      Credits: 30_000
       Standing: 5_000
-      Nistlepod: 25
-      Iradite: 25
-      Grokdrul: 25
-  - name: Visitor
+      Intact Sentient Core: 10
+  - name: Observer
     level: 2
     cost:
-      Credits: 25_000
+      Credits: 50_000
       Standing: 22_000
-      Tear Azurite: 10
-      Pyrol: 40
-      Fish Scales: 60
-  - name: Trusted
+      Intact Sentient Core: 20
+  - name: Adherent
     level: 3
     cost:
-      Credits: 50_000
+      Credits: 100_000
       Standing: 44_000
-      Cetus Wisp: 1
-      Maprico: 5
-  - name: Surah
+      Eidolon Shard: 10
+  - name: Instrument
     level: 4
     cost:
-      Credits: 100_000
+      Credits: 250_000
       Standing: 70_000
-      Maprico: 10
-      Fersteel Alloy: 40
-      Murkray Liver: 5
-  - name: Kin
+      Eidolon Shard: 20
+  - name: Architect
     level: 5
     cost:
-      Credits: 200_000
+      Credits: 500_000
       Standing: 99_000
-      Nyth: 1
-      Sentrium: 1
-      Norg Brain: 1
-      Cuthol Tendrils: 1
+      Eidolon Shard: 30
+
 - name: Solaris United
   ranks:
-  - name: Offworlder
+  - name: Outworlder
     level: 1
     cost:
       Credits: 10_000
       Standing: 5_000
-      Nistlepod: 25
-      Iradite: 25
-      Grokdrul: 25
-  - name: Visitor
+      Training Debt-Bond: 2
+  - name: Rapscallion
     level: 2
     cost:
       Credits: 25_000
       Standing: 22_000
-      Tear Azurite: 10
-      Pyrol: 40
-      Fish Scales: 60
-  - name: Trusted
+      Shelter Debt-Bond: 3
+      Training Debt-Bond: 2
+  - name: Doer
     level: 3
     cost:
       Credits: 50_000
       Standing: 44_000
-      Cetus Wisp: 1
-      Maprico: 5
-  - name: Surah
+      Medical Debt-Bond: 4
+      Shelter Debt-Bond: 3
+      Training Debt-Bond: 2
+  - name: Cove
     level: 4
     cost:
       Credits: 100_000
       Standing: 70_000
-      Maprico: 10
-      Fersteel Alloy: 40
-      Murkray Liver: 5
-  - name: Kin
+      Advances Debt-Bond: 5
+      Medical Debt-Bond: 4
+      Shelter Debt-Bond: 3
+  - name: Old Mate
     level: 5
     cost:
       Credits: 200_000
       Standing: 99_000
-      Nyth: 1
-      Sentrium: 1
-      Norg Brain: 1
-      Cuthol Tendrils: 1
+      Familial Debt-Bond: 3
+      Advances Debt-Bond: 3
+      Medical Debt-Bond: 3
+
+- name: Vox Solaris
+  ranks:
+  - name: Operative
+    level: 1
+    cost:
+      Credits: 50_000
+      Standing: 5_000
+      Calda Toroid: 1
+      Vega Toroid: 1
+      Sola Toroid: 1
+  - name: Agent
+    level: 2
+    cost:
+      Credits: 100_000
+      Standing: 22_000
+      Gyromag Systems: 1
+      Vega Toroid: 1
+  - name: Hand
+    level: 3
+    cost:
+      Credits: 250_000
+      Standing: 44_000
+      Atmo Systems: 1
+      Calda Toroid: 1
+  - name: Instrument
+    level: 4
+    cost:
+      Credits: 500_000
+      Standing: 70_000
+      Repeller Systems: 1
+      Sola Toroid: 1
+  - name: Old Mate
+    level: 5
+    cost:
+      Credits: 1_000_000
+      Standing: 99_000
+      Crisma Toroid: 1
+
+- name: Vent Kids
+  ranks:
+  - name: Glinty
+    level: 1
+    cost:
+      Standing: 5_000
+  - name: Whozit
+    level: 2
+    cost:
+      Standing: 22_000
+  - name: Proper Felon
+    level: 3
+    cost:
+      Standing: 44_000
+  - name: Primo
+    level: 4
+    cost:
+      Standing: 70_000
+  - name: Logical
+    level: 5
+    cost:
+      Standing: 99_000
+
+- name: Entrati
+  ranks:
+  - name: Stranger
+    level: 1
+    cost:
+      Standing: 5_000
+      Spinal Core Section: 3
+  - name: Acquiantance
+    level: 2
+    cost:
+      Standing: 22_000
+      Keratinos Blades Blueprint: 1
+      Keratinos Gauntlet Blueprint: 1
+      Father Token: 1
+      Daughter Token: 1
+  - name: Associate
+    level: 3
+    cost:
+      Standing: 44_000
+      Common Avichaea Tag: 5
+      Medjay Predasite Tag: 1
+      Mother Token: 1
+      Son Token: 1
+  - name: Friend
+    level: 4
+    cost:
+      Standing: 70_000
+      Zarim Mutagen: 1
+      Arioli Mutagen: 1
+      Father Token: 1
+      Son Token: 1
+  - name: Family
+    level: 5
+    cost:
+      Standing: 99_000
+      Seriglass Shard: 1
+      Mother Token: 1
+      Father Token: 1
+
+- name: Necraloid
+  ranks:
+  - name: "Clearance: Agnesis"
+    level: 1
+    cost:
+      Standing: 5_000
+      Orokin Orientation Matrix: 10
+      Void Traces: 150
+      Zymos Barrel Blueprint: 1
+      Father Token: 20
+  - name: "Clearance: Modus"
+    level: 2
+    cost:
+      Standing: 22_000
+      Orokin Ballistics Matrix: 15
+      Void Traces: 250
+      Sepulcrum Barrel Blueprint: 1
+      Father Token: 20
+  - name: "Clearance: Odima"
+    level: 3
+    cost:
+      Standing: 44_000
+      Orokin Animus Matrix: 15
+      Void Traces: 350
+      Trumna Barrel Blueprint: 1
+      Father Token: 20
+
+- name: The Hex
+  ranks:
+  - name: Leftovers
+    level: 1
+    cost:
+      Credits: 10_000
+      Standing: 5_000
+      Efervon Sample: 15
+      Hollvanian Pitchweave Fragment: 15
+  - name: Fresh Slice
+    level: 2
+    cost:
+      Credits: 25_000
+      Standing: 22_000
+      Experimental Arc-Relay: 5
+      Entrati Obols: 12
+      Hollvanian Pitchweave Fragment: 25
+  - name: 2-For-1
+    level: 3
+    cost:
+      Credits: 50_000
+      Standing: 44_000
+      The Countessa Comic: 1
+      On-lyne CD: 1
+      Chuggin' Along Sixpack: 1
+      Mood Crystal: 1
+      Cheddar Crowns Cereal: 1
+      35mm Film: 1
+  - name: Hot & Fresh
+    level: 4
+    cost:
+      Credits: 100_000
+      Standing: 70_000
+      Techrot Chitin: 25
+      Necracoil: 25
+      Efervon Sample: 40
+      Liked By Broadsword: 1
+      Liked By Salem: 1
+      Liked By Belladona: 1
+      Liked By H16h V017463: 1
+      Liked By GLIMMER: 1
+      Liked By Soldja1Shot1kil: 1
+  - name: Pizza Party
+    level: 5
+    cost:
+      Credits: 200_000
+      Standing: 99_000
+      Techrot Motherboard: 5
+      The Countessa Comic: 1
+      On-lyne CD: 1
+      Chuggin' Along Sixpack: 1
+      Mood Crystal: 1
+      Cheddar Crowns Cereal: 1
+      35mm Film: 1
+
+- name: The Holdfasts
+  ranks:
+  - name: Fallen
+    level: 1
+    cost:
+      Credits: 10_000
+      Standing: 5_000
+      Voidplume Down: 5
+      Ferrite: 2_000
+      Alloy Plate: 2_000
+  - name: Watcher
+    level: 2
+    cost:
+      Credits: 25_000
+      Standing: 22_000
+      Voidplume Vane: 10
+      Voidgel Orb: 10
+      Alloy Plate: 5_000
+  - name: Guardian
+    level: 3
+    cost:
+      Credits: 50_000
+      Standing: 44_000
+      Voidplume Crest: 10
+      Entrati Lanthorn: 10
+      Ferrite: 5_000
+  - name: Seraph
+    level: 4
+    cost:
+      Credits: 100_000
+      Standing: 70_000
+      Voidplume Quill: 15
+      Thrax Plasm: 60
+      Voidgel Orb: 40
+  - name: Angel
+    level: 5
+    cost:
+      Credits: 200_000
+      Standing: 99_000
+      Voidplume Pinion: 5
+      Thrax Plasm: 90
+      Entrati Lanthorn: 20
+
+- name: Cavia
+  ranks:
+  - name: Assistant
+    level: 1
+    cost:
+      Credits: 10_000
+      Standing: 5_000
+      Shrill Voca: 3
+      Entrati Obols: 300
+      Rubedo: 1_100
+  - name: Researcher
+    level: 2
+    cost:
+      Credits: 25_000
+      Standing: 22_000
+      Shrill Voca: 5
+      Voidgel Orb: 60
+      Necracoil: 12
+      Stela: 8
+  - name: Colleague
+    level: 3
+    cost:
+      Credits: 50_000
+      Standing: 44_000
+      Bellow Voca: 2
+      Shrill Voca: 8
+      Necracoil: 15
+      Stela: 16
+  - name: Scholar
+    level: 4
+    cost:
+      Credits: 100_000
+      Standing: 70_000
+      Echo Voca: 1
+      Bellow Voca: 10
+      Entrati Obols: 1_500
+      Entrati Lanthorn: 5
+  - name: Illuminate
+    level: 5
+    cost:
+      Credits: 200_000
+      Standing: 99_000
+      Echo Voca: 10
+      Necracoil: 25
+      Entrati Lanthorn: 10
+      Stela: 32
+
+- name: Khal's Garrison
+  ranks:
+    - name: Shelter
+      level: 1
+    - name: Encampment
+      level: 2
+    - name: Fort
+      level: 3
+    - name: Settlement
+      level: 4
+    - name: Home
+      level: 5
