@@ -1,110 +1,112 @@
-- id: 1750118400000seasondailyswatter
-  activation: '2025-06-14T00:00:00.000Z'
-  startString: '-2d 1h 16m 1s'
-  expiry: '2025-06-17T00:00:00.000Z'
+- id: 1750723200000seasondailytoppingoffthetank
+  activation: '2025-06-21T00:00:00.000Z'
+  startString: '-2d 1h 18m 10s'
+  expiry: '2025-06-24T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 3 Drones or Ospreys with your Melee Weapon
-  title: Swatter
+  desc: Successfully defend an Excavator without allowing it to run out of power
+  title: Topping Off the Tank
   reputation: 1000
   isPermanent: false
-- id: 1750204800000seasondailyplayemote
-  activation: '2025-06-15T00:00:00.000Z'
-  startString: '-1d 1h 16m 1s'
-  expiry: '2025-06-18T00:00:00.000Z'
+- id: 1750809600000seasondailycompletemissionsecondary
+  activation: '2025-06-22T00:00:00.000Z'
+  startString: '-1d 1h 18m 10s'
+  expiry: '2025-06-25T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Play 1 Emote
-  title: Expressive
+  desc: Complete a Mission with only a Secondary Weapon equipped
+  title: Sidearm
   reputation: 1000
   isPermanent: false
-- id: 1750291200000seasondailymercykill
-  activation: '2025-06-16T00:00:00.000Z'
-  startString: '-1h 16m 1s'
-  expiry: '2025-06-19T00:00:00.000Z'
+- id: 1750896000000seasondailydeployairsupport
+  activation: '2025-06-23T00:00:00.000Z'
+  startString: '-1h 18m 10s'
+  expiry: '2025-06-26T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Mercy Kill an Enemy
-  title: No Mercy
+  desc: Deploy an Air Support Charge in a Mission
+  title: Air It Out
   reputation: 1000
   isPermanent: false
-- id: 1750636800000seasonweeklypermanentcompletemissions5
-  activation: '2025-06-16T00:00:00.000Z'
-  startString: '-1h 16m 1s'
-  expiry: '2025-06-23T00:00:00.000Z'
+- id: 1751241600000seasonweeklypermanentcompletemissions6
+  activation: '2025-06-23T00:00:00.000Z'
+  startString: '-1h 18m 10s'
+  expiry: '2025-06-30T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete V
+  title: Mission Complete VI
   reputation: 4500
   isPermanent: false
-- id: 1750636800000seasonweeklypermanentkilleximus5
-  activation: '2025-06-16T00:00:00.000Z'
-  startString: '-1h 16m 1s'
-  expiry: '2025-06-23T00:00:00.000Z'
+- id: 1751241600000seasonweeklypermanentkilleximus6
+  activation: '2025-06-23T00:00:00.000Z'
+  startString: '-1h 18m 10s'
+  expiry: '2025-06-30T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator V
+  title: Eximus Eliminator VI
   reputation: 4500
   isPermanent: false
-- id: 1750636800000seasonweeklypermanentkillenemies5
-  activation: '2025-06-16T00:00:00.000Z'
-  startString: '-1h 16m 1s'
-  expiry: '2025-06-23T00:00:00.000Z'
+- id: 1751241600000seasonweeklypermanentkillenemies6
+  activation: '2025-06-23T00:00:00.000Z'
+  startString: '-1h 18m 10s'
+  expiry: '2025-06-30T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot V
+  title: Not a Warning Shot VI
   reputation: 4500
   isPermanent: false
-- id: 1750636800000seasonweeklycompletenightmaremissions
-  activation: '2025-06-16T00:00:00.000Z'
-  startString: '-1h 16m 1s'
-  expiry: '2025-06-23T00:00:00.000Z'
+- id: 1751241600000seasonweeklycompletesyndicatemissions
+  activation: '2025-06-23T00:00:00.000Z'
+  startString: '-1h 18m 10s'
+  expiry: '2025-06-30T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Nightmare missions of any type
-  title: Sound Sleeper
+  desc: Complete 5 Syndicate misions
+  title: Supporter
   reputation: 4500
   isPermanent: false
-- id: 1750636800000seasonweeklycompleteclemmission
-  activation: '2025-06-16T00:00:00.000Z'
-  startString: '-1h 16m 1s'
-  expiry: '2025-06-23T00:00:00.000Z'
+- id: 1751241600000seasonweeklyisolationbounties
+  activation: '2025-06-23T00:00:00.000Z'
+  startString: '-1h 18m 10s'
+  expiry: '2025-06-30T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Help Clem with his weekly mission
-  title: Good Friend
+  desc: Complete an Isolation Vault Bounty Mission on Deimos
+  title: Vault Raider
   reputation: 4500
   isPermanent: false
-- id: 1750636800000seasonweeklyhardkillenemiessteelpath
-  activation: '2025-06-16T00:00:00.000Z'
-  startString: '-1h 16m 1s'
-  expiry: '2025-06-23T00:00:00.000Z'
+- id: 1751241600000seasonweeklyhardantiquarian
+  activation: '2025-06-23T00:00:00.000Z'
+  startString: '-1h 18m 10s'
+  expiry: '2025-06-30T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill 1,000 Enemies on The Steel Path.
-  title: Cold Steel
+  desc: Open one of each era/tier of Relic (Lith, Meso, Neo, Axi)
+  title: Antiquarian
   reputation: 7000
   isPermanent: false
-- id: 1750636800000seasonweeklyhardfriendsdefense
-  activation: '2025-06-16T00:00:00.000Z'
-  startString: '-1h 16m 1s'
-  expiry: '2025-06-23T00:00:00.000Z'
+- id: 1751241600000seasonweeklyhardindexwinstreak
+  activation: '2025-06-23T00:00:00.000Z'
+  startString: '-1h 18m 10s'
+  expiry: '2025-06-30T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete a Defense mission reaching at least Wave 20
-  title: Defense
+  desc: >-
+    Win 3 wagers in a row without letting the enemy score in one match of The
+    Index.
+  title: Day Trader
   reputation: 7000
   isPermanent: false
