@@ -1,45 +1,5 @@
 ---
 id: 5d1e07a0a38e4a4fdd7cefca
-expiry: '2025-06-29T13:00:00.000Z'
-location: Kronia Relay (Saturn)
-inventory:
-- item: Primed Smite The Murmur
-  id: primed_smite_the_murmur
-  type: mod
-  ducats: 375
-  credits: 130000
-- item: Voltaic Strike
-  id: voltaic_strike
-  type: mod
-  ducats: 300
-  credits: 150000
-- item: Primed Fever Strike
-  id: primed_fever_strike
-  type: mod
-  ducats: 350
-  credits: 200000
-- item: Primed Rifle Ammo Mutation
-  id: primed_rifle_ammo_mutation
-  type: mod
-  ducats: 400
-  credits: 140000
-- item: Prova Vandal
-  id: prova_vandal
-  type: weapon
-  ducats: 410
-  credits: 250000
-- item: Prisma Skana
-  id: prisma_skana
-  type: weapon
-  ducats: 510
-  credits: 175000
-- item: Primed Bane Of Corpus
-  id: primed_bane_of_corpus
-  type: mod
-  ducats: 400
-  credits: 140000
-- item: Glaxion Vandal
-  id: glaxion_vandal
-  type: weapon
-  ducats: 475
-  credits: 250000
+expiry: '2025-07-13T13:00:00.000Z'
+location: Orcus Relay (Pluto)
+inventory: []
