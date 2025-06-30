@@ -1,112 +1,110 @@
-- id: 1750723200000seasondailytoppingoffthetank
-  activation: '2025-06-21T00:00:00.000Z'
-  startString: '-2d 1h 18m 10s'
-  expiry: '2025-06-24T00:00:00.000Z'
+- id: 1751328000000seasondailytwoforone
+  activation: '2025-06-28T00:00:00.000Z'
+  startString: '-2d 1h 18m 40s'
+  expiry: '2025-07-01T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Successfully defend an Excavator without allowing it to run out of power
-  title: Topping Off the Tank
+  desc: Pierce and kill 2 or more enemies in a single Bow shot
+  title: Two For One
   reputation: 1000
   isPermanent: false
-- id: 1750809600000seasondailycompletemissionsecondary
-  activation: '2025-06-22T00:00:00.000Z'
-  startString: '-1d 1h 18m 10s'
-  expiry: '2025-06-25T00:00:00.000Z'
+- id: 1751414400000seasondailykillenemieswithfire
+  activation: '2025-06-29T00:00:00.000Z'
+  startString: '-1d 1h 18m 40s'
+  expiry: '2025-07-02T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Complete a Mission with only a Secondary Weapon equipped
-  title: Sidearm
+  desc: Kill 150 Enemies with Heat Damage
+  title: Arsonist
   reputation: 1000
   isPermanent: false
-- id: 1750896000000seasondailydeployairsupport
-  activation: '2025-06-23T00:00:00.000Z'
-  startString: '-1h 18m 10s'
-  expiry: '2025-06-26T00:00:00.000Z'
+- id: 1751500800000seasondailyliquidation
+  activation: '2025-06-30T00:00:00.000Z'
+  startString: '-1h 18m 40s'
+  expiry: '2025-07-03T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Deploy an Air Support Charge in a Mission
-  title: Air It Out
+  desc: Sell any item in your Inventory for Credits
+  title: Liquidation
   reputation: 1000
   isPermanent: false
-- id: 1751241600000seasonweeklypermanentcompletemissions6
-  activation: '2025-06-23T00:00:00.000Z'
-  startString: '-1h 18m 10s'
-  expiry: '2025-06-30T00:00:00.000Z'
+- id: 1751846400000seasonweeklypermanentcompletemissions7
+  activation: '2025-06-30T00:00:00.000Z'
+  startString: '-1h 18m 40s'
+  expiry: '2025-07-07T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete VI
+  title: Mission Complete VII
   reputation: 4500
   isPermanent: false
-- id: 1751241600000seasonweeklypermanentkilleximus6
-  activation: '2025-06-23T00:00:00.000Z'
-  startString: '-1h 18m 10s'
-  expiry: '2025-06-30T00:00:00.000Z'
+- id: 1751846400000seasonweeklypermanentkilleximus7
+  activation: '2025-06-30T00:00:00.000Z'
+  startString: '-1h 18m 40s'
+  expiry: '2025-07-07T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator VI
+  title: Eximus Eliminator VII
   reputation: 4500
   isPermanent: false
-- id: 1751241600000seasonweeklypermanentkillenemies6
-  activation: '2025-06-23T00:00:00.000Z'
-  startString: '-1h 18m 10s'
-  expiry: '2025-06-30T00:00:00.000Z'
+- id: 1751846400000seasonweeklypermanentkillenemies7
+  activation: '2025-06-30T00:00:00.000Z'
+  startString: '-1h 18m 40s'
+  expiry: '2025-07-07T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot VI
+  title: Not a Warning Shot VII
   reputation: 4500
   isPermanent: false
-- id: 1751241600000seasonweeklycompletesyndicatemissions
-  activation: '2025-06-23T00:00:00.000Z'
-  startString: '-1h 18m 10s'
-  expiry: '2025-06-30T00:00:00.000Z'
+- id: 1751846400000seasonweeklycompletecapture
+  activation: '2025-06-30T00:00:00.000Z'
+  startString: '-1h 18m 40s'
+  expiry: '2025-07-07T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 5 Syndicate misions
-  title: Supporter
+  desc: Complete 3 Capture missions
+  title: Jailer
   reputation: 4500
   isPermanent: false
-- id: 1751241600000seasonweeklyisolationbounties
-  activation: '2025-06-23T00:00:00.000Z'
-  startString: '-1h 18m 10s'
-  expiry: '2025-06-30T00:00:00.000Z'
+- id: 1751846400000seasonweeklycompletesabotage
+  activation: '2025-06-30T00:00:00.000Z'
+  startString: '-1h 18m 40s'
+  expiry: '2025-07-07T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete an Isolation Vault Bounty Mission on Deimos
-  title: Vault Raider
+  desc: Complete 3 Sabotage missions
+  title: Saboteur
   reputation: 4500
   isPermanent: false
-- id: 1751241600000seasonweeklyhardantiquarian
-  activation: '2025-06-23T00:00:00.000Z'
-  startString: '-1h 18m 10s'
-  expiry: '2025-06-30T00:00:00.000Z'
+- id: 1751846400000seasonweeklyhardterminated
+  activation: '2025-06-30T00:00:00.000Z'
+  startString: '-1h 18m 40s'
+  expiry: '2025-07-07T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Open one of each era/tier of Relic (Lith, Meso, Neo, Axi)
-  title: Antiquarian
+  desc: Destroy 3 Necramech vault guardians
+  title: Terminated
   reputation: 7000
   isPermanent: false
-- id: 1751241600000seasonweeklyhardindexwinstreak
-  activation: '2025-06-23T00:00:00.000Z'
-  startString: '-1h 18m 10s'
-  expiry: '2025-06-30T00:00:00.000Z'
+- id: 1751846400000seasonweeklyhardthemanymadewhole
+  activation: '2025-06-30T00:00:00.000Z'
+  startString: '-1h 18m 40s'
+  expiry: '2025-07-07T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: >-
-    Win 3 wagers in a row without letting the enemy score in one match of The
-    Index.
-  title: Day Trader
+  desc: Convert 10 Riven Slivers into a Riven Mod
+  title: The Many Made Whole
   reputation: 7000
   isPermanent: false
