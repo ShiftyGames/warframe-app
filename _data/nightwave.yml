@@ -1,110 +1,110 @@
-- id: 1751328000000seasondailytwoforone
-  activation: '2025-06-28T00:00:00.000Z'
-  startString: '-2d 1h 18m 40s'
-  expiry: '2025-07-01T00:00:00.000Z'
+- id: 1751932800000seasondailykillenemieswithgas
+  activation: '2025-07-05T00:00:00.000Z'
+  startString: '-2d 1h 18m 50s'
+  expiry: '2025-07-08T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Pierce and kill 2 or more enemies in a single Bow shot
-  title: Two For One
+  desc: Kill 150 Enemies with Gas Damage
+  title: Biohazard
   reputation: 1000
   isPermanent: false
-- id: 1751414400000seasondailykillenemieswithfire
-  activation: '2025-06-29T00:00:00.000Z'
-  startString: '-1d 1h 18m 40s'
-  expiry: '2025-07-02T00:00:00.000Z'
+- id: 1752019200000seasondailymercykill
+  activation: '2025-07-06T00:00:00.000Z'
+  startString: '-1d 1h 18m 50s'
+  expiry: '2025-07-09T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with Heat Damage
-  title: Arsonist
+  desc: Mercy Kill an Enemy
+  title: No Mercy
   reputation: 1000
   isPermanent: false
-- id: 1751500800000seasondailyliquidation
-  activation: '2025-06-30T00:00:00.000Z'
-  startString: '-1h 18m 40s'
-  expiry: '2025-07-03T00:00:00.000Z'
+- id: 1752105600000seasondailykillenemieswithcorrosive
+  activation: '2025-07-07T00:00:00.000Z'
+  startString: '-1h 18m 50s'
+  expiry: '2025-07-10T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Sell any item in your Inventory for Credits
-  title: Liquidation
+  desc: Kill 150 Enemies with Corrosive Damage
+  title: Meltdown
   reputation: 1000
   isPermanent: false
-- id: 1751846400000seasonweeklypermanentcompletemissions7
-  activation: '2025-06-30T00:00:00.000Z'
-  startString: '-1h 18m 40s'
-  expiry: '2025-07-07T00:00:00.000Z'
+- id: 1752451200000seasonweeklypermanentcompletemissions8
+  activation: '2025-07-07T00:00:00.000Z'
+  startString: '-1h 18m 50s'
+  expiry: '2025-07-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete VII
+  title: Mission Complete VIII
   reputation: 4500
   isPermanent: false
-- id: 1751846400000seasonweeklypermanentkilleximus7
-  activation: '2025-06-30T00:00:00.000Z'
-  startString: '-1h 18m 40s'
-  expiry: '2025-07-07T00:00:00.000Z'
+- id: 1752451200000seasonweeklypermanentkilleximus8
+  activation: '2025-07-07T00:00:00.000Z'
+  startString: '-1h 18m 50s'
+  expiry: '2025-07-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator VII
+  title: Eximus Eliminator VIII
   reputation: 4500
   isPermanent: false
-- id: 1751846400000seasonweeklypermanentkillenemies7
-  activation: '2025-06-30T00:00:00.000Z'
-  startString: '-1h 18m 40s'
-  expiry: '2025-07-07T00:00:00.000Z'
+- id: 1752451200000seasonweeklypermanentkillenemies8
+  activation: '2025-07-07T00:00:00.000Z'
+  startString: '-1h 18m 50s'
+  expiry: '2025-07-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot VII
+  title: Not a Warning Shot VIII
   reputation: 4500
   isPermanent: false
-- id: 1751846400000seasonweeklycompletecapture
-  activation: '2025-06-30T00:00:00.000Z'
-  startString: '-1h 18m 40s'
-  expiry: '2025-07-07T00:00:00.000Z'
+- id: 1752451200000seasonweeklydestroycrewshipartillery
+  activation: '2025-07-07T00:00:00.000Z'
+  startString: '-1h 18m 50s'
+  expiry: '2025-07-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Capture missions
-  title: Jailer
+  desc: Destroy a Crewship with Forward Artillery
+  title: Forward Thinking
   reputation: 4500
   isPermanent: false
-- id: 1751846400000seasonweeklycompletesabotage
-  activation: '2025-06-30T00:00:00.000Z'
-  startString: '-1h 18m 40s'
-  expiry: '2025-07-07T00:00:00.000Z'
+- id: 1752451200000seasonweeklyopenlockers
+  activation: '2025-07-07T00:00:00.000Z'
+  startString: '-1h 18m 50s'
+  expiry: '2025-07-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Sabotage missions
-  title: Saboteur
+  desc: '[PH] Season Weekly Open Lockers Desc'
+  title: Season Weekly Open Lockers
   reputation: 4500
   isPermanent: false
-- id: 1751846400000seasonweeklyhardterminated
-  activation: '2025-06-30T00:00:00.000Z'
-  startString: '-1h 18m 40s'
-  expiry: '2025-07-07T00:00:00.000Z'
+- id: 1752451200000seasonweeklyhardkuvasurvivalnocapsules
+  activation: '2025-07-07T00:00:00.000Z'
+  startString: '-1h 18m 50s'
+  expiry: '2025-07-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Destroy 3 Necramech vault guardians
-  title: Terminated
+  desc: Survive for over 20 minutes in Kuva Survival
+  title: Hold Your Breath
   reputation: 7000
   isPermanent: false
-- id: 1751846400000seasonweeklyhardthemanymadewhole
-  activation: '2025-06-30T00:00:00.000Z'
-  startString: '-1h 18m 40s'
-  expiry: '2025-07-07T00:00:00.000Z'
+- id: 1752451200000seasonweeklyhardcompletearchonhunt
+  activation: '2025-07-07T00:00:00.000Z'
+  startString: '-1h 18m 50s'
+  expiry: '2025-07-14T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Convert 10 Riven Slivers into a Riven Mod
-  title: The Many Made Whole
+  desc: Complete an Archon Hunt
+  title: Archon Hunter
   reputation: 7000
   isPermanent: false
