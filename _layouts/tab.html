@@ -5,29 +5,6 @@ refactor: false
 {{ content }}
 
 <script>
-  function init_task_state(id) {
-    console.assert(false, 'UPDATE ME - init_task_state(' + id + ')');
-    let part_status = localStorage.getItem(id);
-    if (part_status) {
-      let is_complete = part_status == "true";
-      if (is_complete) {
-        document.getElementById(id).classList.add("list-group-item-success");
-      }
-    }
-  }
-  function handle_onclick(element, id) {
-    console.assert(false, 'UPDATE ME - handle_onclick(e,' + id + ')');
-    //const e = e || document.getElementById(id);
-    var is_complete = false;
-    if (element.hasOwnProperty("checked")) {
-      is_complete = element.checked;
-    } else {
-      is_complete = element.classList.contains("list-group-item-success");
-    }
-    console.log("checkbox '" + id + "' is checked: " + is_complete);
-    localStorage.setItem(id, is_complete);
-  }
-
   function toggle_bs_major_task(element) {
     console.assert(false, 'UPDATE ME - handle_onclick(e,' + id + ')');
     element.classList.toggle("list-group-item-success");
@@ -46,7 +23,7 @@ refactor: false
 
   function toggleSubtasks(event, element) {
     if (event) {
-      event.preventDefault(); // Prevents the context menu from appearing
+      event.preventDefault(); /* Prevents the context menu from appearing */
     }
     let subtasks = element.querySelector("ul");
     if (subtasks) {
