@@ -2,4 +2,49 @@
 id: 5d1e07a0a38e4a4fdd7cefca
 expiry: '2025-07-13T13:00:00.000Z'
 location: Orcus Relay (Pluto)
-inventory: []
+inventory:
+- item: Primed Cryo Rounds
+  id: primed_cryo_rounds
+  type: mod
+  ducats: 350
+  credits: 110000
+- item: Jolt
+  id: jolt
+  type: mod
+  ducats: 300
+  credits: 150000
+- item: Primed Magazine Warp
+  id: primed_magazine_warp
+  type: mod
+  ducats: 280
+  credits: 200000
+- item: Primed Ravage
+  id: primed_ravage
+  type: mod
+  ducats: 280
+  credits: 100000
+- item: Primed Tactical Pump
+  id: primed_tactical_pump
+  type: mod
+  ducats: 300
+  credits: 140000
+- item: Prisma Grinlok
+  id: prisma_grinlok
+  type: weapon
+  ducats: 500
+  credits: 220000
+- item: Opticor Vandal
+  id: opticor_vandal
+  type: weapon
+  ducats: 650
+  credits: 550000
+- item: Tannukai Longsword Skin
+  id: tannukai_longsword_skin
+  type: weapon
+  ducats: 375
+  credits: 280000
+- item: Prisma Lenz
+  id: prisma_lenz
+  type: weapon
+  ducats: 575
+  credits: 200000
