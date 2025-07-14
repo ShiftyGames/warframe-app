@@ -1,110 +1,110 @@
-- id: 1751932800000seasondailykillenemieswithgas
-  activation: '2025-07-05T00:00:00.000Z'
-  startString: '-2d 1h 18m 50s'
-  expiry: '2025-07-08T00:00:00.000Z'
+- id: 1752537600000seasondailykillenemieswithviral
+  activation: '2025-07-12T00:00:00.000Z'
+  startString: '-2d 1h 19m 50s'
+  expiry: '2025-07-15T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with Gas Damage
-  title: Biohazard
+  desc: Kill 150 Enemies with Viral Damage
+  title: Go Viral
   reputation: 1000
   isPermanent: false
-- id: 1752019200000seasondailymercykill
-  activation: '2025-07-06T00:00:00.000Z'
-  startString: '-1d 1h 18m 50s'
-  expiry: '2025-07-09T00:00:00.000Z'
+- id: 1752624000000seasondailytwoforone
+  activation: '2025-07-13T00:00:00.000Z'
+  startString: '-1d 1h 19m 50s'
+  expiry: '2025-07-16T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Mercy Kill an Enemy
-  title: No Mercy
+  desc: Pierce and kill 2 or more enemies in a single Bow shot
+  title: Two For One
   reputation: 1000
   isPermanent: false
-- id: 1752105600000seasondailykillenemieswithcorrosive
-  activation: '2025-07-07T00:00:00.000Z'
-  startString: '-1h 18m 50s'
-  expiry: '2025-07-10T00:00:00.000Z'
+- id: 1752710400000seasondailycompletemissionmelee
+  activation: '2025-07-14T00:00:00.000Z'
+  startString: '-1h 19m 50s'
+  expiry: '2025-07-17T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with Corrosive Damage
-  title: Meltdown
+  desc: Complete a Mission with only a Melee Weapon equipped
+  title: Swordsman
   reputation: 1000
   isPermanent: false
-- id: 1752451200000seasonweeklypermanentcompletemissions8
-  activation: '2025-07-07T00:00:00.000Z'
-  startString: '-1h 18m 50s'
-  expiry: '2025-07-14T00:00:00.000Z'
+- id: 1753056000000seasonweeklypermanentcompletemissions9
+  activation: '2025-07-14T00:00:00.000Z'
+  startString: '-1h 19m 50s'
+  expiry: '2025-07-21T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete VIII
+  title: Mission Complete IX
   reputation: 4500
   isPermanent: false
-- id: 1752451200000seasonweeklypermanentkilleximus8
-  activation: '2025-07-07T00:00:00.000Z'
-  startString: '-1h 18m 50s'
-  expiry: '2025-07-14T00:00:00.000Z'
+- id: 1753056000000seasonweeklypermanentkilleximus9
+  activation: '2025-07-14T00:00:00.000Z'
+  startString: '-1h 19m 50s'
+  expiry: '2025-07-21T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator VIII
+  title: Eximus Eliminator IX
   reputation: 4500
   isPermanent: false
-- id: 1752451200000seasonweeklypermanentkillenemies8
-  activation: '2025-07-07T00:00:00.000Z'
-  startString: '-1h 18m 50s'
-  expiry: '2025-07-14T00:00:00.000Z'
+- id: 1753056000000seasonweeklypermanentkillenemies9
+  activation: '2025-07-14T00:00:00.000Z'
+  startString: '-1h 19m 50s'
+  expiry: '2025-07-21T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot VIII
+  title: Not a Warning Shot IX
   reputation: 4500
   isPermanent: false
-- id: 1752451200000seasonweeklydestroycrewshipartillery
-  activation: '2025-07-07T00:00:00.000Z'
-  startString: '-1h 18m 50s'
-  expiry: '2025-07-14T00:00:00.000Z'
+- id: 1753056000000seasonweeklyidecree
+  activation: '2025-07-14T00:00:00.000Z'
+  startString: '-1h 19m 50s'
+  expiry: '2025-07-21T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Destroy a Crewship with Forward Artillery
-  title: Forward Thinking
+  desc: '[PH] Season Weekly I Decree Desc'
+  title: Season Weekly I Decree
   reputation: 4500
   isPermanent: false
-- id: 1752451200000seasonweeklyopenlockers
-  activation: '2025-07-07T00:00:00.000Z'
-  startString: '-1h 18m 50s'
-  expiry: '2025-07-14T00:00:00.000Z'
+- id: 1753056000000seasonweeklysolveciphers
+  activation: '2025-07-14T00:00:00.000Z'
+  startString: '-1h 19m 50s'
+  expiry: '2025-07-21T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: '[PH] Season Weekly Open Lockers Desc'
-  title: Season Weekly Open Lockers
+  desc: Hack 10 Consoles
+  title: Hacker
   reputation: 4500
   isPermanent: false
-- id: 1752451200000seasonweeklyhardkuvasurvivalnocapsules
-  activation: '2025-07-07T00:00:00.000Z'
-  startString: '-1h 18m 50s'
-  expiry: '2025-07-14T00:00:00.000Z'
+- id: 1753056000000seasonweeklyhardperplexed
+  activation: '2025-07-14T00:00:00.000Z'
+  startString: '-1h 19m 50s'
+  expiry: '2025-07-21T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Survive for over 20 minutes in Kuva Survival
-  title: Hold Your Breath
+  desc: '[PH] Season Weekly Hard Perplexed Desc'
+  title: Season Weekly Hard Perplexed
   reputation: 7000
   isPermanent: false
-- id: 1752451200000seasonweeklyhardcompletearchonhunt
-  activation: '2025-07-07T00:00:00.000Z'
-  startString: '-1h 18m 50s'
-  expiry: '2025-07-14T00:00:00.000Z'
+- id: 1753056000000seasonweeklyhardriseofthemachine
+  activation: '2025-07-14T00:00:00.000Z'
+  startString: '-1h 19m 50s'
+  expiry: '2025-07-21T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete an Archon Hunt
-  title: Archon Hunter
+  desc: Kill 300 enemies using a Necramech without getting destroyed
+  title: Rise of the Machine
   reputation: 7000
   isPermanent: false
