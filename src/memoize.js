@@ -14,14 +14,15 @@ export function _memoize(cache_name, f) {
             data = JSON.parse(contents);
         } else {
             data = await f(...args);
-            fs.writeFile(
+            fs.writeFileSync(
                 cache_f,
                 JSON.stringify(data, null, 2),
-                (write_err) => {
-                    if (write_err) throw write_err;
-                    console.log('file saved:', cache_f);
-                },
+                // (write_err) => {
+                //     if (write_err) throw write_err;
+                //     console.log('file saved:', cache_f);
+                // },
             );
+            console.log('file saved:', cache_f);
         }
         return data;
     };
@@ -31,6 +32,6 @@ export function _memoize(cache_name, f) {
 function ensure_dir_exists(filename) {
     const dirname = path.dirname(filename);
     if (!fs.existsSync(dirname)) {
-        fs.mkdirSync(dirname, {recursive: true});
+        fs.mkdirSync(dirname, { recursive: true });
     }
 }
