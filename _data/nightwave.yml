@@ -1,110 +1,110 @@
-- id: 1753142400000seasondailytoppingoffthetank
-  activation: '2025-07-19T00:00:00.000Z'
-  startString: '-2d 1h 22m 10s'
-  expiry: '2025-07-22T00:00:00.000Z'
+- id: 1753747200000seasondailykillenemieswithsecondary
+  activation: '2025-07-26T00:00:00.000Z'
+  startString: '-2d 1h 23m 30s'
+  expiry: '2025-07-29T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Successfully defend an Excavator without allowing it to run out of power
-  title: Topping Off the Tank
+  desc: Kill 150 Enemies with a Secondary Weapon
+  title: Smaller Is Bigger
   reputation: 1000
   isPermanent: false
-- id: 1753228800000seasondailysuspendfiveenemies
-  activation: '2025-07-20T00:00:00.000Z'
-  startString: '-1d 1h 22m 10s'
-  expiry: '2025-07-23T00:00:00.000Z'
+- id: 1753833600000seasondailycompletemission
+  activation: '2025-07-27T00:00:00.000Z'
+  startString: '-1d 1h 23m 30s'
+  expiry: '2025-07-30T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Suspend 5 or more enemies in the air at once with a Heavy Slam Melee Attack
-  title: Deep Impact
+  desc: Complete a Mission
+  title: Agent
   reputation: 1000
   isPermanent: false
-- id: 1753315200000seasondailypickupmods
-  activation: '2025-07-21T00:00:00.000Z'
-  startString: '-1h 22m 10s'
-  expiry: '2025-07-24T00:00:00.000Z'
+- id: 1753920000000seasondailycompletemissionprimary
+  activation: '2025-07-28T00:00:00.000Z'
+  startString: '-1h 23m 30s'
+  expiry: '2025-07-31T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Pick up 8 Mods
-  title: Shiny
+  desc: Complete a Mission with only a Primary Weapon equipped
+  title: Hands Full
   reputation: 1000
   isPermanent: false
-- id: 1753660800000seasonweeklypermanentcompletemissions10
-  activation: '2025-07-21T00:00:00.000Z'
-  startString: '-1h 22m 10s'
-  expiry: '2025-07-28T00:00:00.000Z'
+- id: 1754265600000seasonweeklypermanentcompletemissions11
+  activation: '2025-07-28T00:00:00.000Z'
+  startString: '-1h 23m 30s'
+  expiry: '2025-08-04T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete X
+  title: Mission Complete XI
   reputation: 4500
   isPermanent: false
-- id: 1753660800000seasonweeklypermanentkilleximus10
-  activation: '2025-07-21T00:00:00.000Z'
-  startString: '-1h 22m 10s'
-  expiry: '2025-07-28T00:00:00.000Z'
+- id: 1754265600000seasonweeklypermanentkilleximus11
+  activation: '2025-07-28T00:00:00.000Z'
+  startString: '-1h 23m 30s'
+  expiry: '2025-08-04T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator X
+  title: Eximus Eliminator XI
   reputation: 4500
   isPermanent: false
-- id: 1753660800000seasonweeklypermanentkillenemies10
-  activation: '2025-07-21T00:00:00.000Z'
-  startString: '-1h 22m 10s'
-  expiry: '2025-07-28T00:00:00.000Z'
+- id: 1754265600000seasonweeklypermanentkillenemies11
+  activation: '2025-07-28T00:00:00.000Z'
+  startString: '-1h 23m 30s'
+  expiry: '2025-08-04T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot X
+  title: Not a Warning Shot XI
   reputation: 4500
   isPermanent: false
-- id: 1753660800000seasonweeklyminerarevenusresources
-  activation: '2025-07-21T00:00:00.000Z'
-  startString: '-1h 22m 10s'
-  expiry: '2025-07-28T00:00:00.000Z'
+- id: 1754265600000seasonweeklyvenusbounties
+  activation: '2025-07-28T00:00:00.000Z'
+  startString: '-1h 23m 30s'
+  expiry: '2025-08-04T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Mine 3 Rare Gems in the Orb Vallis
-  title: Venus Miner
+  desc: Complete 3 different bounties in the Orb Vallis
+  title: Venus Bounty Hunter
   reputation: 4500
   isPermanent: false
-- id: 1753660800000seasonweeklycompleteexterminate
-  activation: '2025-07-21T00:00:00.000Z'
-  startString: '-1h 22m 10s'
-  expiry: '2025-07-28T00:00:00.000Z'
+- id: 1754265600000seasonweeklycollector
+  activation: '2025-07-28T00:00:00.000Z'
+  startString: '-1h 23m 30s'
+  expiry: '2025-08-04T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Exterminate missions
-  title: Eliminator
+  desc: '[PH] Season Weekly Collector Desc'
+  title: Season Weekly Collector
   reputation: 4500
   isPermanent: false
-- id: 1753660800000seasonweeklyhardceremonialevolution
-  activation: '2025-07-21T00:00:00.000Z'
-  startString: '-1h 22m 10s'
-  expiry: '2025-07-28T00:00:00.000Z'
+- id: 1754265600000seasonweeklyhardkilleximus
+  activation: '2025-07-28T00:00:00.000Z'
+  startString: '-1h 23m 30s'
+  expiry: '2025-08-04T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: '[PH] Season Weekly Hard Ceremonial Evolution Desc'
-  title: Season Weekly Hard Ceremonial Evolution
+  desc: Kill 100 Eximus
+  title: Eximus Executioner
   reputation: 7000
   isPermanent: false
-- id: 1753660800000seasonweeklyhardelitesanctuaryonslaught
-  activation: '2025-07-21T00:00:00.000Z'
-  startString: '-1h 22m 10s'
-  expiry: '2025-07-28T00:00:00.000Z'
+- id: 1754265600000seasonweeklyhardunlockrelics
+  activation: '2025-07-28T00:00:00.000Z'
+  startString: '-1h 23m 30s'
+  expiry: '2025-08-04T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete 8 Zones of Elite Sanctuary Onslaught
-  title: Elite Test Subject
+  desc: Unlock 10 Relics
+  title: Unlock Relics
   reputation: 7000
   isPermanent: false
