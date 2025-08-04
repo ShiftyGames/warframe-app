@@ -1,110 +1,110 @@
-- id: 1753747200000seasondailykillenemieswithsecondary
-  activation: '2025-07-26T00:00:00.000Z'
-  startString: '-2d 1h 23m 30s'
-  expiry: '2025-07-29T00:00:00.000Z'
+- id: 1754352000000seasondailybulletjump
+  activation: '2025-08-02T00:00:00.000Z'
+  startString: '-2d 1h 25m 0s'
+  expiry: '2025-08-05T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with a Secondary Weapon
-  title: Smaller Is Bigger
+  desc: Bullet Jump 150 times
+  title: Trampoline
   reputation: 1000
   isPermanent: false
-- id: 1753833600000seasondailycompletemission
-  activation: '2025-07-27T00:00:00.000Z'
-  startString: '-1d 1h 23m 30s'
-  expiry: '2025-07-30T00:00:00.000Z'
+- id: 1754438400000seasondailykillenemieswithprimary
+  activation: '2025-08-03T00:00:00.000Z'
+  startString: '-1d 1h 25m 0s'
+  expiry: '2025-08-06T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Complete a Mission
-  title: Agent
+  desc: Kill 150 Enemies with a Primary Weapon
+  title: Mow Them Down
   reputation: 1000
   isPermanent: false
-- id: 1753920000000seasondailycompletemissionprimary
-  activation: '2025-07-28T00:00:00.000Z'
-  startString: '-1h 23m 30s'
-  expiry: '2025-07-31T00:00:00.000Z'
+- id: 1754524800000seasondailykillenemieswithradiation
+  activation: '2025-08-04T00:00:00.000Z'
+  startString: '-1h 25m 0s'
+  expiry: '2025-08-07T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Complete a Mission with only a Primary Weapon equipped
-  title: Hands Full
+  desc: Kill 150 Enemies with a Radiation Damage
+  title: Reactor
   reputation: 1000
   isPermanent: false
-- id: 1754265600000seasonweeklypermanentcompletemissions11
-  activation: '2025-07-28T00:00:00.000Z'
-  startString: '-1h 23m 30s'
-  expiry: '2025-08-04T00:00:00.000Z'
+- id: 1754870400000seasonweeklypermanentcompletemissions12
+  activation: '2025-08-04T00:00:00.000Z'
+  startString: '-1h 25m 0s'
+  expiry: '2025-08-11T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XI
+  title: Mission Complete XII
   reputation: 4500
   isPermanent: false
-- id: 1754265600000seasonweeklypermanentkilleximus11
-  activation: '2025-07-28T00:00:00.000Z'
-  startString: '-1h 23m 30s'
-  expiry: '2025-08-04T00:00:00.000Z'
+- id: 1754870400000seasonweeklypermanentkilleximus12
+  activation: '2025-08-04T00:00:00.000Z'
+  startString: '-1h 25m 0s'
+  expiry: '2025-08-11T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XI
+  title: Eximus Eliminator XII
   reputation: 4500
   isPermanent: false
-- id: 1754265600000seasonweeklypermanentkillenemies11
-  activation: '2025-07-28T00:00:00.000Z'
-  startString: '-1h 23m 30s'
-  expiry: '2025-08-04T00:00:00.000Z'
+- id: 1754870400000seasonweeklypermanentkillenemies12
+  activation: '2025-08-04T00:00:00.000Z'
+  startString: '-1h 25m 0s'
+  expiry: '2025-08-11T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XI
+  title: Not a Warning Shot XII
   reputation: 4500
   isPermanent: false
-- id: 1754265600000seasonweeklyvenusbounties
-  activation: '2025-07-28T00:00:00.000Z'
-  startString: '-1h 23m 30s'
-  expiry: '2025-08-04T00:00:00.000Z'
+- id: 1754870400000seasonweeklyrailjackmissions
+  activation: '2025-08-04T00:00:00.000Z'
+  startString: '-1h 25m 0s'
+  expiry: '2025-08-11T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 different bounties in the Orb Vallis
-  title: Venus Bounty Hunter
+  desc: Complete 3 Railjack Missions
+  title: Explorer
   reputation: 4500
   isPermanent: false
-- id: 1754265600000seasonweeklycollector
-  activation: '2025-07-28T00:00:00.000Z'
-  startString: '-1h 23m 30s'
-  expiry: '2025-08-04T00:00:00.000Z'
+- id: 1754870400000seasonweeklycompleterace
+  activation: '2025-08-04T00:00:00.000Z'
+  startString: '-1h 25m 0s'
+  expiry: '2025-08-11T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: '[PH] Season Weekly Collector Desc'
-  title: Season Weekly Collector
+  desc: '[PH] Season Weekly Complete Race Desc'
+  title: Season Weekly Complete Race
   reputation: 4500
   isPermanent: false
-- id: 1754265600000seasonweeklyhardkilleximus
-  activation: '2025-07-28T00:00:00.000Z'
-  startString: '-1h 23m 30s'
-  expiry: '2025-08-04T00:00:00.000Z'
+- id: 1754870400000seasonweeklyhardcollectuniqueresources
+  activation: '2025-08-04T00:00:00.000Z'
+  startString: '-1h 25m 0s'
+  expiry: '2025-08-11T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill 100 Eximus
-  title: Eximus Executioner
+  desc: Collect 20 different types of resources.
+  title: Resource Scavenger
   reputation: 7000
   isPermanent: false
-- id: 1754265600000seasonweeklyhardunlockrelics
-  activation: '2025-07-28T00:00:00.000Z'
-  startString: '-1h 23m 30s'
-  expiry: '2025-08-04T00:00:00.000Z'
+- id: 1754870400000seasonweeklyhardkillthumper
+  activation: '2025-08-04T00:00:00.000Z'
+  startString: '-1h 25m 0s'
+  expiry: '2025-08-11T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Unlock 10 Relics
-  title: Unlock Relics
+  desc: Kill a Tusk Thumper Doma in the Plains of Eidolon
+  title: Walk Without Rhythm
   reputation: 7000
   isPermanent: false
