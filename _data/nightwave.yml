@@ -1,110 +1,110 @@
-- id: 1754352000000seasondailybulletjump
-  activation: '2025-08-02T00:00:00.000Z'
-  startString: '-2d 1h 25m 0s'
-  expiry: '2025-08-05T00:00:00.000Z'
+- id: 1754956800000seasondailyswatter
+  activation: '2025-08-09T00:00:00.000Z'
+  startString: '-2d 1h 20m 50s'
+  expiry: '2025-08-12T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Bullet Jump 150 times
-  title: Trampoline
+  desc: Kill 3 Drones or Ospreys with your Melee Weapon
+  title: Swatter
   reputation: 1000
   isPermanent: false
-- id: 1754438400000seasondailykillenemieswithprimary
-  activation: '2025-08-03T00:00:00.000Z'
-  startString: '-1d 1h 25m 0s'
-  expiry: '2025-08-06T00:00:00.000Z'
+- id: 1755043200000seasondailykillenemieswithmagnetic
+  activation: '2025-08-10T00:00:00.000Z'
+  startString: '-1d 1h 20m 50s'
+  expiry: '2025-08-13T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with a Primary Weapon
-  title: Mow Them Down
+  desc: Kill 150 Enemies with Magnetic damage
+  title: Attractive
   reputation: 1000
   isPermanent: false
-- id: 1754524800000seasondailykillenemieswithradiation
-  activation: '2025-08-04T00:00:00.000Z'
-  startString: '-1h 25m 0s'
-  expiry: '2025-08-07T00:00:00.000Z'
+- id: 1755129600000seasondailypickupenergy
+  activation: '2025-08-11T00:00:00.000Z'
+  startString: '-1h 20m 50s'
+  expiry: '2025-08-14T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with a Radiation Damage
-  title: Reactor
+  desc: Pick up 20 Energy Orbs
+  title: Energizing
   reputation: 1000
   isPermanent: false
-- id: 1754870400000seasonweeklypermanentcompletemissions12
-  activation: '2025-08-04T00:00:00.000Z'
-  startString: '-1h 25m 0s'
-  expiry: '2025-08-11T00:00:00.000Z'
+- id: 1755475200000seasonweeklypermanentcompletemissions13
+  activation: '2025-08-11T00:00:00.000Z'
+  startString: '-1h 20m 50s'
+  expiry: '2025-08-18T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XII
+  title: Mission Complete XIII
   reputation: 4500
   isPermanent: false
-- id: 1754870400000seasonweeklypermanentkilleximus12
-  activation: '2025-08-04T00:00:00.000Z'
-  startString: '-1h 25m 0s'
-  expiry: '2025-08-11T00:00:00.000Z'
+- id: 1755475200000seasonweeklypermanentkilleximus13
+  activation: '2025-08-11T00:00:00.000Z'
+  startString: '-1h 20m 50s'
+  expiry: '2025-08-18T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XII
+  title: Eximus Eliminator XIII
   reputation: 4500
   isPermanent: false
-- id: 1754870400000seasonweeklypermanentkillenemies12
-  activation: '2025-08-04T00:00:00.000Z'
-  startString: '-1h 25m 0s'
-  expiry: '2025-08-11T00:00:00.000Z'
+- id: 1755475200000seasonweeklypermanentkillenemies13
+  activation: '2025-08-11T00:00:00.000Z'
+  startString: '-1h 20m 50s'
+  expiry: '2025-08-18T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XII
+  title: Not a Warning Shot XIII
   reputation: 4500
   isPermanent: false
-- id: 1754870400000seasonweeklyrailjackmissions
-  activation: '2025-08-04T00:00:00.000Z'
-  startString: '-1h 25m 0s'
-  expiry: '2025-08-11T00:00:00.000Z'
+- id: 1755475200000seasonweeklyeternalguardian
+  activation: '2025-08-11T00:00:00.000Z'
+  startString: '-1h 20m 50s'
+  expiry: '2025-08-18T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Railjack Missions
-  title: Explorer
+  desc: Complete 3 Void Armageddon missions
+  title: Eternal Guardian
   reputation: 4500
   isPermanent: false
-- id: 1754870400000seasonweeklycompleterace
-  activation: '2025-08-04T00:00:00.000Z'
-  startString: '-1h 25m 0s'
-  expiry: '2025-08-11T00:00:00.000Z'
+- id: 1755475200000seasonweeklycollecthundredresources
+  activation: '2025-08-11T00:00:00.000Z'
+  startString: '-1h 20m 50s'
+  expiry: '2025-08-18T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: '[PH] Season Weekly Complete Race Desc'
-  title: Season Weekly Complete Race
+  desc: '[PH] Season Weekly Collect Hundred Resources Desc'
+  title: Season Weekly Collect Hundred Resources
   reputation: 4500
   isPermanent: false
-- id: 1754870400000seasonweeklyhardcollectuniqueresources
-  activation: '2025-08-04T00:00:00.000Z'
-  startString: '-1h 25m 0s'
-  expiry: '2025-08-11T00:00:00.000Z'
+- id: 1755475200000seasonweeklyhardfriendsprofittaker
+  activation: '2025-08-11T00:00:00.000Z'
+  startString: '-1h 20m 50s'
+  expiry: '2025-08-18T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Collect 20 different types of resources.
-  title: Resource Scavenger
+  desc: Kill Profit-Taker
+  title: Profit-Taker
   reputation: 7000
   isPermanent: false
-- id: 1754870400000seasonweeklyhardkillthumper
-  activation: '2025-08-04T00:00:00.000Z'
-  startString: '-1h 25m 0s'
-  expiry: '2025-08-11T00:00:00.000Z'
+- id: 1755475200000seasonweeklyhardthepriceoffreedom
+  activation: '2025-08-11T00:00:00.000Z'
+  startString: '-1h 20m 50s'
+  expiry: '2025-08-18T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill a Tusk Thumper Doma in the Plains of Eidolon
-  title: Walk Without Rhythm
+  desc: Free one Captured Solaris using a Granum Crown
+  title: The Price of Freedom
   reputation: 7000
   isPermanent: false
