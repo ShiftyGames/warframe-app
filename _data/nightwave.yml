@@ -1,110 +1,110 @@
-- id: 1754956800000seasondailyswatter
-  activation: '2025-08-09T00:00:00.000Z'
-  startString: '-2d 1h 20m 50s'
-  expiry: '2025-08-12T00:00:00.000Z'
+- id: 1755561600000seasondailyslidekills
+  activation: '2025-08-16T00:00:00.000Z'
+  startString: '-2d 1h 19m 20s'
+  expiry: '2025-08-19T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 3 Drones or Ospreys with your Melee Weapon
-  title: Swatter
+  desc: Kill 10 Enemies while Sliding
+  title: Accelerator
   reputation: 1000
   isPermanent: false
-- id: 1755043200000seasondailykillenemieswithmagnetic
-  activation: '2025-08-10T00:00:00.000Z'
-  startString: '-1d 1h 20m 50s'
-  expiry: '2025-08-13T00:00:00.000Z'
+- id: 1755648000000seasondailykillenemies
+  activation: '2025-08-17T00:00:00.000Z'
+  startString: '-1d 1h 19m 20s'
+  expiry: '2025-08-20T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 150 Enemies with Magnetic damage
-  title: Attractive
+  desc: Kill 200 Enemies
+  title: Warning Shot
   reputation: 1000
   isPermanent: false
-- id: 1755129600000seasondailypickupenergy
-  activation: '2025-08-11T00:00:00.000Z'
-  startString: '-1h 20m 50s'
-  expiry: '2025-08-14T00:00:00.000Z'
+- id: 1755734400000seasondailyaimglide
+  activation: '2025-08-18T00:00:00.000Z'
+  startString: '-1h 19m 20s'
+  expiry: '2025-08-21T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Pick up 20 Energy Orbs
-  title: Energizing
+  desc: Kill 15 Enemies while Aim Gliding
+  title: Glider
   reputation: 1000
   isPermanent: false
-- id: 1755475200000seasonweeklypermanentcompletemissions13
-  activation: '2025-08-11T00:00:00.000Z'
-  startString: '-1h 20m 50s'
-  expiry: '2025-08-18T00:00:00.000Z'
+- id: 1756080000000seasonweeklypermanentcompletemissions14
+  activation: '2025-08-18T00:00:00.000Z'
+  startString: '-1h 19m 20s'
+  expiry: '2025-08-25T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XIII
+  title: Mission Complete XIV
   reputation: 4500
   isPermanent: false
-- id: 1755475200000seasonweeklypermanentkilleximus13
-  activation: '2025-08-11T00:00:00.000Z'
-  startString: '-1h 20m 50s'
-  expiry: '2025-08-18T00:00:00.000Z'
+- id: 1756080000000seasonweeklypermanentkilleximus14
+  activation: '2025-08-18T00:00:00.000Z'
+  startString: '-1h 19m 20s'
+  expiry: '2025-08-25T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XIII
+  title: Eximus Eliminator XIV
   reputation: 4500
   isPermanent: false
-- id: 1755475200000seasonweeklypermanentkillenemies13
-  activation: '2025-08-11T00:00:00.000Z'
-  startString: '-1h 20m 50s'
-  expiry: '2025-08-18T00:00:00.000Z'
+- id: 1756080000000seasonweeklypermanentkillenemies14
+  activation: '2025-08-18T00:00:00.000Z'
+  startString: '-1h 19m 20s'
+  expiry: '2025-08-25T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XIII
+  title: Not a Warning Shot XIV
   reputation: 4500
   isPermanent: false
-- id: 1755475200000seasonweeklyeternalguardian
-  activation: '2025-08-11T00:00:00.000Z'
-  startString: '-1h 20m 50s'
-  expiry: '2025-08-18T00:00:00.000Z'
+- id: 1756080000000seasonweeklyperfectanimalcapture
+  activation: '2025-08-18T00:00:00.000Z'
+  startString: '-1h 19m 20s'
+  expiry: '2025-08-25T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 Void Armageddon missions
-  title: Eternal Guardian
+  desc: Complete 3 different Perfect Animal Captures in Orb Vallis
+  title: Conservationist
   reputation: 4500
   isPermanent: false
-- id: 1755475200000seasonweeklycollecthundredresources
-  activation: '2025-08-11T00:00:00.000Z'
-  startString: '-1h 20m 50s'
-  expiry: '2025-08-18T00:00:00.000Z'
+- id: 1756080000000seasonweeklycompleteinvasionmissions
+  activation: '2025-08-18T00:00:00.000Z'
+  startString: '-1h 19m 20s'
+  expiry: '2025-08-25T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: '[PH] Season Weekly Collect Hundred Resources Desc'
-  title: Season Weekly Collect Hundred Resources
+  desc: Complete 9 Invasion missions of any type
+  title: Invader
   reputation: 4500
   isPermanent: false
-- id: 1755475200000seasonweeklyhardfriendsprofittaker
-  activation: '2025-08-11T00:00:00.000Z'
-  startString: '-1h 20m 50s'
-  expiry: '2025-08-18T00:00:00.000Z'
+- id: 1756080000000seasonweeklyhardkillorcapturerainalyst
+  activation: '2025-08-18T00:00:00.000Z'
+  startString: '-1h 19m 20s'
+  expiry: '2025-08-25T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill Profit-Taker
-  title: Profit-Taker
+  desc: Kill or Capture an Eidolon Hydrolyst
+  title: Hydrolyst Hunter
   reputation: 7000
   isPermanent: false
-- id: 1755475200000seasonweeklyhardthepriceoffreedom
-  activation: '2025-08-11T00:00:00.000Z'
-  startString: '-1h 20m 50s'
-  expiry: '2025-08-18T00:00:00.000Z'
+- id: 1756080000000seasonweeklyhardvitalarbiter
+  activation: '2025-08-18T00:00:00.000Z'
+  startString: '-1h 19m 20s'
+  expiry: '2025-08-25T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Free one Captured Solaris using a Granum Crown
-  title: The Price of Freedom
+  desc: Complete an Arbitration Mission
+  title: Vital Arbiter
   reputation: 7000
   isPermanent: false
