@@ -2,4 +2,49 @@
 id: 5d1e07a0a38e4a4fdd7cefca
 expiry: '2025-08-24T13:00:00.000Z'
 location: Kronia Relay (Saturn)
-inventory: []
+inventory:
+- item: Primed Cleanse The Murmur
+  id: primed_cleanse_the_murmur
+  type: mod
+  ducats: 375
+  credits: 130000
+- item: Primed Heated Charge
+  id: primed_heated_charge
+  type: mod
+  ducats: 350
+  credits: 175000
+- item: Fanged Fusillade
+  id: fanged_fusillade
+  type: mod
+  ducats: 375
+  credits: 150000
+- item: Primed Point Blank
+  id: primed_point_blank
+  type: mod
+  ducats: 300
+  credits: 110000
+- item: Mara Detron
+  id: mara_detron
+  type: weapon
+  ducats: 500
+  credits: 200000
+- item: Vulkar Wraith
+  id: vulkar_wraith
+  type: weapon
+  ducats: 450
+  credits: 300000
+- item: Primed Fulmination
+  id: primed_fulmination
+  type: mod
+  ducats: 350
+  credits: 175000
+- item: Vericres
+  id: vericres
+  type: weapon
+  ducats: 410
+  credits: 200000
+- item: Prisma Ohma
+  id: prisma_ohma
+  type: weapon
+  ducats: 450
+  credits: 175000
