@@ -1,110 +1,110 @@
-- id: 1755561600000seasondailyslidekills
-  activation: '2025-08-16T00:00:00.000Z'
-  startString: '-2d 1h 19m 20s'
-  expiry: '2025-08-19T00:00:00.000Z'
+- id: 1756166400000seasondailykillenemieswithfire
+  activation: '2025-08-23T00:00:00.000Z'
+  startString: '-2d 1h 12m 30s'
+  expiry: '2025-08-26T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 10 Enemies while Sliding
-  title: Accelerator
+  desc: Kill 150 Enemies with Heat Damage
+  title: Arsonist
   reputation: 1000
   isPermanent: false
-- id: 1755648000000seasondailykillenemies
-  activation: '2025-08-17T00:00:00.000Z'
-  startString: '-1d 1h 19m 20s'
-  expiry: '2025-08-20T00:00:00.000Z'
+- id: 1756252800000seasondailycompletemissionmelee
+  activation: '2025-08-24T00:00:00.000Z'
+  startString: '-1d 1h 12m 30s'
+  expiry: '2025-08-27T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 200 Enemies
-  title: Warning Shot
+  desc: Complete a Mission with only a Melee Weapon equipped
+  title: Swordsman
   reputation: 1000
   isPermanent: false
-- id: 1755734400000seasondailyaimglide
-  activation: '2025-08-18T00:00:00.000Z'
-  startString: '-1h 19m 20s'
-  expiry: '2025-08-21T00:00:00.000Z'
+- id: 1756339200000seasondailykillenemieswithradiation
+  activation: '2025-08-25T00:00:00.000Z'
+  startString: '-1h 12m 30s'
+  expiry: '2025-08-28T00:00:00.000Z'
   active: true
   isDaily: true
   isElite: false
-  desc: Kill 15 Enemies while Aim Gliding
-  title: Glider
+  desc: Kill 150 Enemies with a Radiation Damage
+  title: Reactor
   reputation: 1000
   isPermanent: false
-- id: 1756080000000seasonweeklypermanentcompletemissions14
-  activation: '2025-08-18T00:00:00.000Z'
-  startString: '-1h 19m 20s'
-  expiry: '2025-08-25T00:00:00.000Z'
+- id: 1756684800000seasonweeklypermanentcompletemissions15
+  activation: '2025-08-25T00:00:00.000Z'
+  startString: '-1h 12m 30s'
+  expiry: '2025-09-01T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XIV
+  title: Mission Complete XV
   reputation: 4500
   isPermanent: false
-- id: 1756080000000seasonweeklypermanentkilleximus14
-  activation: '2025-08-18T00:00:00.000Z'
-  startString: '-1h 19m 20s'
-  expiry: '2025-08-25T00:00:00.000Z'
+- id: 1756684800000seasonweeklypermanentkilleximus15
+  activation: '2025-08-25T00:00:00.000Z'
+  startString: '-1h 12m 30s'
+  expiry: '2025-09-01T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XIV
+  title: Eximus Eliminator XV
   reputation: 4500
   isPermanent: false
-- id: 1756080000000seasonweeklypermanentkillenemies14
-  activation: '2025-08-18T00:00:00.000Z'
-  startString: '-1h 19m 20s'
-  expiry: '2025-08-25T00:00:00.000Z'
+- id: 1756684800000seasonweeklypermanentkillenemies15
+  activation: '2025-08-25T00:00:00.000Z'
+  startString: '-1h 12m 30s'
+  expiry: '2025-09-01T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XIV
+  title: Not a Warning Shot XV
   reputation: 4500
   isPermanent: false
-- id: 1756080000000seasonweeklyperfectanimalcapture
-  activation: '2025-08-18T00:00:00.000Z'
-  startString: '-1h 19m 20s'
-  expiry: '2025-08-25T00:00:00.000Z'
+- id: 1756684800000seasonweeklybeastslayer
+  activation: '2025-08-25T00:00:00.000Z'
+  startString: '-1h 12m 30s'
+  expiry: '2025-09-01T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 3 different Perfect Animal Captures in Orb Vallis
-  title: Conservationist
+  desc: '[PH] Season Weekly Beast Slayer Desc'
+  title: Season Weekly Beast Slayer
   reputation: 4500
   isPermanent: false
-- id: 1756080000000seasonweeklycompleteinvasionmissions
-  activation: '2025-08-18T00:00:00.000Z'
-  startString: '-1h 19m 20s'
-  expiry: '2025-08-25T00:00:00.000Z'
+- id: 1756684800000seasonweeklyrailjackhijackdestroythree
+  activation: '2025-08-25T00:00:00.000Z'
+  startString: '-1h 12m 30s'
+  expiry: '2025-09-01T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: false
-  desc: Complete 9 Invasion missions of any type
-  title: Invader
+  desc: While piloting a hijacked Crewship, destroy 3 enemy Fighters
+  title: Friendly Fire
   reputation: 4500
   isPermanent: false
-- id: 1756080000000seasonweeklyhardkillorcapturerainalyst
-  activation: '2025-08-18T00:00:00.000Z'
-  startString: '-1h 19m 20s'
-  expiry: '2025-08-25T00:00:00.000Z'
+- id: 1756684800000seasonweeklyhardkillexploiterorb
+  activation: '2025-08-25T00:00:00.000Z'
+  startString: '-1h 12m 30s'
+  expiry: '2025-09-01T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Kill or Capture an Eidolon Hydrolyst
-  title: Hydrolyst Hunter
+  desc: Kill The Exploiter Orb
+  title: Nothing but Profit
   reputation: 7000
   isPermanent: false
-- id: 1756080000000seasonweeklyhardvitalarbiter
-  activation: '2025-08-18T00:00:00.000Z'
-  startString: '-1h 19m 20s'
-  expiry: '2025-08-25T00:00:00.000Z'
+- id: 1756684800000seasonweeklyhardcompletesteelpathmissions
+  activation: '2025-08-25T00:00:00.000Z'
+  startString: '-1h 12m 30s'
+  expiry: '2025-09-01T00:00:00.000Z'
   active: true
   isDaily: false
   isElite: true
-  desc: Complete an Arbitration Mission
-  title: Vital Arbiter
+  desc: Complete 5 Steel Path Missions.
+  title: The Path Less Travelled
   reputation: 7000
   isPermanent: false
