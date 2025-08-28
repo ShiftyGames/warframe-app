@@ -1,229 +1,223 @@
-- uniqueName: EquinoxPrime
-  name: Equinox Prime
-  id: equinox_prime
+- uniqueName: ZephyrPrime
+  name: Zephyr Prime
+  id: zephyr_prime
   parts:
     - part_type: Blueprint
-      id: equinox_prime_blueprint
+      id: zephyr_prime_blueprint
       relic:
-        name: Lith S13
+        name: Axi G5
         id: todo
         reward_chance: 11
         rarity: uncommon
     - part_type: Chassis
-      id: equinox_prime_chassis
+      id: zephyr_prime_chassis
       relic:
-        name: Neo Z9
+        name: Meso R4
         id: todo
         reward_chance: 25.33
         rarity: common
     - part_type: Neuroptics
-      id: equinox_prime_neuroptics
+      id: zephyr_prime_neuroptics
       relic:
-        name: Axi T9
+        name: Lith C8
         id: todo
-        reward_chance: 11
-        rarity: uncommon
+        reward_chance: 25.33
+        rarity: common
     - part_type: Systems
-      id: equinox_prime_systems
+      id: zephyr_prime_systems
       relic:
-        name: Neo E3
+        name: Neo Z8
         id: todo
         reward_chance: 2
         rarity: rare
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Powersuits/YinYang/EquinoxPrime
-    item: Equinox Prime
+    uniqueName: /Lotus/StoreItems/Powersuits/Tengu/ZephyrPrime
+    item: Zephyr Prime
     ducats: 3
     credits: null
-- uniqueName: PrimeStradavarGun
-  name: Stradavar Prime
-  id: stradavar_prime
+- uniqueName: TonfaContestWinnerPrimeWeapon
+  name: Kronen Prime
+  id: kronen_prime
+  parts:
+    - part_type: Blade
+      id: kronen_prime_blade
+      relic:
+        name: Neo K3
+        id: todo
+        reward_chance: 2
+        rarity: rare
+    - part_type: Blade
+      id: kronen_prime_blade2
+      relic:
+        name: Neo K3
+        id: todo
+        reward_chance: 2
+        rarity: rare
+    - part_type: Blueprint
+      id: kronen_prime_blueprint
+      relic:
+        name: Neo Z8
+        id: todo
+        reward_chance: 25.33
+        rarity: common
+    - part_type: Handle
+      id: kronen_prime_handle
+      relic:
+        name: Lith T6
+        id: todo
+        reward_chance: 11
+        rarity: uncommon
+    - part_type: Handle
+      id: kronen_prime_handle2
+      relic:
+        name: Lith T6
+        id: todo
+        reward_chance: 11
+        rarity: uncommon
+  varzia_info:
+    uniqueName: >-
+      /Lotus/StoreItems/Weapons/Tenno/Melee/Tonfa/TonfaContestWinnerPrime/TonfaContestWinnerPrimeWeapon
+    item: Tonfa Contest Winner Prime Weapon
+    ducats: 2
+    credits: null
+- uniqueName: PrimeTiberonRifle
+  name: Tiberon Prime
+  id: tiberon_prime
   parts:
     - part_type: Barrel
-      id: stradavar_prime_barrel
+      id: tiberon_prime_barrel
       relic:
-        name: Neo E3
+        name: Neo K3
         id: todo
         reward_chance: 11
         rarity: uncommon
     - part_type: Blueprint
-      id: stradavar_prime_blueprint
+      id: tiberon_prime_blueprint
       relic:
-        name: Lith S13
+        name: Lith C8
         id: todo
-        reward_chance: 2
-        rarity: rare
+        reward_chance: 25.33
+        rarity: common
     - part_type: Receiver
-      id: stradavar_prime_receiver
+      id: tiberon_prime_receiver
       relic:
-        name: Meso W2
+        name: Axi G5
         id: todo
         reward_chance: 25.33
         rarity: common
     - part_type: Stock
-      id: stradavar_prime_stock
+      id: tiberon_prime_stock
       relic:
-        name: Lith N13
-        id: todo
-        reward_chance: 25.33
-        rarity: common
-  varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeStradavar/PrimeStradavarGun
-    item: Prime Stradavar Gun
-    ducats: 2
-    credits: null
-- uniqueName: TipedoPrimeWeapon
-  name: Tipedo Prime
-  id: tipedo_prime
-  parts:
-    - part_type: Blueprint
-      id: tipedo_prime_blueprint
-      relic:
-        name: Meso W2
-        id: todo
-        reward_chance: 25.33
-        rarity: common
-    - part_type: Handle
-      id: tipedo_prime_handle
-      relic:
-        name: Axi T9
+        name: Lith T6
         id: todo
         reward_chance: 2
         rarity: rare
-    - part_type: Ornament
-      id: tipedo_prime_ornament
-      relic:
-        name: Lith N13
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
-    - part_type: Ornament
-      id: tipedo_prime_ornament2
-      relic:
-        name: Lith N13
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Staff/TipedoPrime/TipedoPrimeWeapon
-    item: Tipedo Prime Weapon
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeTiberon/PrimeTiberonRifle
+    item: Prime Tiberon Rifle
     ducats: 2
     credits: null
-- uniqueName: WukongPrime
-  name: Wukong Prime
-  id: wukong_prime
+- uniqueName: ChromaPrime
+  name: Chroma Prime
+  id: chroma_prime
   parts:
     - part_type: Blueprint
-      id: wukong_prime_blueprint
+      id: chroma_prime_blueprint
       relic:
-        name: Meso W2
+        name: Axi G5
         id: todo
-        reward_chance: 2
-        rarity: rare
+        reward_chance: 25.33
+        rarity: common
     - part_type: Chassis
-      id: wukong_prime_chassis
+      id: chroma_prime_chassis
       relic:
-        name: Lith N13
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
-    - part_type: Neuroptics
-      id: wukong_prime_neuroptics
-      relic:
-        name: Lith S13
+        name: Neo Z8
         id: todo
         reward_chance: 25.33
         rarity: common
-    - part_type: Systems
-      id: wukong_prime_systems
+    - part_type: Neuroptics
+      id: chroma_prime_neuroptics
       relic:
-        name: Neo Z9
+        name: Lith C8
+        id: todo
+        reward_chance: 2
+        rarity: rare
+    - part_type: Systems
+      id: chroma_prime_systems
+      relic:
+        name: Meso R4
         id: todo
         reward_chance: 11
         rarity: uncommon
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Powersuits/MonkeyKing/WukongPrime
-    item: Wukong Prime
+    uniqueName: /Lotus/StoreItems/Powersuits/Dragon/ChromaPrime
+    item: Chroma Prime
     ducats: 3
     credits: null
-- uniqueName: PrimeZhugeCrossbow
-  name: Zhuge Prime
-  id: zhuge_prime
+- uniqueName: RubicoPrimeWeapon
+  name: Rubico Prime
+  id: rubico_prime
   parts:
     - part_type: Barrel
-      id: zhuge_prime_barrel
+      id: rubico_prime_barrel
       relic:
-        name: Neo Z9
+        name: Lith T6
+        id: todo
+        reward_chance: 25.33
+        rarity: common
+    - part_type: Blueprint
+      id: rubico_prime_blueprint
+      relic:
+        name: Meso R4
         id: todo
         reward_chance: 2
         rarity: rare
-    - part_type: Blueprint
-      id: zhuge_prime_blueprint
-      relic:
-        name: Axi T9
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
-    - part_type: Grip
-      id: zhuge_prime_grip
-      relic:
-        name: Lith S13
-        id: todo
-        reward_chance: 25.33
-        rarity: common
     - part_type: Receiver
-      id: zhuge_prime_receiver
+      id: rubico_prime_receiver
       relic:
-        name: Meso W2
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
-    - part_type: String
-      id: zhuge_prime_string
-      relic:
-        name: Neo E3
+        name: Neo K3
         id: todo
         reward_chance: 25.33
         rarity: common
+    - part_type: Stock
+      id: rubico_prime_stock
+      relic:
+        name: Lith C8
+        id: todo
+        reward_chance: 11
+        rarity: uncommon
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeZhuge/PrimeZhugeCrossbow
-    item: Prime Zhuge Crossbow
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/RubicoPrime/RubicoPrimeWeapon
+    item: Rubico Prime Weapon
     ducats: 2
     credits: null
-- uniqueName: PrimeNikondi
-  name: Ninkondi Prime
-  id: ninkondi_prime
+- uniqueName: PrimeGram
+  name: Gram Prime
+  id: gram_prime
   parts:
-    - part_type: Blueprint
-      id: ninkondi_prime_blueprint
+    - part_type: Blade
+      id: gram_prime_blade
       relic:
-        name: Axi T9
+        name: Meso R4
         id: todo
         reward_chance: 25.33
         rarity: common
-    - part_type: Chain
-      id: ninkondi_prime_chain
+    - part_type: Blueprint
+      id: gram_prime_blueprint
       relic:
-        name: Neo Z9
+        name: Neo Z8
         id: todo
         reward_chance: 11
         rarity: uncommon
     - part_type: Handle
-      id: ninkondi_prime_handle
+      id: gram_prime_handle
       relic:
-        name: Lith N13
-        id: todo
-        reward_chance: 2
-        rarity: rare
-    - part_type: Handle
-      id: ninkondi_prime_handle2
-      relic:
-        name: Lith N13
+        name: Axi G5
         id: todo
         reward_chance: 2
         rarity: rare
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/PrimeNinkondi/PrimeNikondi
-    item: Prime Nikondi
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeGram/PrimeGram
+    item: Prime Gram
     ducats: 2
     credits: null
