@@ -1,92 +1,90 @@
-- id: 1757980800000seasondailykillenemieswithheadshots
-  activation: '2025-09-13T00:00:00.000Z'
-  expiry: '2025-09-16T00:00:00.000Z'
+- id: 1758585600000seasondailycollectcredits
+  activation: '2025-09-20T00:00:00.000Z'
+  expiry: '2025-09-23T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Kill 40 Enemies with Headshots
-  title: Marksman
+  desc: Pick up 15,000 Credits
+  title: Saver
   reputation: 1000
   isPermanent: false
-- id: 1758067200000seasondailybulletjump
-  activation: '2025-09-14T00:00:00.000Z'
-  expiry: '2025-09-17T00:00:00.000Z'
+- id: 1758672000000seasondailyslidekills
+  activation: '2025-09-21T00:00:00.000Z'
+  expiry: '2025-09-24T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Bullet Jump 150 times
-  title: Trampoline
+  desc: Kill 10 Enemies while Sliding
+  title: Accelerator
   reputation: 1000
   isPermanent: false
-- id: 1758153600000seasondailydonateleverian
-  activation: '2025-09-15T00:00:00.000Z'
-  expiry: '2025-09-18T00:00:00.000Z'
+- id: 1758758400000seasondailyplayemote
+  activation: '2025-09-22T00:00:00.000Z'
+  expiry: '2025-09-25T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Donate to the Leverian
-  title: Patron
+  desc: Play 1 Emote
+  title: Expressive
   reputation: 1000
   isPermanent: false
-- id: 1758499200000seasonweeklypermanentcompletemissions18
-  activation: '2025-09-15T00:00:00.000Z'
-  expiry: '2025-09-22T00:00:00.000Z'
+- id: 1759104000000seasonweeklypermanentcompletemissions19
+  activation: '2025-09-22T00:00:00.000Z'
+  expiry: '2025-09-29T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XVIII
+  title: Mission Complete XIX
   reputation: 4500
   isPermanent: false
-- id: 1758499200000seasonweeklypermanentkilleximus18
-  activation: '2025-09-15T00:00:00.000Z'
-  expiry: '2025-09-22T00:00:00.000Z'
+- id: 1759104000000seasonweeklypermanentkilleximus19
+  activation: '2025-09-22T00:00:00.000Z'
+  expiry: '2025-09-29T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XVIII
+  title: Eximus Eliminator XIX
   reputation: 4500
   isPermanent: false
-- id: 1758499200000seasonweeklypermanentkillenemies18
-  activation: '2025-09-15T00:00:00.000Z'
-  expiry: '2025-09-22T00:00:00.000Z'
+- id: 1759104000000seasonweeklypermanentkillenemies19
+  activation: '2025-09-22T00:00:00.000Z'
+  expiry: '2025-09-29T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XVIII
+  title: Not a Warning Shot XIX
   reputation: 4500
   isPermanent: false
-- id: 1758499200000seasonweeklycompletesortie
-  activation: '2025-09-15T00:00:00.000Z'
-  expiry: '2025-09-22T00:00:00.000Z'
+- id: 1759104000000seasonweeklysanctuaryonslaught
+  activation: '2025-09-22T00:00:00.000Z'
+  expiry: '2025-09-29T00:00:00.000Z'
   isDaily: false
   isElite: false
-  desc: Complete 1 Sorties
-  title: Sortie Specialist
+  desc: Complete 8 waves of Sanctuary Onslaught
+  title: Test Subject
   reputation: 4500
   isPermanent: false
-- id: 1758499200000seasonweeklycompletevenusrace
-  activation: '2025-09-15T00:00:00.000Z'
-  expiry: '2025-09-22T00:00:00.000Z'
+- id: 1759104000000seasonweeklykillenemiesinmech
+  activation: '2025-09-22T00:00:00.000Z'
+  expiry: '2025-09-29T00:00:00.000Z'
   isDaily: false
   isElite: false
-  desc: >-
-    Complete 3 different K-Drive races in Orb Vallis on Venus or in Cambion
-    Drift on Deimos
-  title: Now Boarding
+  desc: Kill 100 enemies with a Mech.
+  title: Necralizer
   reputation: 4500
   isPermanent: false
-- id: 1758499200000seasonweeklyhardterminated
-  activation: '2025-09-15T00:00:00.000Z'
-  expiry: '2025-09-22T00:00:00.000Z'
+- id: 1759104000000seasonweeklyhardfriendsmirrordefense
+  activation: '2025-09-22T00:00:00.000Z'
+  expiry: '2025-09-29T00:00:00.000Z'
   isDaily: false
   isElite: true
-  desc: Destroy 3 Necramech vault guardians
-  title: Terminated
+  desc: Complete 3 waves of Mirror Defense
+  title: Crystal Clear
   reputation: 7000
   isPermanent: false
-- id: 1758499200000seasonweeklyhardkillenemies
-  activation: '2025-09-15T00:00:00.000Z'
-  expiry: '2025-09-22T00:00:00.000Z'
+- id: 1759104000000seasonweeklyhardthepriceoffreedom
+  activation: '2025-09-22T00:00:00.000Z'
+  expiry: '2025-09-29T00:00:00.000Z'
   isDaily: false
   isElite: true
-  desc: Kill 1,500 Enemies
-  title: Kill Shot
+  desc: Free one Captured Solaris using a Granum Crown
+  title: The Price of Freedom
   reputation: 7000
   isPermanent: false
