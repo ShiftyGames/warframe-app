@@ -1,90 +1,90 @@
-- id: 1758585600000seasondailycollectcredits
-  activation: '2025-09-20T00:00:00.000Z'
-  expiry: '2025-09-23T00:00:00.000Z'
+- id: 1759190400000seasondailyplacemarker
+  activation: '2025-09-27T00:00:00.000Z'
+  expiry: '2025-09-30T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Pick up 15,000 Credits
-  title: Saver
+  desc: Mark 5 Mods or Resources
+  title: Communicator
   reputation: 1000
   isPermanent: false
-- id: 1758672000000seasondailyslidekills
-  activation: '2025-09-21T00:00:00.000Z'
-  expiry: '2025-09-24T00:00:00.000Z'
+- id: 1759276800000seasondailykillenemieswhileonkdrive
+  activation: '2025-09-28T00:00:00.000Z'
+  expiry: '2025-10-01T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Kill 10 Enemies while Sliding
-  title: Accelerator
+  desc: Kill 20 enemies while riding a K-Drive, Kaithe, Velocipod or Merulina.
+  title: Thrill Rider
   reputation: 1000
   isPermanent: false
-- id: 1758758400000seasondailyplayemote
-  activation: '2025-09-22T00:00:00.000Z'
-  expiry: '2025-09-25T00:00:00.000Z'
+- id: 1759363200000seasondailycodexscan
+  activation: '2025-09-29T00:00:00.000Z'
+  expiry: '2025-10-02T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Play 1 Emote
-  title: Expressive
+  desc: Scan 25 Objects or Enemies
+  title: Researcher
   reputation: 1000
   isPermanent: false
-- id: 1759104000000seasonweeklypermanentcompletemissions19
-  activation: '2025-09-22T00:00:00.000Z'
-  expiry: '2025-09-29T00:00:00.000Z'
+- id: 1759708800000seasonweeklypermanentcompletemissions20
+  activation: '2025-09-29T00:00:00.000Z'
+  expiry: '2025-10-06T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XIX
+  title: Mission Complete XX
   reputation: 4500
   isPermanent: false
-- id: 1759104000000seasonweeklypermanentkilleximus19
-  activation: '2025-09-22T00:00:00.000Z'
-  expiry: '2025-09-29T00:00:00.000Z'
+- id: 1759708800000seasonweeklypermanentkilleximus20
+  activation: '2025-09-29T00:00:00.000Z'
+  expiry: '2025-10-06T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XIX
+  title: Eximus Eliminator XX
   reputation: 4500
   isPermanent: false
-- id: 1759104000000seasonweeklypermanentkillenemies19
-  activation: '2025-09-22T00:00:00.000Z'
-  expiry: '2025-09-29T00:00:00.000Z'
+- id: 1759708800000seasonweeklypermanentkillenemies20
+  activation: '2025-09-29T00:00:00.000Z'
+  expiry: '2025-10-06T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XIX
+  title: Not a Warning Shot XX
   reputation: 4500
   isPermanent: false
-- id: 1759104000000seasonweeklysanctuaryonslaught
-  activation: '2025-09-22T00:00:00.000Z'
-  expiry: '2025-09-29T00:00:00.000Z'
+- id: 1759708800000seasonweeklynightandday
+  activation: '2025-09-29T00:00:00.000Z'
+  expiry: '2025-10-06T00:00:00.000Z'
   isDaily: false
   isElite: false
-  desc: Complete 8 waves of Sanctuary Onslaught
-  title: Test Subject
+  desc: Collect 10 Vome or Fass Residue in the Cambion Drift
+  title: Night and Day
   reputation: 4500
   isPermanent: false
-- id: 1759104000000seasonweeklykillenemiesinmech
-  activation: '2025-09-22T00:00:00.000Z'
-  expiry: '2025-09-29T00:00:00.000Z'
+- id: 1759708800000seasonweeklysabotagecaches
+  activation: '2025-09-29T00:00:00.000Z'
+  expiry: '2025-10-06T00:00:00.000Z'
   isDaily: false
   isElite: false
-  desc: Kill 100 enemies with a Mech.
-  title: Necralizer
+  desc: Find all caches in 3 Sabotage missions
+  title: Cache Hunter
   reputation: 4500
   isPermanent: false
-- id: 1759104000000seasonweeklyhardfriendsmirrordefense
-  activation: '2025-09-22T00:00:00.000Z'
-  expiry: '2025-09-29T00:00:00.000Z'
+- id: 1759708800000seasonweeklyhardcompleteconquest
+  activation: '2025-09-29T00:00:00.000Z'
+  expiry: '2025-10-06T00:00:00.000Z'
   isDaily: false
   isElite: true
-  desc: Complete 3 waves of Mirror Defense
-  title: Crystal Clear
+  desc: '[PH] Season Weekly Hard Complete Conquest Desc'
+  title: Season Weekly Hard Complete Conquest
   reputation: 7000
   isPermanent: false
-- id: 1759104000000seasonweeklyhardthepriceoffreedom
-  activation: '2025-09-22T00:00:00.000Z'
-  expiry: '2025-09-29T00:00:00.000Z'
+- id: 1759708800000seasonweeklyhardantiquarian
+  activation: '2025-09-29T00:00:00.000Z'
+  expiry: '2025-10-06T00:00:00.000Z'
   isDaily: false
   isElite: true
-  desc: Free one Captured Solaris using a Granum Crown
-  title: The Price of Freedom
+  desc: Open one of each era/tier of Relic (Lith, Meso, Neo, Axi)
+  title: Antiquarian
   reputation: 7000
   isPermanent: false
