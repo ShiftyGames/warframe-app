@@ -1,45 +1,5 @@
 ---
 id: 5d1e07a0a38e4a4fdd7cefca
-expiry: '2025-10-05T13:00:00.000Z'
-location: Larunda Relay (Mercury)
-inventory:
-- item: Voltaic Strike
-  id: voltaic_strike
-  type: mod
-  ducats: 300
-  credits: 150000
-- item: Primed Pistol Gambit
-  id: primed_pistol_gambit
-  type: mod
-  ducats: 400
-  credits: 220000
-- item: Machete Wraith
-  id: machete_wraith
-  type: weapon
-  ducats: 410
-  credits: 250000
-- item: Combo Fury
-  id: combo_fury
-  type: mod
-  ducats: 300
-  credits: 115000
-- item: Glaxion Vandal
-  id: glaxion_vandal
-  type: weapon
-  ducats: 475
-  credits: 250000
-- item: Primed Cleanse Orokin
-  id: primed_cleanse_orokin
-  type: mod
-  ducats: 350
-  credits: 140000
-- item: Primed Rubedo-Lined Barrel
-  id: primed_rubedo-lined_barrel
-  type: mod
-  ducats: 350
-  credits: 175000
-- item: Gotva Prime
-  id: gotva_prime
-  type: weapon
-  ducats: 675
-  credits: 625000
+expiry: '2025-10-19T13:00:00.000Z'
+location: Kronia Relay (Saturn)
+inventory: []
