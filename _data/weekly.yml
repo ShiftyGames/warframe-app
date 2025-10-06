@@ -1,49 +1,49 @@
 - name: Sunday after 6pm
-  id: sunday_2025w40
+  id: sunday_2025w41
   subtasks:
     - name: 'Iron Wake: Buy Kuva for 10x Riven Sliver'
-      id: weekly_ironwake_kuva_2025w40
+      id: weekly_ironwake_kuva_2025w41
     - name: 'Iron Wake: 2x Buy Riven Mod for 10x Riven Sliver'
-      id: weekly_ironwake_riven_2025w40
+      id: weekly_ironwake_riven_2025w41
     - name: 'Chrysalith::Yonta: Buy 35,000x Kuva for 5x Voidplume Pinion'
-      id: weekly_yonta_kuva_2025w40
+      id: weekly_yonta_kuva_2025w41
     - name: >-
         Dormizone::Acrithis: Check the shop to see what's worth buying this
         week. Might have Orokin Catalyst/Reactor, Exilus Adapters, Arcane
         Adapters, Forma, Riven Mods, and Kuva. Plan to collect the Pathos Clamps
         for your list.
-      id: weekly_acrithis_2025w40
+      id: weekly_acrithis_2025w41
     - name: >-
         Conclave::Teshin: Buy 10,000x Kuva for 15x Steel Essence (every 8 weeks,
         get the 50k kuva for 15 steel essence)
-      id: weekly_teshin_kuva_2025w40
+      id: weekly_teshin_kuva_2025w41
     - name: 'Conclave::Teshin: Buy Veiled Riven Cipher for 20x Steel Essence'
-      id: weekly_teshin_veiled_riven_cipher_2025w40
+      id: weekly_teshin_veiled_riven_cipher_2025w41
     - name: 'Sanctum Anatomica::Bird 3: Buy 1x Archon Shard for 30k Standing'
-      id: weekly_bird3_archon_shard_2025w40
+      id: weekly_bird3_archon_shard_2025w41
     - name: 'Maroo: Ayatan Treasure Hunt'
-      id: weekly_maroo_ayatan_treasure_hunt_2025w40
+      id: weekly_maroo_ayatan_treasure_hunt_2025w41
 - name: Monday
-  id: monday_2025w40
+  id: monday_2025w41
   subtasks:
     - name: Complete the Hex Calendar
-      id: weekly_hex_calendar_2025w40
+      id: weekly_hex_calendar_2025w41
 - name: Wednesday
-  id: wednesday_2025w40
+  id: wednesday_2025w41
   subtasks:
     - name: Complete the Steel Path Duviri Circuit
-      id: weekly_steel_path_circuit_2025w40
+      id: weekly_steel_path_circuit_2025w41
 - name: Thursday
-  id: thursday_2025w40
+  id: thursday_2025w41
   subtasks:
     - name: Archon Hunt
-      id: weekly_archon_hunt_2025w40
+      id: weekly_archon_hunt_2025w41
     - name: 'Sanctum Anatomica::Tagfer: 5x Netracell Runs'
-      id: weekly_netracells_2025w40
+      id: weekly_netracells_2025w41
     - name: 'Sanctum Anatomica::Necraloid: Deep Archimedea'
-      id: weekly_deep_archimedea_2025w40
+      id: weekly_deep_archimedea_2025w41
 - name: Friday
-  id: friday_2025w40
+  id: friday_2025w41
   subtasks:
     - name: Complete the Duviri Circuit
-      id: weekly_ciruit_2025w40
+      id: weekly_ciruit_2025w41

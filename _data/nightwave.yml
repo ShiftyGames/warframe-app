@@ -1,90 +1,90 @@
-- id: 1759190400000seasondailyplacemarker
-  activation: '2025-09-27T00:00:00.000Z'
-  expiry: '2025-09-30T00:00:00.000Z'
+- id: 1759795200000seasondailykillenemieswithsecondary
+  activation: '2025-10-04T00:00:00.000Z'
+  expiry: '2025-10-07T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Mark 5 Mods or Resources
-  title: Communicator
+  desc: Kill 150 Enemies with a Secondary Weapon
+  title: Smaller Is Bigger
   reputation: 1000
   isPermanent: false
-- id: 1759276800000seasondailykillenemieswhileonkdrive
-  activation: '2025-09-28T00:00:00.000Z'
-  expiry: '2025-10-01T00:00:00.000Z'
+- id: 1759881600000seasondailykillenemieswithmagnetic
+  activation: '2025-10-05T00:00:00.000Z'
+  expiry: '2025-10-08T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Kill 20 enemies while riding a K-Drive, Kaithe, Velocipod or Merulina.
-  title: Thrill Rider
+  desc: Kill 150 Enemies with Magnetic damage
+  title: Attractive
   reputation: 1000
   isPermanent: false
-- id: 1759363200000seasondailycodexscan
-  activation: '2025-09-29T00:00:00.000Z'
-  expiry: '2025-10-02T00:00:00.000Z'
+- id: 1759968000000seasondailykillenemieswithfreeze
+  activation: '2025-10-06T00:00:00.000Z'
+  expiry: '2025-10-09T00:00:00.000Z'
   isDaily: true
   isElite: false
-  desc: Scan 25 Objects or Enemies
-  title: Researcher
+  desc: Kill 150 Enemies with Cold Damage
+  title: Deep Freeze
   reputation: 1000
   isPermanent: false
-- id: 1759708800000seasonweeklypermanentcompletemissions20
-  activation: '2025-09-29T00:00:00.000Z'
-  expiry: '2025-10-06T00:00:00.000Z'
+- id: 1760313600000seasonweeklypermanentcompletemissions21
+  activation: '2025-10-06T00:00:00.000Z'
+  expiry: '2025-10-13T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Complete any 15 missions
-  title: Mission Complete XX
+  title: Mission Complete XXI
   reputation: 4500
   isPermanent: false
-- id: 1759708800000seasonweeklypermanentkilleximus20
-  activation: '2025-09-29T00:00:00.000Z'
-  expiry: '2025-10-06T00:00:00.000Z'
+- id: 1760313600000seasonweeklypermanentkilleximus21
+  activation: '2025-10-06T00:00:00.000Z'
+  expiry: '2025-10-13T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Kill 30 Eximus
-  title: Eximus Eliminator XX
+  title: Eximus Eliminator XXI
   reputation: 4500
   isPermanent: false
-- id: 1759708800000seasonweeklypermanentkillenemies20
-  activation: '2025-09-29T00:00:00.000Z'
-  expiry: '2025-10-06T00:00:00.000Z'
+- id: 1760313600000seasonweeklypermanentkillenemies21
+  activation: '2025-10-06T00:00:00.000Z'
+  expiry: '2025-10-13T00:00:00.000Z'
   isDaily: false
   isElite: false
   desc: Kill 500 Enemies
-  title: Not a Warning Shot XX
+  title: Not a Warning Shot XXI
   reputation: 4500
   isPermanent: false
-- id: 1759708800000seasonweeklynightandday
-  activation: '2025-09-29T00:00:00.000Z'
-  expiry: '2025-10-06T00:00:00.000Z'
+- id: 1760313600000seasonweeklyzarimanbountyhunter
+  activation: '2025-10-06T00:00:00.000Z'
+  expiry: '2025-10-13T00:00:00.000Z'
   isDaily: false
   isElite: false
-  desc: Collect 10 Vome or Fass Residue in the Cambion Drift
-  title: Night and Day
+  desc: Complete 4 different Bounties in the Zariman
+  title: Zariman Bounty Hunter
   reputation: 4500
   isPermanent: false
-- id: 1759708800000seasonweeklysabotagecaches
-  activation: '2025-09-29T00:00:00.000Z'
-  expiry: '2025-10-06T00:00:00.000Z'
+- id: 1760313600000seasonweeklykillenemieswithheadshots
+  activation: '2025-10-06T00:00:00.000Z'
+  expiry: '2025-10-13T00:00:00.000Z'
   isDaily: false
   isElite: false
-  desc: Find all caches in 3 Sabotage missions
-  title: Cache Hunter
+  desc: '[PH] Season Weekly Kill Enemies With Headshots Desc'
+  title: Season Weekly Kill Enemies With Headshots
   reputation: 4500
   isPermanent: false
-- id: 1759708800000seasonweeklyhardcompleteconquest
-  activation: '2025-09-29T00:00:00.000Z'
-  expiry: '2025-10-06T00:00:00.000Z'
+- id: 1760313600000seasonweeklyhardkilltank
+  activation: '2025-10-06T00:00:00.000Z'
+  expiry: '2025-10-13T00:00:00.000Z'
   isDaily: false
   isElite: true
-  desc: '[PH] Season Weekly Hard Complete Conquest Desc'
-  title: Season Weekly Hard Complete Conquest
+  desc: '[PH] Season Weekly Hard Kill Tank Desc'
+  title: Season Weekly Hard Kill Tank
   reputation: 7000
   isPermanent: false
-- id: 1759708800000seasonweeklyhardantiquarian
-  activation: '2025-09-29T00:00:00.000Z'
-  expiry: '2025-10-06T00:00:00.000Z'
+- id: 1760313600000seasonweeklyhardkillorcapturerainalyst
+  activation: '2025-10-06T00:00:00.000Z'
+  expiry: '2025-10-13T00:00:00.000Z'
   isDaily: false
   isElite: true
-  desc: Open one of each era/tier of Relic (Lith, Meso, Neo, Axi)
-  title: Antiquarian
+  desc: Kill or Capture an Eidolon Hydrolyst
+  title: Hydrolyst Hunter
   reputation: 7000
   isPermanent: false
