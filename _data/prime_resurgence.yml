@@ -1,208 +1,359 @@
-- uniqueName: MagPrime
-  name: Mag Prime
-  id: mag_prime
+- uniqueName: MesaPrime
+  name: Mesa Prime
+  id: mesa_prime
   parts:
     - part_type: Blueprint
-      id: mag_prime_blueprint
-      relic:
-        name: Lith M2
-        id: todo
-        reward_chance: 2
-        rarity: rare
+      id: mesa_prime_blueprint
     - part_type: Chassis
-      id: mag_prime_chassis
-      relic:
-        name: Meso B3
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
+      id: mesa_prime_chassis
     - part_type: Neuroptics
-      id: mag_prime_neuroptics
-      relic:
-        name: Neo N9
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+      id: mesa_prime_neuroptics
     - part_type: Systems
-      id: mag_prime_systems
-      relic:
-        name: Axi S4
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+      id: mesa_prime_systems
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Powersuits/Mag/MagPrime
-    item: Mag Prime
+    uniqueName: /Lotus/StoreItems/Powersuits/Cowgirl/MesaPrime
+    item: Mesa Prime
     ducats: 3
     credits: null
-- uniqueName: PrimeBoar
-  name: Boar Prime
-  id: boar_prime
+- uniqueName: AkJagaraPrime
+  name: Akjagara Prime
+  id: akjagara_prime
   parts:
     - part_type: Barrel
-      id: boar_prime_barrel
-      relic:
-        name: Lith M2
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
+      id: akjagara_prime_barrel
+    - part_type: Barrel
+      id: akjagara_prime_barrel2
     - part_type: Blueprint
-      id: boar_prime_blueprint
-      relic:
-        name: Neo N9
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+      id: akjagara_prime_blueprint
+    - part_type: Link
+      id: akjagara_prime_link
     - part_type: Receiver
-      id: boar_prime_receiver
-      relic:
-        name: Axi S4
-        id: todo
-        reward_chance: 25.33
-        rarity: common
-    - part_type: Stock
-      id: boar_prime_stock
-      relic:
-        name: Meso B3
-        id: todo
-        reward_chance: 2
-        rarity: rare
+      id: akjagara_prime_receiver
+    - part_type: Receiver
+      id: akjagara_prime_receiver2
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Shotgun/PrimeBoar
-    item: Boar Prime
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeAkjagara/AkJagaraPrime
+    item: Ak Jagara Prime
     ducats: 2
     credits: null
-- uniqueName: PrimeCronusLongSword
-  name: Dakra Prime
-  id: dakra_prime
+- uniqueName: RedeemerPrimeWep
+  name: Redeemer Prime
+  id: redeemer_prime
   parts:
     - part_type: Blade
-      id: dakra_prime_blade
-      relic:
-        name: Axi S4
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
+      id: redeemer_prime_blade
     - part_type: Blueprint
-      id: dakra_prime_blueprint
-      relic:
-        name: Meso B3
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
+      id: redeemer_prime_blueprint
     - part_type: Handle
-      id: dakra_prime_handle
-      relic:
-        name: Lith M2
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+      id: redeemer_prime_handle
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/CronusSword/PrimeCronusLongSword
-    item: Dakra Prime
+    uniqueName: >-
+      /Lotus/StoreItems/Weapons/Tenno/Melee/Gunblade/RedeemerPrime/RedeemerPrimeWep
+    item: Redeemer Prime Wep
     ducats: 2
     credits: null
-- uniqueName: NovaPrime
-  name: Nova Prime
-  id: nova_prime
+- uniqueName: HydroidPrime
+  name: Hydroid Prime
+  id: hydroid_prime
   parts:
     - part_type: Blueprint
-      id: nova_prime_blueprint
-      relic:
-        name: Axi S4
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
+      id: hydroid_prime_blueprint
     - part_type: Chassis
-      id: nova_prime_chassis
-      relic:
-        name: Neo N9
-        id: todo
-        reward_chance: 2
-        rarity: rare
+      id: hydroid_prime_chassis
     - part_type: Neuroptics
-      id: nova_prime_neuroptics
-      relic:
-        name: Lith M2
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+      id: hydroid_prime_neuroptics
     - part_type: Systems
-      id: nova_prime_systems
-      relic:
-        name: Meso B3
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+      id: hydroid_prime_systems
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Powersuits/AntiMatter/NovaPrime
-    item: Nova Prime
+    uniqueName: /Lotus/StoreItems/Powersuits/Pirate/HydroidPrime
+    item: Hydroid Prime
     ducats: 3
     credits: null
-- uniqueName: PrimeSomaRifle
-  name: Soma Prime
-  id: soma_prime
+- uniqueName: PrimeNamiSkyla
+  name: Nami Skyla Prime
+  id: nami_skyla_prime
   parts:
-    - part_type: Barrel
-      id: soma_prime_barrel
-      relic:
-        name: Lith M2
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+    - part_type: Blade
+      id: nami_skyla_prime_blade
+    - part_type: Blade
+      id: nami_skyla_prime_blade2
     - part_type: Blueprint
-      id: soma_prime_blueprint
-      relic:
-        name: Meso B3
-        id: todo
-        reward_chance: 25.33
-        rarity: common
-    - part_type: Receiver
-      id: soma_prime_receiver
-      relic:
-        name: Neo N9
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
-    - part_type: Stock
-      id: soma_prime_stock
-      relic:
-        name: Axi S4
-        id: todo
-        reward_chance: 2
-        rarity: rare
+      id: nami_skyla_prime_blueprint
+    - part_type: Handle
+      id: nami_skyla_prime_handle
+    - part_type: Handle
+      id: nami_skyla_prime_handle2
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeSoma/PrimeSomaRifle
-    item: Soma Prime
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeNamiSkyla/PrimeNamiSkyla
+    item: Prime Nami Skyla
     ducats: 2
     credits: null
-- uniqueName: PrimeVastoPistol
-  name: Vasto Prime
-  id: vasto_prime
+- uniqueName: PrimeBallistica
+  name: Ballistica Prime
+  id: ballistica_prime
+  parts:
+    - part_type: Blueprint
+      id: ballistica_prime_blueprint
+    - part_type: Lower Limb
+      id: ballistica_prime_lower limb
+    - part_type: Receiver
+      id: ballistica_prime_receiver
+    - part_type: String
+      id: ballistica_prime_string
+    - part_type: Upper Limb
+      id: ballistica_prime_upper limb
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeBallistica/PrimeBallistica
+    item: Prime Ballistica
+    ducats: 2
+    credits: null
+- uniqueName: InarosPrime
+  name: Inaros Prime
+  id: inaros_prime
+  parts:
+    - part_type: Blueprint
+      id: inaros_prime_blueprint
+    - part_type: Chassis
+      id: inaros_prime_chassis
+    - part_type: Neuroptics
+      id: inaros_prime_neuroptics
+    - part_type: Systems
+      id: inaros_prime_systems
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Sandman/InarosPrime
+    item: Inaros Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimePanthera
+  name: Panthera Prime
+  id: panthera_prime
   parts:
     - part_type: Barrel
-      id: vasto_prime_barrel
-      relic:
-        name: Axi A5
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+      id: panthera_prime_barrel
     - part_type: Blueprint
-      id: vasto_prime_blueprint
-      relic:
-        name: Axi A5
-        id: todo
-        reward_chance: 11
-        rarity: uncommon
+      id: panthera_prime_blueprint
     - part_type: Receiver
-      id: vasto_prime_receiver
-      relic:
-        name: Axi A5
-        id: todo
-        reward_chance: 25.33
-        rarity: common
+      id: panthera_prime_receiver
+    - part_type: Stock
+      id: panthera_prime_stock
   varzia_info:
-    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeVasto/PrimeVastoPistol
-    item: Vasto Prime
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimePanthera/PrimePanthera
+    item: Prime Panthera
+    ducats: 2
+    credits: null
+- uniqueName: PrimeKrisDagger
+  name: Karyst Prime
+  id: karyst_prime
+  parts:
+    - part_type: Blade
+      id: karyst_prime_blade
+    - part_type: Blueprint
+      id: karyst_prime_blueprint
+    - part_type: Handle
+      id: karyst_prime_handle
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Swords/PrimeKaryst/PrimeKrisDagger
+    item: Prime Kris Dagger
+    ducats: 2
+    credits: null
+- uniqueName: AshPrime
+  name: Ash Prime
+  id: ash_prime
+  parts:
+    - part_type: Blueprint
+      id: ash_prime_blueprint
+    - part_type: Chassis
+      id: ash_prime_chassis
+    - part_type: Neuroptics
+      id: ash_prime_neuroptics
+    - part_type: Systems
+      id: ash_prime_systems
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Ninja/AshPrime
+    item: Ash Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeVectisRifle
+  name: Vectis Prime
+  id: vectis_prime
+  parts:
+    - part_type: Barrel
+      id: vectis_prime_barrel
+    - part_type: Blueprint
+      id: vectis_prime_blueprint
+    - part_type: Receiver
+      id: vectis_prime_receiver
+    - part_type: Stock
+      id: vectis_prime_stock
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/LongGuns/PrimeVectis/PrimeVectisRifle
+    item: Vectis Prime
+    ducats: 2
+    credits: null
+- uniqueName: VoltPrime
+  name: Volt Prime
+  id: volt_prime
+  parts:
+    - part_type: Blueprint
+      id: volt_prime_blueprint
+    - part_type: Chassis
+      id: volt_prime_chassis
+    - part_type: Neuroptics
+      id: volt_prime_neuroptics
+    - part_type: Systems
+      id: volt_prime_systems
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Volt/VoltPrime
+    item: Volt Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeJetPack
+  name: Odonata Prime
+  id: odonata_prime
+  parts:
+    - part_type: Blueprint
+      id: odonata_prime_blueprint
+    - part_type: Harness
+      id: odonata_prime_harness
+    - part_type: Systems
+      id: odonata_prime_systems
+    - part_type: Wings
+      id: odonata_prime_wings
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Archwing/PrimeJetPack/PrimeJetPack
+    item: Odonata Prime
+    ducats: 2
+    credits: null
+- uniqueName: LokiPrime
+  name: Loki Prime
+  id: loki_prime
+  parts:
+    - part_type: Blueprint
+      id: loki_prime_blueprint
+    - part_type: Chassis
+      id: loki_prime_chassis
+    - part_type: Neuroptics
+      id: loki_prime_neuroptics
+    - part_type: Systems
+      id: loki_prime_systems
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Loki/LokiPrime
+    item: Loki Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeBoWeapon
+  name: Bo Prime
+  id: bo_prime
+  parts:
+    - part_type: Blueprint
+      id: bo_prime_blueprint
+    - part_type: Handle
+      id: bo_prime_handle
+    - part_type: Ornament
+      id: bo_prime_ornament
+    - part_type: Ornament
+      id: bo_prime_ornament2
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Staff/PrimeBo/PrimeBoWeapon
+    item: Bo Prime
+    ducats: 2
+    credits: null
+- uniqueName: PrimeSicarusPistol
+  name: Sicarus Prime
+  id: sicarus_prime
+  parts:
+    - part_type: Barrel
+      id: sicarus_prime_barrel
+    - part_type: Blueprint
+      id: sicarus_prime_blueprint
+    - part_type: Receiver
+      id: sicarus_prime_receiver
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Pistols/PrimeSicarus/PrimeSicarusPistol
+    item: Sicarus Prime
+    ducats: 2
+    credits: null
+- uniqueName: EmberPrime
+  name: Ember Prime
+  id: ember_prime
+  parts:
+    - part_type: Blueprint
+      id: ember_prime_blueprint
+    - part_type: Chassis
+      id: ember_prime_chassis
+    - part_type: Neuroptics
+      id: ember_prime_neuroptics
+    - part_type: Systems
+      id: ember_prime_systems
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Ember/EmberPrime
+    item: Ember Prime
+    ducats: 3
+    credits: null
+- uniqueName: PrimeGlaiveWeapon
+  name: Glaive Prime
+  id: glaive_prime
+  parts:
+    - part_type: Blade
+      id: glaive_prime_blade
+    - part_type: Blade
+      id: glaive_prime_blade2
+    - part_type: Blueprint
+      id: glaive_prime_blueprint
+    - part_type: Disc
+      id: glaive_prime_disc
+  varzia_info:
+    uniqueName: >-
+      /Lotus/StoreItems/Weapons/Tenno/Melee/Glaives/PrimeGlaive/PrimeGlaiveWeapon
+    item: Glaive Prime
+    ducats: 2
+    credits: null
+- uniqueName: FrostPrime
+  name: Frost Prime
+  id: frost_prime
+  parts:
+    - part_type: Blueprint
+      id: frost_prime_blueprint
+    - part_type: Chassis
+      id: frost_prime_chassis
+    - part_type: Neuroptics
+      id: frost_prime_neuroptics
+    - part_type: Systems
+      id: frost_prime_systems
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Powersuits/Frost/FrostPrime
+    item: Frost Prime
+    ducats: 3
+    credits: null
+- uniqueName: LatronPrime
+  name: Latron Prime
+  id: latron_prime
+  parts:
+    - part_type: Barrel
+      id: latron_prime_barrel
+    - part_type: Blueprint
+      id: latron_prime_blueprint
+    - part_type: Receiver
+      id: latron_prime_receiver
+    - part_type: Stock
+      id: latron_prime_stock
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Rifle/LatronPrime
+    item: Latron Prime
+    ducats: 2
+    credits: null
+- uniqueName: ReaperWeapon
+  name: Reaper Prime
+  id: reaper_prime
+  parts:
+    - part_type: Blade
+      id: reaper_prime_blade
+    - part_type: Blueprint
+      id: reaper_prime_blueprint
+    - part_type: Handle
+      id: reaper_prime_handle
+  varzia_info:
+    uniqueName: /Lotus/StoreItems/Weapons/Tenno/Melee/Scythe/ReaperWeapon
+    item: Reaper Prime
     ducats: 2
     credits: null
